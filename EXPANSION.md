@@ -1,6 +1,6 @@
 # Real-screen and full-scene evaluation — 2026-10-23
 
-The expanded development comparison is complete. The final set is reserved and has no model predictions. The original 247-item pilot and its results remain unchanged.
+The expanded development comparison is complete. At this experiment's selection stage the final set was reserved without predictions; the subsequent [frozen final comparison](FINAL_RESULTS.md) is now complete and that partition is consumed. The original 247-item pilot and its results remain unchanged.
 
 | Development measurement | PP-OCRv6 tiny, 6.32 MB | PP-OCRv5 English, 12.69 MB |
 | --- | ---: | ---: |

@@ -45,6 +45,8 @@ Page text is ordered geometrically by rows in both reference and output. Page CE
 
 ## Next experiment
 
+The [80-case development robustness diagnostic](ROBUSTNESS_RESULTS.md) exposes large rotation errors and a shared false-positive `C` on a circle pattern. Both models remain unchanged. The [independent collection plan](COLLECTION_PLAN.md) specifies source review, real capture coverage, template grouping and human adjudication; a fresh final partition has not yet been collected or frozen.
+
 See [compression results](COMPRESSION.md), [final results](FINAL_RESULTS.md) and [.claude/TODO.md](.claude/TODO.md). The compression candidate meets the development targets and passed the frozen final transfer check, but full-scene CER is still 47.9% on that small final sample. Before training or a release claim: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review, and reserve a fresh test set for future changes.
 
 Existing constraints remain: no paid API runs; GPU 1 free; any future training uses at most half of GPU 0 and about 20 GB RAM. Startup runs use CPU only.
