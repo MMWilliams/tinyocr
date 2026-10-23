@@ -1,0 +1,525 @@
+{
+  "model": "v5-english",
+  "created_utc": "2026-10-23T05:15:28.845995+00:00",
+  "manifest_sha256": "a2db13f0ebd3df6166a9cfed8d260f7f3837287cde890c530e82b64919a616ea",
+  "lock_sha256": "422bdfd74a892dd3de2fbe242d4ba4698238055b9dc99851930f4e596c16d34d",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "cpu_identifier": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+    "python": "3.12.9",
+    "packages": {
+      "rapidocr": "3.10.0",
+      "onnxruntime": "1.31.0",
+      "opencv-python-headless": "5.0.0.93",
+      "numpy": "2.5.4",
+      "pillow": "12.3.0"
+    }
+  },
+  "load_seconds_including_possible_download": 0.15995750000001863,
+  "timing": {
+    "repeats": 3,
+    "warmups_per_task": 2,
+    "includes": "file read/decode, preprocessing, detection for pages, recognition, postprocessing, reading order",
+    "excludes": "model loading/downloads, scoring, report serialization",
+    "percentiles": "across per-item medians; nearest-rank p95"
+  },
+  "model_details": {
+    "artifacts": [
+      {
+        "path": "models/v5-english/ch_PP-OCRv5_det_mobile.onnx",
+        "bytes": 4819576,
+        "sha256": "4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae"
+      },
+      {
+        "path": "models/v5-english/en_PP-OCRv5_rec_mobile.onnx",
+        "bytes": 7872351,
+        "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8"
+      }
+    ],
+    "artifact_bytes": 12691927,
+    "sessions": [
+      {
+        "module": "detector",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "intra_threads": 1,
+        "inter_threads": 1
+      },
+      {
+        "module": "recognizer",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "intra_threads": 1,
+        "inter_threads": 1
+      }
+    ],
+    "opencv_threads": 1,
+    "config": {
+      "Global": {
+        "text_score": 0.5,
+        "use_det": true,
+        "use_cls": false,
+        "use_rec": true,
+        "use_preprocess_img": true,
+        "min_side_len": 30,
+        "max_side_len": 2000,
+        "use_vertical_padding": true,
+        "min_height": 30,
+        "width_height_ratio": 8,
+        "return_word_box": false,
+        "return_single_char_box": false,
+        "font_path": null,
+        "log_level": "warning",
+        "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v5-english"
+      },
+      "EngineConfig": {
+        "onnxruntime": {
+          "intra_op_num_threads": 1,
+          "inter_op_num_threads": 1,
+          "enable_cpu_mem_arena": false,
+          "cpu_ep_cfg": {
+            "arena_extend_strategy": "kSameAsRequested"
+          },
+          "use_cuda": false,
+          "cuda_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "cudnn_conv_algo_search": "EXHAUSTIVE",
+            "do_copy_in_default_stream": true
+          },
+          "use_dml": false,
+          "dml_ep_cfg": null,
+          "use_cann": false,
+          "cann_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "npu_mem_limit": 21474836480,
+            "op_select_impl_mode": "high_performance",
+            "optypelist_for_implmode": "Gelu",
+            "enable_cann_graph": true
+          },
+          "use_coreml": false,
+          "coreml_ep_cfg": {
+            "ModelFormat": "MLProgram",
+            "MLComputeUnits": "ALL",
+            "RequireStaticInputShapes": 0,
+            "EnableOnSubgraphs": 0,
+            "SpecializationStrategy": "FastPrediction",
+            "ProfileComputePlan": 0,
+            "AllowLowPrecisionAccumulationOnGPU": 0,
+            "ModelCacheDirectory": "/tmp/RapidOCR"
+          }
+        },
+        "openvino": {
+          "inference_num_threads": -1,
+          "performance_hint": null,
+          "performance_num_requests": -1,
+          "enable_cpu_pinning": null,
+          "num_streams": -1,
+          "enable_hyper_threading": null,
+          "scheduling_core_type": null
+        },
+        "paddle": {
+          "cpu_math_library_num_threads": -1,
+          "use_npu": false,
+          "npu_ep_cfg": {
+            "device_id": 0,
+            "envs": {
+              "FLAGS_npu_jit_compile": 0,
+              "FLAGS_use_stride_kernel": 0,
+              "FLAGS_allocator_strategy": "auto_growth",
+              "CUSTOM_DEVICE_BLACK_LIST": "pad3d,pad3d_grad,set_value,set_value_with_tensor",
+              "FLAGS_npu_scale_aclnn": "True",
+              "FLAGS_npu_split_aclnn": "True"
+            }
+          },
+          "use_cuda": false,
+          "cuda_ep_cfg": {
+            "device_id": 0,
+            "gpu_mem": 500
+          }
+        },
+        "torch": {
+          "use_cuda": false,
+          "cuda_ep_cfg": {
+            "device_id": 0
+          },
+          "use_npu": false,
+          "npu_ep_cfg": {
+            "device_id": 0
+          },
+          "use_mps": false
+        },
+        "tensorrt": {
+          "device_id": 0,
+          "use_fp16": true,
+          "use_int8": false,
+          "workspace_size": 1073741824,
+          "cache_dir": null,
+          "force_rebuild": false,
+          "det_profile": {
+            "min_shape": [
+              1,
+              3,
+              32,
+              32
+            ],
+            "opt_shape": [
+              1,
+              3,
+              736,
+              736
+            ],
+            "max_shape": [
+              1,
+              3,
+              2048,
+              2048
+            ]
+          },
+          "rec_profile": {
+            "min_shape": [
+              1,
+              3,
+              48,
+              32
+            ],
+            "opt_shape": [
+              6,
+              3,
+              48,
+              320
+            ],
+            "max_shape": [
+              6,
+              3,
+              48,
+              2048
+            ]
+          },
+          "cls_profile": {
+            "min_shape": [
+              1,
+              3,
+              48,
+              32
+            ],
+            "opt_shape": [
+              6,
+              3,
+              48,
+              192
+            ],
+            "max_shape": [
+              6,
+              3,
+              48,
+              192
+            ]
+          }
+        },
+        "mnn": {}
+      },
+      "Det": {
+        "engine_type": "ONNXRUNTIME",
+        "lang_type": "CH",
+        "model_type": "MOBILE",
+        "ocr_version": "PPOCRV5",
+        "task_type": "DET",
+        "model_path": null,
+        "model_dir": null,
+        "limit_side_len": 960,
+        "limit_type": "max",
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "thresh": 0.3,
+        "box_thresh": 0.6,
+        "max_candidates": 1000,
+        "unclip_ratio": 1.5,
+        "use_dilation": false,
+        "score_mode": "fast",
+        "engine_cfg": {
+          "intra_op_num_threads": 1,
+          "inter_op_num_threads": 1,
+          "enable_cpu_mem_arena": false,
+          "cpu_ep_cfg": {
+            "arena_extend_strategy": "kSameAsRequested"
+          },
+          "use_cuda": false,
+          "cuda_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "cudnn_conv_algo_search": "EXHAUSTIVE",
+            "do_copy_in_default_stream": true
+          },
+          "use_dml": false,
+          "dml_ep_cfg": null,
+          "use_cann": false,
+          "cann_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "npu_mem_limit": 21474836480,
+            "op_select_impl_mode": "high_performance",
+            "optypelist_for_implmode": "Gelu",
+            "enable_cann_graph": true
+          },
+          "use_coreml": false,
+          "coreml_ep_cfg": {
+            "ModelFormat": "MLProgram",
+            "MLComputeUnits": "ALL",
+            "RequireStaticInputShapes": 0,
+            "EnableOnSubgraphs": 0,
+            "SpecializationStrategy": "FastPrediction",
+            "ProfileComputePlan": 0,
+            "AllowLowPrecisionAccumulationOnGPU": 0,
+            "ModelCacheDirectory": "/tmp/RapidOCR"
+          }
+        },
+        "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v5-english"
+      },
+      "Cls": {
+        "engine_type": "ONNXRUNTIME",
+        "lang_type": "CH",
+        "model_type": "MOBILE",
+        "ocr_version": "PPOCRV4",
+        "task_type": "CLS",
+        "model_path": null,
+        "model_dir": null,
+        "cls_image_shape": [
+          3,
+          48,
+          192
+        ],
+        "cls_batch_num": 6,
+        "cls_thresh": 0.9,
+        "label_list": [
+          "0",
+          "180"
+        ]
+      },
+      "Rec": {
+        "engine_type": "ONNXRUNTIME",
+        "lang_type": "EN",
+        "model_type": "MOBILE",
+        "ocr_version": "PPOCRV5",
+        "task_type": "REC",
+        "model_path": null,
+        "model_dir": null,
+        "rec_keys_path": null,
+        "rec_img_shape": [
+          3,
+          48,
+          320
+        ],
+        "rec_batch_num": 1,
+        "engine_cfg": {
+          "intra_op_num_threads": 1,
+          "inter_op_num_threads": 1,
+          "enable_cpu_mem_arena": false,
+          "cpu_ep_cfg": {
+            "arena_extend_strategy": "kSameAsRequested"
+          },
+          "use_cuda": false,
+          "cuda_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "cudnn_conv_algo_search": "EXHAUSTIVE",
+            "do_copy_in_default_stream": true
+          },
+          "use_dml": false,
+          "dml_ep_cfg": null,
+          "use_cann": false,
+          "cann_ep_cfg": {
+            "device_id": 0,
+            "arena_extend_strategy": "kNextPowerOfTwo",
+            "npu_mem_limit": 21474836480,
+            "op_select_impl_mode": "high_performance",
+            "optypelist_for_implmode": "Gelu",
+            "enable_cann_graph": true
+          },
+          "use_coreml": false,
+          "coreml_ep_cfg": {
+            "ModelFormat": "MLProgram",
+            "MLComputeUnits": "ALL",
+            "RequireStaticInputShapes": 0,
+            "EnableOnSubgraphs": 0,
+            "SpecializationStrategy": "FastPrediction",
+            "ProfileComputePlan": 0,
+            "AllowLowPrecisionAccumulationOnGPU": 0,
+            "ModelCacheDirectory": "/tmp/RapidOCR"
+          }
+        },
+        "font_path": null,
+        "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v5-english"
+      }
+    }
+  },
+  "domains": {
+    "blank-control": {
+      "normalized": {
+        "n": 1,
+        "char_errors": 0,
+        "chars": 0,
+        "word_errors": 0,
+        "words": 0,
+        "exact": 1,
+        "blank_false_positive_chars": 0,
+        "cer": null,
+        "wer": null,
+        "exact_match": 1.0
+      },
+      "case_sensitive": {
+        "n": 1,
+        "char_errors": 0,
+        "chars": 0,
+        "word_errors": 0,
+        "words": 0,
+        "exact": 1,
+        "blank_false_positive_chars": 0,
+        "cer": null,
+        "wer": null,
+        "exact_match": 1.0
+      },
+      "p50_ms": 45.88109999895096,
+      "p95_ms": 45.88109999895096,
+      "mean_ms": 45.88109999895096
+    },
+    "receipt-crop": {
+      "normalized": {
+        "n": 200,
+        "char_errors": 122,
+        "chars": 2372,
+        "word_errors": 61,
+        "words": 447,
+        "exact": 164,
+        "blank_false_positive_chars": 0,
+        "cer": 0.05143338954468803,
+        "wer": 0.13646532438478748,
+        "exact_match": 0.82
+      },
+      "case_sensitive": {
+        "n": 200,
+        "char_errors": 552,
+        "chars": 2372,
+        "word_errors": 157,
+        "words": 447,
+        "exact": 118,
+        "blank_false_positive_chars": 0,
+        "cer": 0.2327150084317032,
+        "wer": 0.3512304250559284,
+        "exact_match": 0.59
+      },
+      "p50_ms": 10.874100014916621,
+      "p95_ms": 23.049399984302,
+      "mean_ms": 13.467165499314433
+    },
+    "receipt-page": {
+      "normalized": {
+        "n": 20,
+        "char_errors": 1145,
+        "chars": 11632,
+        "word_errors": 425,
+        "words": 2009,
+        "exact": 0,
+        "blank_false_positive_chars": 0,
+        "cer": 0.0984353507565337,
+        "wer": 0.21154803384768542,
+        "exact_match": 0.0
+      },
+      "case_sensitive": {
+        "n": 20,
+        "char_errors": 3598,
+        "chars": 11632,
+        "word_errors": 940,
+        "words": 2009,
+        "exact": 0,
+        "blank_false_positive_chars": 0,
+        "cer": 0.3093191196698762,
+        "wer": 0.46789447486311597,
+        "exact_match": 0.0
+      },
+      "p50_ms": 675.5897499824641,
+      "p95_ms": 896.1233999871183,
+      "mean_ms": 688.4999549962231
+    },
+    "scene-crop": {
+      "normalized": {
+        "n": 20,
+        "char_errors": 31,
+        "chars": 126,
+        "word_errors": 8,
+        "words": 20,
+        "exact": 12,
+        "blank_false_positive_chars": 0,
+        "cer": 0.24603174603174602,
+        "wer": 0.4,
+        "exact_match": 0.6
+      },
+      "case_sensitive": {
+        "n": 20,
+        "char_errors": 46,
+        "chars": 126,
+        "word_errors": 11,
+        "words": 20,
+        "exact": 9,
+        "blank_false_positive_chars": 0,
+        "cer": 0.36507936507936506,
+        "wer": 0.55,
+        "exact_match": 0.45
+      },
+      "p50_ms": 10.673850018065423,
+      "p95_ms": 11.363700003130361,
+      "mean_ms": 10.847279999870807
+    },
+    "synthetic-screen": {
+      "normalized": {
+        "n": 6,
+        "char_errors": 0,
+        "chars": 840,
+        "word_errors": 0,
+        "words": 120,
+        "exact": 6,
+        "blank_false_positive_chars": 0,
+        "cer": 0.0,
+        "wer": 0.0,
+        "exact_match": 1.0
+      },
+      "case_sensitive": {
+        "n": 6,
+        "char_errors": 0,
+        "chars": 840,
+        "word_errors": 0,
+        "words": 120,
+        "exact": 6,
+        "blank_false_positive_chars": 0,
+        "cer": 0.0,
+        "wer": 0.0,
+        "exact_match": 1.0
+      },
+      "p50_ms": 137.12499999383,
+      "p95_ms": 142.58120002341457,
+      "mean_ms": 137.1824166708393
+    }
+  },
+  "limitations": [
+    "Small diagnostic pilot, not a final test set or release gate",
+    "Screens are synthetic raster fixtures, not real application screenshots",
+    "Scene set contains word crops only; no scene detection evaluation",
+    "No guarantee that public baseline training excluded these public benchmarks",
+    "Page CER includes row-order disagreements; no detection F-score yet",
+    "Case-sensitive receipt scores are diagnostic only: source labels are uppercased"
+  ],
+  "full_report_sha256": "b01ee940b18554772eb2c4a65c7afe41e85ebe8d2d2d41a50b31712d1c680ef1",
+  "full_report_path": "runs/v5-english.json"
+}

@@ -1,0 +1,12 @@
+[project]
+name = "tinyocr"
+version = "0.1.0"
+description = "Small CPU OCR research with real-world evaluation first"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "rapidocr==3.10.0",
+  "onnxruntime>=1.23,<2",
+  "pillow>=11,<13",
+  "requests>=2.32,<3",
+  "rapidfuzz>=3.14,<4",
+]
