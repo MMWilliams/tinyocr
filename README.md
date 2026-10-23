@@ -39,8 +39,12 @@ CER/WER use summed edit counts divided by summed reference lengths, reported per
 
 Page text is ordered geometrically by rows in both reference and output. Page CER therefore includes ordering errors; it is not a localization F-score. No rotation classifier is enabled. Detector inputs have a maximum side of 960 px, recognition batch size is one, and both ORT thread counts and OpenCV threads are explicitly checked/set to one. Timing includes local file decode, preprocessing and postprocessing; it excludes initialization/downloads and metric computation. Each image is run three times after warmup; p50/p95 are over per-image median durations. This is desktop CPU evidence, not phone performance.
 
+## Real-screen and full-scene expansion
+
+[Expanded results and commands](EXPANSION.md) cover actual mobile-app screenshots and full scenes: 79 development items and 48 reserved final items. The expanded evaluator runs development inputs only. [Label audit](eval/LABEL_AUDIT.md) records review findings without changing original pilot references.
+
 ## Next experiment
 
-See [baseline results](BASELINES.md) and [.claude/TODO.md](.claude/TODO.md). Before training: add human-transcribed real application screenshots, full scene images, independent receipt photos and rotation coverage; audit questionable scene labels; establish disjoint development/final test sets. Then choose a compression or training experiment against the measured baseline.
+See [baseline results](BASELINES.md), [expanded results](EXPANSION.md) and [.claude/TODO.md](.claude/TODO.md). Next: try compressing the v6 baseline against the fixed development sets. Before training: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review.
 
 Existing constraints remain: no paid API runs; GPU 1 free; any future training uses at most half of GPU 0 and about 20 GB RAM. Startup runs use CPU only.

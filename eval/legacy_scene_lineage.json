@@ -1,0 +1,376 @@
+{
+  "source_revision": "0d0a421b9f09f2d00358af52091de57bfaee1684",
+  "source_metadata_sha256": "0d04c1c9f5ba99e90be5b0df9ab34f6237b3fbc55443f263133d5c49b6435918",
+  "items": [
+    {
+      "pilot_id": "scene-0",
+      "original_text": "moRGAn",
+      "candidate_parent_ids": [
+        "a7ad2bcb93d48576"
+      ],
+      "candidate_annotation_ids": [
+        "a7ad2bcb93d48576_2",
+        "a7ad2bcb93d48576_18",
+        "a7ad2bcb93d48576_32"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-733",
+      "original_text": "EL®",
+      "candidate_parent_ids": [
+        "5eea957b44dc4166"
+      ],
+      "candidate_annotation_ids": [
+        "5eea957b44dc4166_51"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-1466",
+      "original_text": "3\\/$5",
+      "candidate_parent_ids": [
+        "40c6b4dd3caa006f"
+      ],
+      "candidate_annotation_ids": [
+        "40c6b4dd3caa006f_18",
+        "40c6b4dd3caa006f_23",
+        "40c6b4dd3caa006f_28",
+        "40c6b4dd3caa006f_34"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-2200",
+      "original_text": "OUR",
+      "candidate_parent_ids": [
+        "00c701c3a7421bd9",
+        "01b1c5e105acaa97",
+        "06ef84b6db9ca86d",
+        "0d8fe3efcd14ab81",
+        "1aee501a75668a28",
+        "23b2e8a05f58b4c5",
+        "2c296753ea709fad",
+        "3c7a80183cceeab5",
+        "42207702ddb341c2",
+        "47429bfe6ba544db",
+        "55018830c6a70275",
+        "66d0b98c45fff752",
+        "73eb0d043b666f80",
+        "7ceb87ec77210198",
+        "89d9552a610e6a67",
+        "8d25f4f5651d7151",
+        "9ee45ccfb4b09966",
+        "b81f6619d16d6889",
+        "cd01d5766225ba2b",
+        "d6763fc14413bba4",
+        "e1d8f6ff0797fa68",
+        "ea36655fdf84f6e6",
+        "f8c758bc3d0a925c",
+        "fe3bfe0b60a3a261",
+        "ff10941b1a40b3f7"
+      ],
+      "candidate_annotation_ids": [
+        "ff10941b1a40b3f7_23",
+        "ff10941b1a40b3f7_25",
+        "2c296753ea709fad_104",
+        "0d8fe3efcd14ab81_141",
+        "9ee45ccfb4b09966_33",
+        "ea36655fdf84f6e6_7",
+        "7ceb87ec77210198_39",
+        "47429bfe6ba544db_7",
+        "3c7a80183cceeab5_6",
+        "d6763fc14413bba4_130",
+        "d6763fc14413bba4_477",
+        "cd01d5766225ba2b_4",
+        "55018830c6a70275_45",
+        "e1d8f6ff0797fa68_7",
+        "73eb0d043b666f80_20",
+        "06ef84b6db9ca86d_22",
+        "06ef84b6db9ca86d_48",
+        "1aee501a75668a28_4",
+        "23b2e8a05f58b4c5_33",
+        "23b2e8a05f58b4c5_37",
+        "00c701c3a7421bd9_11",
+        "00c701c3a7421bd9_33",
+        "89d9552a610e6a67_10",
+        "89d9552a610e6a67_23",
+        "89d9552a610e6a67_46",
+        "89d9552a610e6a67_71",
+        "8d25f4f5651d7151_84",
+        "8d25f4f5651d7151_425",
+        "42207702ddb341c2_29",
+        "66d0b98c45fff752_20",
+        "fe3bfe0b60a3a261_1",
+        "01b1c5e105acaa97_3",
+        "f8c758bc3d0a925c_19",
+        "f8c758bc3d0a925c_22",
+        "b81f6619d16d6889_19"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-2933",
+      "original_text": "EVANS•",
+      "candidate_parent_ids": [
+        "330c81f5c5c4a070"
+      ],
+      "candidate_annotation_ids": [
+        "330c81f5c5c4a070_26"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-3667",
+      "original_text": "branded",
+      "candidate_parent_ids": [
+        "eaa10e6569c11895"
+      ],
+      "candidate_annotation_ids": [
+        "eaa10e6569c11895_8"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-4400",
+      "original_text": "SYA",
+      "candidate_parent_ids": [
+        "6b73d849db7a79aa"
+      ],
+      "candidate_annotation_ids": [
+        "6b73d849db7a79aa_1",
+        "6b73d849db7a79aa_2",
+        "6b73d849db7a79aa_3",
+        "6b73d849db7a79aa_4",
+        "6b73d849db7a79aa_6",
+        "6b73d849db7a79aa_7"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-5134",
+      "original_text": "SAMSUNG",
+      "candidate_parent_ids": [
+        "04924b243ce19811",
+        "064cf4baf718ecc8",
+        "068a8155b97899ef",
+        "0ac5b4900fb6d221",
+        "0dc0a557f0995af8",
+        "281b45bb46be691b",
+        "3b9b02bcd3f99c1a",
+        "54c521d41f7818ef",
+        "60fd879040955560",
+        "622da82e43662fe0",
+        "6810de60e4a6ab7c",
+        "84a25e847e1063f6",
+        "86799f776598382b",
+        "8cd086f9d7f21a2a",
+        "9af15887b3175468",
+        "9d3ec86554e13e4c",
+        "a1c01e66df817ea7",
+        "a3a0dc3be10723b3",
+        "abff7a10c0e23564",
+        "c631aaa23a493d28",
+        "cb26499cae74775c",
+        "f4dc687a07426503"
+      ],
+      "candidate_annotation_ids": [
+        "a3a0dc3be10723b3_1",
+        "068a8155b97899ef_69",
+        "a1c01e66df817ea7_3",
+        "84a25e847e1063f6_4",
+        "04924b243ce19811_22",
+        "60fd879040955560_1",
+        "86799f776598382b_1",
+        "281b45bb46be691b_1",
+        "3b9b02bcd3f99c1a_1",
+        "6810de60e4a6ab7c_1",
+        "8cd086f9d7f21a2a_3",
+        "f4dc687a07426503_46",
+        "9d3ec86554e13e4c_22",
+        "cb26499cae74775c_1",
+        "cb26499cae74775c_30",
+        "c631aaa23a493d28_1",
+        "622da82e43662fe0_1",
+        "54c521d41f7818ef_1",
+        "0dc0a557f0995af8_7",
+        "abff7a10c0e23564_17",
+        "064cf4baf718ecc8_1",
+        "0ac5b4900fb6d221_76",
+        "9af15887b3175468_1",
+        "9af15887b3175468_12"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-5867",
+      "original_text": "POWER!",
+      "candidate_parent_ids": [
+        "1d45ebf17653be85",
+        "30dc7ab68c2654a6",
+        "f0f987412b7e4d98"
+      ],
+      "candidate_annotation_ids": [
+        "1d45ebf17653be85_8",
+        "30dc7ab68c2654a6_5",
+        "f0f987412b7e4d98_2"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-6601",
+      "original_text": "STRONG",
+      "candidate_parent_ids": [
+        "5657a3597e0d833a",
+        "80efcfa3623377a7",
+        "940024b12f59207d",
+        "9c5e52b920bb81e2",
+        "d446e470f7ec0dd9",
+        "eb13caa55b531594"
+      ],
+      "candidate_annotation_ids": [
+        "80efcfa3623377a7_14",
+        "eb13caa55b531594_120",
+        "940024b12f59207d_1",
+        "9c5e52b920bb81e2_12",
+        "d446e470f7ec0dd9_15",
+        "5657a3597e0d833a_22"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-7334",
+      "original_text": "Calibro",
+      "candidate_parent_ids": [
+        "0d3dde7efae13592"
+      ],
+      "candidate_annotation_ids": [
+        "0d3dde7efae13592_18"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-8067",
+      "original_text": "PHOTOGRAPHY",
+      "candidate_parent_ids": [
+        "0d6f40c60c794ece",
+        "200abe02001a4c74",
+        "63a227c95576c6e0",
+        "82d3083f06b03d37",
+        "857cae473e0914e7"
+      ],
+      "candidate_annotation_ids": [
+        "0d6f40c60c794ece_3",
+        "63a227c95576c6e0_9",
+        "63a227c95576c6e0_11",
+        "200abe02001a4c74_212",
+        "857cae473e0914e7_233",
+        "82d3083f06b03d37_3"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-8801",
+      "original_text": "''DRY''",
+      "candidate_parent_ids": [
+        "06ef84b6db9ca86d"
+      ],
+      "candidate_annotation_ids": [
+        "06ef84b6db9ca86d_12"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-9534",
+      "original_text": "MOA",
+      "candidate_parent_ids": [
+        "661d53e3b7d3a94f"
+      ],
+      "candidate_annotation_ids": [
+        "661d53e3b7d3a94f_1",
+        "661d53e3b7d3a94f_3"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-10268",
+      "original_text": "Rosehill",
+      "candidate_parent_ids": [
+        "f2035b9600c88c83"
+      ],
+      "candidate_annotation_ids": [
+        "f2035b9600c88c83_3"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-11001",
+      "original_text": "HIGAN",
+      "candidate_parent_ids": [
+        "f78d5fdb17274d1f"
+      ],
+      "candidate_annotation_ids": [
+        "f78d5fdb17274d1f_3"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-11735",
+      "original_text": "SNEKUTI",
+      "candidate_parent_ids": [
+        "0dc0a557f0995af8"
+      ],
+      "candidate_annotation_ids": [
+        "0dc0a557f0995af8_27"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-12468",
+      "original_text": "Complete.....",
+      "candidate_parent_ids": [
+        "83a76d3a192ecf74"
+      ],
+      "candidate_annotation_ids": [
+        "83a76d3a192ecf74_17"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-13202",
+      "original_text": "PILIPINAS",
+      "candidate_parent_ids": [
+        "00d199d2990fab59",
+        "e51a1b4c91ae15e8"
+      ],
+      "candidate_annotation_ids": [
+        "e51a1b4c91ae15e8_7",
+        "e51a1b4c91ae15e8_13",
+        "e51a1b4c91ae15e8_17",
+        "e51a1b4c91ae15e8_29",
+        "e51a1b4c91ae15e8_35",
+        "e51a1b4c91ae15e8_41",
+        "e51a1b4c91ae15e8_47",
+        "00d199d2990fab59_8"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    },
+    {
+      "pilot_id": "scene-13935",
+      "original_text": "COOL",
+      "candidate_parent_ids": [
+        "4c220f64ae574947",
+        "5e3c9f490606e41b",
+        "fe788c23eb999498"
+      ],
+      "candidate_annotation_ids": [
+        "4c220f64ae574947_70",
+        "4c220f64ae574947_84",
+        "fe788c23eb999498_30",
+        "5e3c9f490606e41b_1"
+      ],
+      "status": "candidate-only; exact text match does not prove image identity"
+    }
+  ],
+  "policy": "Exclude ALL candidate parent images from expanded dev/final; never train on legacy crops or TextOCR val"
+}
