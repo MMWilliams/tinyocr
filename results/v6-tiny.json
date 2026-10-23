@@ -1,7 +1,7 @@
 {
   "model": "v6-tiny",
   "created_utc": "2026-10-23T05:14:15.965369+00:00",
-  "manifest_sha256": "a2db13f0ebd3df6166a9cfed8d260f7f3837287cde890c530e82b64919a616ea",
+  "manifest_sha256": "5d19643044b494bc20740cdd419964029733867b91b9f304f52b111bdbd71098",
   "lock_sha256": "422bdfd74a892dd3de2fbe242d4ba4698238055b9dc99851930f4e596c16d34d",
   "environment": {
     "platform": "Windows-11-10.0.26200-SP0",
@@ -520,6 +520,8 @@
     "Page CER includes row-order disagreements; no detection F-score yet",
     "Case-sensitive receipt scores are diagnostic only: source labels are uppercased"
   ],
-  "full_report_sha256": "bb82698765c4fa931feb52233a67cb5c3476e1f320048c75d72317bbf40fd6b6",
+  "original_manifest_sha256_before_lf_normalization": "a2db13f0ebd3df6166a9cfed8d260f7f3837287cde890c530e82b64919a616ea",
+  "evidence_note": "Manifest moved to eval/ and CRLF normalized to LF; parsed references unchanged. Timing/inference evidence retained.",
+  "full_report_sha256": "95f1b9589397043f8b6f719b971f4653d02e33f5c570a884d1d23e41c5ac92ff",
   "full_report_path": "runs/v6-tiny.json"
 }

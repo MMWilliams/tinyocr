@@ -1,0 +1,3 @@
+# Preserve bytes of hash-pinned evidence across Git checkouts.
+*.json text eol=lf
+uv.lock text eol=lf
