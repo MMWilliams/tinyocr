@@ -1,0 +1,13 @@
+{
+  "source_sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531",
+  "onnxruntime": "1.31.0",
+  "compressed_decode_nodes_remaining": [],
+  "decode_folded": true,
+  "input_types": [
+    "tensor(float)"
+  ],
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "note": "Weight decode folded at initialization; this is still float32 execution, not a reduced-RAM claim."
+}

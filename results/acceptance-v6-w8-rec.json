@@ -1,0 +1,81 @@
+{
+  "model": "v6-w8-rec",
+  "accuracy_and_size_pass": true,
+  "speed_pass": true,
+  "pass": true,
+  "checks": [
+    {
+      "suite": "pilot",
+      "domain": "blank-control",
+      "metric": "char_errors",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "receipt-crop",
+      "metric": "char_errors",
+      "baseline": 170,
+      "candidate": 164,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "receipt-page",
+      "metric": "char_errors",
+      "baseline": 1366,
+      "candidate": 1363,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "scene-crop",
+      "metric": "char_errors",
+      "baseline": 34,
+      "candidate": 33,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "synthetic-screen",
+      "metric": "char_errors",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true
+    },
+    {
+      "suite": "expanded-",
+      "domain": "full-scene",
+      "metric": "char_errors",
+      "baseline": 229,
+      "candidate": 227,
+      "pass": true
+    },
+    {
+      "suite": "expanded-",
+      "domain": "real-screen-region",
+      "metric": "char_errors",
+      "baseline": 31,
+      "candidate": 30,
+      "pass": true
+    },
+    {
+      "suite": "expanded-",
+      "domain": "real-screen",
+      "metric": "previously_recovered_labels_lost",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true,
+      "lost": []
+    },
+    {
+      "metric": "artifact_bytes",
+      "maximum": 3500000,
+      "candidate": 3099213,
+      "pass": true
+    }
+  ],
+  "speed_status": "nine paired passes verified",
+  "final_evaluation": "not run"
+}

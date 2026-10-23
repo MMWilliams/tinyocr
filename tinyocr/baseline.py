@@ -10,13 +10,15 @@ from rapidocr.utils.typings import LangDet, LangRec, ModelType, OCRVersion
 
 from .common import ROOT, reading_order, sha256
 
+MODEL_NAMES = ("v6-tiny", "v5-english", "v6-w8", "v6-w16", "v6-w8-rec")
+
 
 class Baseline:
     def __init__(self, name):
         cv2.setNumThreads(1)
         cv2.ocl.setUseOpenCL(False)
-        v6 = name == "v6-tiny"
-        if name not in ("v6-tiny", "v5-english"):
+        v6 = name.startswith("v6-")
+        if name not in MODEL_NAMES:
             raise ValueError(f"Unknown baseline: {name}")
         self.directory = ROOT / "models" / name
         version = OCRVersion.PPOCRV6 if v6 else OCRVersion.PPOCRV5
@@ -44,6 +46,12 @@ class Baseline:
             "Rec.rec_batch_num": 1,
             "Rec.rec_img_shape": [3, 48, 320],
         }
+        if name in ("v6-w8", "v6-w16", "v6-w8-rec"):
+            for section,filename in (("Det","PP-OCRv6_det_tiny.onnx"),("Rec","PP-OCRv6_rec_tiny.onnx")):
+                path=self.directory/filename
+                if not path.exists():
+                    raise FileNotFoundError(f"Export candidate first: {path}")
+                params[f"{section}.model_path"] = str(path)
         self.engine = RapidOCR(params=params)
         # Pinned RapidOCR 3.10 lazily loads weights; force load outside timed calls.
         self.engine._load_det_model()

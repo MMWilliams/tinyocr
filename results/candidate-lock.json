@@ -1,0 +1,328 @@
+{
+  "model": "v6-w8-rec",
+  "status": "frozen after development selection, before final inference",
+  "artifacts": [
+    {
+      "path": "models/v6-w8-rec/PP-OCRv6_det_tiny.onnx",
+      "bytes": 1829618,
+      "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+    },
+    {
+      "path": "models/v6-w8-rec/PP-OCRv6_rec_tiny.onnx",
+      "bytes": 1269595,
+      "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+    }
+  ],
+  "artifact_bytes": 3099213,
+  "lock_sha256": "422bdfd74a892dd3de2fbe242d4ba4698238055b9dc99851930f4e596c16d34d",
+  "pipeline_config": {
+    "Global": {
+      "text_score": 0.5,
+      "use_det": true,
+      "use_cls": false,
+      "use_rec": true,
+      "use_preprocess_img": true,
+      "min_side_len": 30,
+      "max_side_len": 2000,
+      "use_vertical_padding": true,
+      "min_height": 30,
+      "width_height_ratio": 8,
+      "return_word_box": false,
+      "return_single_char_box": false,
+      "font_path": null,
+      "log_level": "warning",
+      "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+    },
+    "EngineConfig": {
+      "onnxruntime": {
+        "intra_op_num_threads": 1,
+        "inter_op_num_threads": 1,
+        "enable_cpu_mem_arena": false,
+        "cpu_ep_cfg": {
+          "arena_extend_strategy": "kSameAsRequested"
+        },
+        "use_cuda": false,
+        "cuda_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "cudnn_conv_algo_search": "EXHAUSTIVE",
+          "do_copy_in_default_stream": true
+        },
+        "use_dml": false,
+        "dml_ep_cfg": null,
+        "use_cann": false,
+        "cann_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "npu_mem_limit": 21474836480,
+          "op_select_impl_mode": "high_performance",
+          "optypelist_for_implmode": "Gelu",
+          "enable_cann_graph": true
+        },
+        "use_coreml": false,
+        "coreml_ep_cfg": {
+          "ModelFormat": "MLProgram",
+          "MLComputeUnits": "ALL",
+          "RequireStaticInputShapes": 0,
+          "EnableOnSubgraphs": 0,
+          "SpecializationStrategy": "FastPrediction",
+          "ProfileComputePlan": 0,
+          "AllowLowPrecisionAccumulationOnGPU": 0,
+          "ModelCacheDirectory": "/tmp/RapidOCR"
+        }
+      },
+      "openvino": {
+        "inference_num_threads": -1,
+        "performance_hint": null,
+        "performance_num_requests": -1,
+        "enable_cpu_pinning": null,
+        "num_streams": -1,
+        "enable_hyper_threading": null,
+        "scheduling_core_type": null
+      },
+      "paddle": {
+        "cpu_math_library_num_threads": -1,
+        "use_npu": false,
+        "npu_ep_cfg": {
+          "device_id": 0,
+          "envs": {
+            "FLAGS_npu_jit_compile": 0,
+            "FLAGS_use_stride_kernel": 0,
+            "FLAGS_allocator_strategy": "auto_growth",
+            "CUSTOM_DEVICE_BLACK_LIST": "pad3d,pad3d_grad,set_value,set_value_with_tensor",
+            "FLAGS_npu_scale_aclnn": "True",
+            "FLAGS_npu_split_aclnn": "True"
+          }
+        },
+        "use_cuda": false,
+        "cuda_ep_cfg": {
+          "device_id": 0,
+          "gpu_mem": 500
+        }
+      },
+      "torch": {
+        "use_cuda": false,
+        "cuda_ep_cfg": {
+          "device_id": 0
+        },
+        "use_npu": false,
+        "npu_ep_cfg": {
+          "device_id": 0
+        },
+        "use_mps": false
+      },
+      "tensorrt": {
+        "device_id": 0,
+        "use_fp16": true,
+        "use_int8": false,
+        "workspace_size": 1073741824,
+        "cache_dir": null,
+        "force_rebuild": false,
+        "det_profile": {
+          "min_shape": [
+            1,
+            3,
+            32,
+            32
+          ],
+          "opt_shape": [
+            1,
+            3,
+            736,
+            736
+          ],
+          "max_shape": [
+            1,
+            3,
+            2048,
+            2048
+          ]
+        },
+        "rec_profile": {
+          "min_shape": [
+            1,
+            3,
+            48,
+            32
+          ],
+          "opt_shape": [
+            6,
+            3,
+            48,
+            320
+          ],
+          "max_shape": [
+            6,
+            3,
+            48,
+            2048
+          ]
+        },
+        "cls_profile": {
+          "min_shape": [
+            1,
+            3,
+            48,
+            32
+          ],
+          "opt_shape": [
+            6,
+            3,
+            48,
+            192
+          ],
+          "max_shape": [
+            6,
+            3,
+            48,
+            192
+          ]
+        }
+      },
+      "mnn": {}
+    },
+    "Det": {
+      "engine_type": "ONNXRUNTIME",
+      "lang_type": "CH",
+      "model_type": "TINY",
+      "ocr_version": "PPOCRV6",
+      "task_type": "DET",
+      "model_path": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec\\PP-OCRv6_det_tiny.onnx",
+      "model_dir": null,
+      "limit_side_len": 960,
+      "limit_type": "max",
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "thresh": 0.2,
+      "box_thresh": 0.4,
+      "max_candidates": 3000,
+      "unclip_ratio": 1.4,
+      "use_dilation": false,
+      "score_mode": "fast",
+      "engine_cfg": {
+        "intra_op_num_threads": 1,
+        "inter_op_num_threads": 1,
+        "enable_cpu_mem_arena": false,
+        "cpu_ep_cfg": {
+          "arena_extend_strategy": "kSameAsRequested"
+        },
+        "use_cuda": false,
+        "cuda_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "cudnn_conv_algo_search": "EXHAUSTIVE",
+          "do_copy_in_default_stream": true
+        },
+        "use_dml": false,
+        "dml_ep_cfg": null,
+        "use_cann": false,
+        "cann_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "npu_mem_limit": 21474836480,
+          "op_select_impl_mode": "high_performance",
+          "optypelist_for_implmode": "Gelu",
+          "enable_cann_graph": true
+        },
+        "use_coreml": false,
+        "coreml_ep_cfg": {
+          "ModelFormat": "MLProgram",
+          "MLComputeUnits": "ALL",
+          "RequireStaticInputShapes": 0,
+          "EnableOnSubgraphs": 0,
+          "SpecializationStrategy": "FastPrediction",
+          "ProfileComputePlan": 0,
+          "AllowLowPrecisionAccumulationOnGPU": 0,
+          "ModelCacheDirectory": "/tmp/RapidOCR"
+        }
+      },
+      "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+    },
+    "Cls": {
+      "engine_type": "ONNXRUNTIME",
+      "lang_type": "CH",
+      "model_type": "MOBILE",
+      "ocr_version": "PPOCRV4",
+      "task_type": "CLS",
+      "model_path": null,
+      "model_dir": null,
+      "cls_image_shape": [
+        3,
+        48,
+        192
+      ],
+      "cls_batch_num": 6,
+      "cls_thresh": 0.9,
+      "label_list": [
+        "0",
+        "180"
+      ]
+    },
+    "Rec": {
+      "engine_type": "ONNXRUNTIME",
+      "lang_type": "EN",
+      "model_type": "TINY",
+      "ocr_version": "PPOCRV6",
+      "task_type": "REC",
+      "model_path": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec\\PP-OCRv6_rec_tiny.onnx",
+      "model_dir": null,
+      "rec_keys_path": null,
+      "rec_img_shape": [
+        3,
+        48,
+        320
+      ],
+      "rec_batch_num": 1,
+      "engine_cfg": {
+        "intra_op_num_threads": 1,
+        "inter_op_num_threads": 1,
+        "enable_cpu_mem_arena": false,
+        "cpu_ep_cfg": {
+          "arena_extend_strategy": "kSameAsRequested"
+        },
+        "use_cuda": false,
+        "cuda_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "cudnn_conv_algo_search": "EXHAUSTIVE",
+          "do_copy_in_default_stream": true
+        },
+        "use_dml": false,
+        "dml_ep_cfg": null,
+        "use_cann": false,
+        "cann_ep_cfg": {
+          "device_id": 0,
+          "arena_extend_strategy": "kNextPowerOfTwo",
+          "npu_mem_limit": 21474836480,
+          "op_select_impl_mode": "high_performance",
+          "optypelist_for_implmode": "Gelu",
+          "enable_cann_graph": true
+        },
+        "use_coreml": false,
+        "coreml_ep_cfg": {
+          "ModelFormat": "MLProgram",
+          "MLComputeUnits": "ALL",
+          "RequireStaticInputShapes": 0,
+          "EnableOnSubgraphs": 0,
+          "SpecializationStrategy": "FastPrediction",
+          "ProfileComputePlan": 0,
+          "AllowLowPrecisionAccumulationOnGPU": 0,
+          "ModelCacheDirectory": "/tmp/RapidOCR"
+        }
+      },
+      "font_path": null,
+      "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+    }
+  },
+  "acceptance_sha256": "2954969207619fb87fcb5cd22cdc84709f995c6700bd929e2642e7fa327940b2",
+  "expanded_manifest_sha256": "b750f1ace8e3b77e93deefe5c590a0f784725f2e83a78a48eb5f699f08f918a7",
+  "policy": "Do not modify candidate based on reserved-final results; keep final evaluation separate from model selection."
+}

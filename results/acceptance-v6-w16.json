@@ -1,0 +1,79 @@
+{
+  "model": "v6-w16",
+  "pass": false,
+  "checks": [
+    {
+      "suite": "pilot",
+      "domain": "blank-control",
+      "metric": "char_errors",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "receipt-crop",
+      "metric": "char_errors",
+      "baseline": 170,
+      "candidate": 170,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "receipt-page",
+      "metric": "char_errors",
+      "baseline": 1366,
+      "candidate": 1369,
+      "pass": false
+    },
+    {
+      "suite": "pilot",
+      "domain": "scene-crop",
+      "metric": "char_errors",
+      "baseline": 34,
+      "candidate": 34,
+      "pass": true
+    },
+    {
+      "suite": "pilot",
+      "domain": "synthetic-screen",
+      "metric": "char_errors",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true
+    },
+    {
+      "suite": "expanded-",
+      "domain": "full-scene",
+      "metric": "char_errors",
+      "baseline": 229,
+      "candidate": 229,
+      "pass": true
+    },
+    {
+      "suite": "expanded-",
+      "domain": "real-screen-region",
+      "metric": "char_errors",
+      "baseline": 31,
+      "candidate": 32,
+      "pass": false
+    },
+    {
+      "suite": "expanded-",
+      "domain": "real-screen",
+      "metric": "previously_recovered_labels_lost",
+      "baseline": 0,
+      "candidate": 0,
+      "pass": true,
+      "lost": []
+    },
+    {
+      "metric": "artifact_bytes",
+      "maximum": 3500000,
+      "candidate": 3301645,
+      "pass": true
+    }
+  ],
+  "speed_status": "separate paired benchmark required",
+  "final_evaluation": "not run"
+}

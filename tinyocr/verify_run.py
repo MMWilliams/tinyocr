@@ -6,6 +6,7 @@ import math
 from .common import MANIFEST, ROOT, sha256
 from .metrics import aggregate, counts
 from .validate import validate
+from .baseline import MODEL_NAMES
 
 
 def verify(name):
@@ -47,5 +48,5 @@ def verify(name):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", choices=["v6-tiny", "v5-english"], required=True)
+    parser.add_argument("--model", choices=MODEL_NAMES, required=True)
     verify(parser.parse_args().model)

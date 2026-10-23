@@ -8,6 +8,9 @@ Initial scope: English-first, very small, fast on one CPU thread; eventual consu
 - [x] Add initial screen smoke coverage: six authored light/dark raster fixtures and a blank control, kept separate from real inputs.
 - [x] Measure current small open baselines on one CPU thread: v6 tiny 6.32 MB, receipt-page CER 11.74%, p50 199.6 ms; v5 English 12.69 MB, CER 9.84%, p50 675.6 ms. See BASELINES.md and results/*.json. Full predictions in runs/.
 - [x] Define an initial compression target from results: <=3.5 MB detector+recognizer, no additional missed screen labels vs 99/113, no per-domain dev CER increase or repeatable latency regression. Provisional, not a release claim.
+- [x] Implement and measure compression: v6-w8-rec = 3,099,213 bytes (51% smaller), original FP32 detector + int8 recognizer weights/FP32 math. Meets every dev CER gate and retains all 99 original screen labels, recovering 100/113. Receipt WER rises slightly despite lower CER; retain this caveat.
+- [x] Preserve rejected alternatives: all-int8 1.87 MB raises full-scene CER; all-float16 3.30 MB adds receipt/screen-region character errors. No QAT/training performed.
+- [x] Paired speed check: two nine-pass runs, 5,868 baseline/candidate pairs over 326 dev inputs. Median p50 within -1.6%/+1.7%; no domain slower on every pass. Full-scene p95 varied +5.9% then +2.5%; do not claim identical speed or reduced RAM.
 - [ ] Expand to real screenshot transcriptions, blank images, difficult signs, receipt photos and rotated text before training.
 - [ ] Independently audit TextOCR crop labels and recover original image IDs: some source labels/crops are noisy, and parent IDs are missing. Retain original pilot scores; version any reviewed reference changes.
 - [x] Separate expanded development (79 items) and reserved final (48 items) by original image ID and decoded-pixel hash; no final inference. Training-overlap guard implemented for declared provenance/reserved splits.
@@ -17,6 +20,6 @@ Initial scope: English-first, very small, fast on one CPU thread; eventual consu
 
 Inherited resource limits: training <= half of GPU 0, GPU 1 free, <= one-third of RAM (~20 GB); no paid API runs. Check free commit before training. CPU-only startup requires no GPU allocation. Preserve tinyasr artifacts.
 
-Next concrete work: prototype weight-only int8 compression of v6 tiny, measure artifact bytes and CPU behavior on both fixed development evaluations, and compare against the acceptance criteria in EXPANSION.md. Preserve final-set isolation until a candidate is locked. No custom model or training run is in flight.
+Next concrete work: use the frozen v6-w8-rec hashes/configuration in results/candidate-lock.json for a one-time reserved final comparison against v6-tiny, with no candidate changes driven by those results. Use the original source references and partial-screen recall protocol. Keep training and broader product-readiness work separate; this is a compressed pretrained model, not a trained TinyOCR student. Local image OCR now runs through `uv run --locked python -m tinyocr.ocr <image>`.
 
 Startup lessons: HF rows API returned 429 after ~35 images; preparation now checkpoints revision/hash-verified downloads and backs off up to 45 seconds. RapidOCR shared detector normalization defaults differ from official Paddle inference configs; the adapter sets the official mean/std explicitly. Scene crop CER is not scene detection accuracy. Public benchmark overlap with pretrained weights is unknown.

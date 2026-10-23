@@ -6,7 +6,7 @@ import platform
 import statistics
 import time
 
-from .baseline import Baseline
+from .baseline import Baseline, MODEL_NAMES
 from .check_expansion import check, select_dev
 from .common import ROOT, sha256, write_json
 from .expand import EXPANSION
@@ -126,7 +126,7 @@ def verify(name):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--model',choices=['v6-tiny','v5-english'],required=True)
+    parser.add_argument('--model',choices=MODEL_NAMES,required=True)
     parser.add_argument('--verify-only',action='store_true')
     args=parser.parse_args()
     verify(args.model) if args.verify_only else evaluate(args.model)

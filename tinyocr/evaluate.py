@@ -7,7 +7,7 @@ import statistics
 import time
 from datetime import datetime, timezone
 
-from .baseline import Baseline
+from .baseline import Baseline, MODEL_NAMES
 from .common import MANIFEST, ROOT, sha256, write_json
 from .metrics import aggregate, counts
 from .validate import validate
@@ -80,7 +80,7 @@ def evaluate(name, repeats):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", choices=["v6-tiny", "v5-english"], default="v6-tiny")
+    parser.add_argument("--model", choices=MODEL_NAMES, default="v6-tiny")
     parser.add_argument("--repeats", type=int, default=3)
     args = parser.parse_args()
     evaluate(args.model, args.repeats)

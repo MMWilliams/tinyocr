@@ -1,0 +1,1340 @@
+{
+  "model": "v6-w8-rec",
+  "passes": 9,
+  "inputs_per_pass": 326,
+  "domains": {
+    "blank-control": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 27.39180001663044,
+          "baseline_p95_ms": 27.39180001663044,
+          "candidate_p50_ms": 26.853499992284924,
+          "candidate_p95_ms": 26.853499992284924,
+          "p50_ratio": 0.980348132506126,
+          "p95_ratio": 0.980348132506126
+        },
+        {
+          "baseline_p50_ms": 31.3581999798771,
+          "baseline_p95_ms": 31.3581999798771,
+          "candidate_p50_ms": 27.728600020054728,
+          "candidate_p95_ms": 27.728600020054728,
+          "p50_ratio": 0.8842535616791931,
+          "p95_ratio": 0.8842535616791931
+        },
+        {
+          "baseline_p50_ms": 26.651599997421727,
+          "baseline_p95_ms": 26.651599997421727,
+          "candidate_p50_ms": 26.213700009975582,
+          "candidate_p95_ms": 26.213700009975582,
+          "p50_ratio": 0.9835694672181593,
+          "p95_ratio": 0.9835694672181593
+        },
+        {
+          "baseline_p50_ms": 27.460699988296255,
+          "baseline_p95_ms": 27.460699988296255,
+          "candidate_p50_ms": 27.630900003714487,
+          "candidate_p95_ms": 27.630900003714487,
+          "p50_ratio": 1.0061979489048265,
+          "p95_ratio": 1.0061979489048265
+        },
+        {
+          "baseline_p50_ms": 27.186699997400865,
+          "baseline_p95_ms": 27.186699997400865,
+          "candidate_p50_ms": 34.72550000878982,
+          "candidate_p95_ms": 34.72550000878982,
+          "p50_ratio": 1.2772973554020786,
+          "p95_ratio": 1.2772973554020786
+        },
+        {
+          "baseline_p50_ms": 26.966000004904345,
+          "baseline_p95_ms": 26.966000004904345,
+          "candidate_p50_ms": 26.4941000204999,
+          "candidate_p95_ms": 26.4941000204999,
+          "p50_ratio": 0.9825001860001995,
+          "p95_ratio": 0.9825001860001995
+        },
+        {
+          "baseline_p50_ms": 26.96499999728985,
+          "baseline_p95_ms": 26.96499999728985,
+          "candidate_p50_ms": 26.177499996265396,
+          "candidate_p95_ms": 26.177499996265396,
+          "p50_ratio": 0.9707954755756127,
+          "p95_ratio": 0.9707954755756127
+        },
+        {
+          "baseline_p50_ms": 26.10899999854155,
+          "baseline_p95_ms": 26.10899999854155,
+          "candidate_p50_ms": 26.65690000867471,
+          "candidate_p95_ms": 26.65690000867471,
+          "p50_ratio": 1.0209851013123354,
+          "p95_ratio": 1.0209851013123354
+        },
+        {
+          "baseline_p50_ms": 26.596599986078218,
+          "baseline_p95_ms": 26.596599986078218,
+          "candidate_p50_ms": 26.979699992807582,
+          "candidate_p95_ms": 26.979699992807582,
+          "p50_ratio": 1.0144040970248038,
+          "p95_ratio": 1.0144040970248038
+        }
+      ],
+      "median_p50_ratio": 0.9835694672181593,
+      "median_p95_ratio": 0.9835694672181593,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "full-scene": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 117.79864999698475,
+          "baseline_p95_ms": 167.66800000914373,
+          "candidate_p50_ms": 120.00969998189248,
+          "candidate_p95_ms": 157.96889999182895,
+          "p50_ratio": 1.0187697395934872,
+          "p95_ratio": 0.9421529450056908
+        },
+        {
+          "baseline_p50_ms": 103.79229999671225,
+          "baseline_p95_ms": 161.92330000922084,
+          "candidate_p50_ms": 104.14140002103522,
+          "candidate_p95_ms": 170.88460002560169,
+          "p50_ratio": 1.0033634481973521,
+          "p95_ratio": 1.055342869221851
+        },
+        {
+          "baseline_p50_ms": 108.48205001093447,
+          "baseline_p95_ms": 155.8280999888666,
+          "candidate_p50_ms": 105.90584999590646,
+          "candidate_p95_ms": 165.1218000042718,
+          "p50_ratio": 0.9762522922938095,
+          "p95_ratio": 1.0596407195882462
+        },
+        {
+          "baseline_p50_ms": 106.88330000266433,
+          "baseline_p95_ms": 158.9551999932155,
+          "candidate_p50_ms": 113.26299999200273,
+          "candidate_p95_ms": 171.14279998349957,
+          "p50_ratio": 1.059688463858988,
+          "p95_ratio": 1.0766731757803725
+        },
+        {
+          "baseline_p50_ms": 105.07374998996966,
+          "baseline_p95_ms": 162.4761999992188,
+          "candidate_p50_ms": 105.63830001046881,
+          "candidate_p95_ms": 172.07890001009218,
+          "p50_ratio": 1.0053728930446761,
+          "p95_ratio": 1.0591021947271018
+        },
+        {
+          "baseline_p50_ms": 112.00844998529647,
+          "baseline_p95_ms": 160.10380000807345,
+          "candidate_p50_ms": 111.06450000079349,
+          "candidate_p95_ms": 171.73290002392605,
+          "p50_ratio": 0.9915725109612097,
+          "p95_ratio": 1.0726347532992109
+        },
+        {
+          "baseline_p50_ms": 103.46995000145398,
+          "baseline_p95_ms": 169.71390001708642,
+          "candidate_p50_ms": 105.63764999096747,
+          "candidate_p95_ms": 157.2013999975752,
+          "p50_ratio": 1.0209500438483157,
+          "p95_ratio": 0.9262729804791978
+        },
+        {
+          "baseline_p50_ms": 103.94344999804161,
+          "baseline_p95_ms": 156.90030000405386,
+          "candidate_p50_ms": 113.01174999971408,
+          "candidate_p95_ms": 158.3762999798637,
+          "p50_ratio": 1.087242630505754,
+          "p95_ratio": 1.0094072476328706
+        },
+        {
+          "baseline_p50_ms": 114.66720001772046,
+          "baseline_p95_ms": 156.5485000028275,
+          "candidate_p50_ms": 103.80514999269508,
+          "candidate_p95_ms": 167.42270000395365,
+          "p50_ratio": 0.9052732601533239,
+          "p95_ratio": 1.0694621794583132
+        }
+      ],
+      "median_p50_ratio": 1.0053728930446761,
+      "median_p95_ratio": 1.0591021947271018,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "real-screen": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 116.61759999697097,
+          "baseline_p95_ms": 173.14400000032037,
+          "candidate_p50_ms": 116.8049000116298,
+          "candidate_p95_ms": 162.32319999835454,
+          "p50_ratio": 1.0016061041786462,
+          "p95_ratio": 0.9375040428663667
+        },
+        {
+          "baseline_p50_ms": 114.7287000057986,
+          "baseline_p95_ms": 163.0083000054583,
+          "candidate_p50_ms": 114.20184999587946,
+          "candidate_p95_ms": 159.67369999270886,
+          "p50_ratio": 0.9954078621139042,
+          "p95_ratio": 0.9795433728672849
+        },
+        {
+          "baseline_p50_ms": 116.62965000141412,
+          "baseline_p95_ms": 162.55169999203645,
+          "candidate_p50_ms": 116.608800002723,
+          "candidate_p95_ms": 164.50220000115223,
+          "p50_ratio": 0.9998212290040237,
+          "p95_ratio": 1.0119992593692428
+        },
+        {
+          "baseline_p50_ms": 116.11995000566822,
+          "baseline_p95_ms": 165.09610001230612,
+          "candidate_p50_ms": 116.79599998751655,
+          "candidate_p95_ms": 157.80360001372173,
+          "p50_ratio": 1.0058219968387458,
+          "p95_ratio": 0.9558287567178098
+        },
+        {
+          "baseline_p50_ms": 115.68005000299308,
+          "baseline_p95_ms": 157.44939999422058,
+          "candidate_p50_ms": 117.99870000686496,
+          "candidate_p95_ms": 157.58550001191907,
+          "p50_ratio": 1.0200436462796472,
+          "p95_ratio": 1.000864404803724
+        },
+        {
+          "baseline_p50_ms": 115.3383000055328,
+          "baseline_p95_ms": 163.87400001985952,
+          "candidate_p50_ms": 115.83984998287633,
+          "candidate_p95_ms": 158.2197000097949,
+          "p50_ratio": 1.004348511962804,
+          "p95_ratio": 0.9654960517874747
+        },
+        {
+          "baseline_p50_ms": 114.31494999851566,
+          "baseline_p95_ms": 153.75980001408607,
+          "candidate_p50_ms": 115.2806499885628,
+          "candidate_p95_ms": 154.24909998546354,
+          "p50_ratio": 1.0084477138822148,
+          "p95_ratio": 1.0031822360027305
+        },
+        {
+          "baseline_p50_ms": 114.56064999219961,
+          "baseline_p95_ms": 155.15589999267831,
+          "candidate_p50_ms": 115.43429999437649,
+          "candidate_p95_ms": 156.35330000077374,
+          "p50_ratio": 1.007626091526509,
+          "p95_ratio": 1.007717399133078
+        },
+        {
+          "baseline_p50_ms": 115.43360000359826,
+          "baseline_p95_ms": 157.01900000567548,
+          "candidate_p50_ms": 114.36700000194833,
+          "candidate_p95_ms": 162.76330000255257,
+          "p50_ratio": 0.9907600559835552,
+          "p95_ratio": 1.036583470768948
+        }
+      ],
+      "median_p50_ratio": 1.004348511962804,
+      "median_p95_ratio": 1.000864404803724,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "real-screen-region": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 5.121800000779331,
+          "baseline_p95_ms": 27.268300007563084,
+          "candidate_p50_ms": 5.264900013571605,
+          "candidate_p95_ms": 27.256300003500655,
+          "p50_ratio": 1.027939398799348,
+          "p95_ratio": 0.9995599284128787
+        },
+        {
+          "baseline_p50_ms": 5.277100019156933,
+          "baseline_p95_ms": 23.345299996435642,
+          "candidate_p50_ms": 5.273700022371486,
+          "candidate_p95_ms": 23.93389999633655,
+          "p50_ratio": 0.999355707344355,
+          "p95_ratio": 1.025212783729092
+        },
+        {
+          "baseline_p50_ms": 5.3736999980174005,
+          "baseline_p95_ms": 24.368399986997247,
+          "candidate_p50_ms": 5.36189999547787,
+          "candidate_p95_ms": 24.51039999141358,
+          "p50_ratio": 0.9978041195928533,
+          "p95_ratio": 1.0058272190415498
+        },
+        {
+          "baseline_p50_ms": 5.351100000552833,
+          "baseline_p95_ms": 23.21949999895878,
+          "candidate_p50_ms": 5.358499998692423,
+          "candidate_p95_ms": 23.826799995731562,
+          "p50_ratio": 1.001382892889093,
+          "p95_ratio": 1.0261547404896751
+        },
+        {
+          "baseline_p50_ms": 5.258899996988475,
+          "baseline_p95_ms": 23.011499986751005,
+          "candidate_p50_ms": 5.261599988443777,
+          "candidate_p95_ms": 23.346700007095933,
+          "p50_ratio": 1.0005134137285074,
+          "p95_ratio": 1.0145666306211207
+        },
+        {
+          "baseline_p50_ms": 5.346099991584197,
+          "baseline_p95_ms": 23.57849999680184,
+          "candidate_p50_ms": 5.365099990740418,
+          "candidate_p95_ms": 23.562300018966198,
+          "p50_ratio": 1.0035539924779056,
+          "p95_ratio": 0.9993129343326405
+        },
+        {
+          "baseline_p50_ms": 5.284499988192692,
+          "baseline_p95_ms": 22.92650000890717,
+          "candidate_p50_ms": 5.264899984467775,
+          "candidate_p95_ms": 23.210300016216934,
+          "p50_ratio": 0.9962910391203121,
+          "p95_ratio": 1.012378688731359
+        },
+        {
+          "baseline_p50_ms": 5.509800015715882,
+          "baseline_p95_ms": 23.240999988047406,
+          "candidate_p50_ms": 5.376600020099431,
+          "candidate_p95_ms": 23.11300000292249,
+          "p50_ratio": 0.9758248946900944,
+          "p95_ratio": 0.9944924923544277
+        },
+        {
+          "baseline_p50_ms": 5.298699979903176,
+          "baseline_p95_ms": 23.709300003247336,
+          "candidate_p50_ms": 5.352799984393641,
+          "candidate_p95_ms": 23.441400000592694,
+          "p50_ratio": 1.0102100524082613,
+          "p95_ratio": 0.9887006363486923
+        }
+      ],
+      "median_p50_ratio": 1.0005134137285074,
+      "median_p95_ratio": 1.0058272190415498,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "receipt-crop": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 2.8806500049540773,
+          "baseline_p95_ms": 6.989399989834055,
+          "candidate_p50_ms": 2.8706500015687197,
+          "candidate_p95_ms": 7.321100012632087,
+          "p50_ratio": 0.9965285600929791,
+          "p95_ratio": 1.0474575819498788
+        },
+        {
+          "baseline_p50_ms": 2.826900003128685,
+          "baseline_p95_ms": 5.46119999489747,
+          "candidate_p50_ms": 2.859050000552088,
+          "candidate_p95_ms": 5.600099975708872,
+          "p50_ratio": 1.0113728810314553,
+          "p95_ratio": 1.0254339670660624
+        },
+        {
+          "baseline_p50_ms": 2.92914999590721,
+          "baseline_p95_ms": 5.8182000066153705,
+          "candidate_p50_ms": 2.9281499882927164,
+          "candidate_p95_ms": 5.643100012093782,
+          "p50_ratio": 0.999658601431852,
+          "p95_ratio": 0.9699047825233754
+        },
+        {
+          "baseline_p50_ms": 2.8932000132044777,
+          "baseline_p95_ms": 5.899999989196658,
+          "candidate_p50_ms": 2.891250012908131,
+          "candidate_p95_ms": 5.616899987217039,
+          "p50_ratio": 0.9993260057073665,
+          "p95_ratio": 0.9520169487291531
+        },
+        {
+          "baseline_p50_ms": 2.855899991118349,
+          "baseline_p95_ms": 5.491500021889806,
+          "candidate_p50_ms": 2.8395499830367044,
+          "candidate_p95_ms": 5.596900009550154,
+          "p50_ratio": 0.9942750067815778,
+          "p95_ratio": 1.0191932964108552
+        },
+        {
+          "baseline_p50_ms": 2.8906999941682443,
+          "baseline_p95_ms": 5.590599990682676,
+          "candidate_p50_ms": 2.908549999119714,
+          "candidate_p95_ms": 5.5831000208854675,
+          "p50_ratio": 1.0061749766449235,
+          "p95_ratio": 0.9986584678192487
+        },
+        {
+          "baseline_p50_ms": 2.8981000068597496,
+          "baseline_p95_ms": 5.774999997811392,
+          "candidate_p50_ms": 2.9005000105826184,
+          "candidate_p95_ms": 5.55450000683777,
+          "p50_ratio": 1.0008281300566537,
+          "p95_ratio": 0.961818183366721
+        },
+        {
+          "baseline_p50_ms": 2.871850010706112,
+          "baseline_p95_ms": 5.795800010673702,
+          "candidate_p50_ms": 2.8854999982286245,
+          "candidate_p95_ms": 5.849800014402717,
+          "p50_ratio": 1.0047530293962519,
+          "p95_ratio": 1.0093170923133248
+        },
+        {
+          "baseline_p50_ms": 2.8642999968724325,
+          "baseline_p95_ms": 5.422799993539229,
+          "candidate_p50_ms": 2.861150001990609,
+          "candidate_p95_ms": 5.61669998569414,
+          "p50_ratio": 0.9989002566472565,
+          "p95_ratio": 1.0357564343855434
+        }
+      ],
+      "median_p50_ratio": 0.999658601431852,
+      "median_p95_ratio": 1.0093170923133248,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "receipt-page": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 214.03790000476874,
+          "baseline_p95_ms": 351.0524000157602,
+          "candidate_p50_ms": 214.5017500006361,
+          "candidate_p95_ms": 353.6974999879021,
+          "p50_ratio": 1.0021671395386378,
+          "p95_ratio": 1.0075347725069623
+        },
+        {
+          "baseline_p50_ms": 202.10904999112245,
+          "baseline_p95_ms": 342.53850000095554,
+          "candidate_p50_ms": 204.32250000885688,
+          "candidate_p95_ms": 343.38959999149665,
+          "p50_ratio": 1.0109517610311447,
+          "p95_ratio": 1.0024846841757604
+        },
+        {
+          "baseline_p50_ms": 209.17310001095757,
+          "baseline_p95_ms": 357.5297000061255,
+          "candidate_p50_ms": 208.63680000184104,
+          "candidate_p95_ms": 348.8721000030637,
+          "p50_ratio": 0.9974360947507666,
+          "p95_ratio": 0.975784948766736
+        },
+        {
+          "baseline_p50_ms": 203.99629999883473,
+          "baseline_p95_ms": 339.3839999916963,
+          "candidate_p50_ms": 208.6758500081487,
+          "candidate_p95_ms": 339.40789999905974,
+          "p50_ratio": 1.0229393866915268,
+          "p95_ratio": 1.0000704217269052
+        },
+        {
+          "baseline_p50_ms": 201.88154999050312,
+          "baseline_p95_ms": 337.568300019484,
+          "candidate_p50_ms": 207.41790000465699,
+          "candidate_p95_ms": 352.09739999845624,
+          "p50_ratio": 1.0274237542480444,
+          "p95_ratio": 1.0430404750035285
+        },
+        {
+          "baseline_p50_ms": 201.735849987017,
+          "baseline_p95_ms": 358.2108000118751,
+          "candidate_p50_ms": 206.32789998489898,
+          "candidate_p95_ms": 361.0740000149235,
+          "p50_ratio": 1.0227626869402613,
+          "p95_ratio": 1.007993058843992
+        },
+        {
+          "baseline_p50_ms": 203.91229999950156,
+          "baseline_p95_ms": 350.2864000038244,
+          "candidate_p50_ms": 209.62984999641776,
+          "candidate_p95_ms": 349.9061999900732,
+          "p50_ratio": 1.0280392600001578,
+          "p95_ratio": 0.9989146024117779
+        },
+        {
+          "baseline_p50_ms": 207.58670000941493,
+          "baseline_p95_ms": 341.859200008912,
+          "candidate_p50_ms": 208.49514998553786,
+          "candidate_p95_ms": 337.6338000234682,
+          "p50_ratio": 1.004376243642207,
+          "p95_ratio": 0.9876399406968318
+        },
+        {
+          "baseline_p50_ms": 203.44650000333786,
+          "baseline_p95_ms": 334.6237000077963,
+          "candidate_p50_ms": 205.6647499994142,
+          "candidate_p95_ms": 337.7973999886308,
+          "p50_ratio": 1.0109033578657778,
+          "p95_ratio": 1.0094843849397415
+        }
+      ],
+      "median_p50_ratio": 1.0109517610311447,
+      "median_p95_ratio": 1.0024846841757604,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "scene-crop": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 2.8642999968724325,
+          "baseline_p95_ms": 3.504399996018037,
+          "candidate_p50_ms": 2.905849993112497,
+          "candidate_p95_ms": 3.395400010049343,
+          "p50_ratio": 1.01450616076718,
+          "p95_ratio": 0.9688962486894909
+        },
+        {
+          "baseline_p50_ms": 2.793750012642704,
+          "baseline_p95_ms": 3.1405999907292426,
+          "candidate_p50_ms": 2.753600012511015,
+          "candidate_p95_ms": 3.213899995898828,
+          "p50_ratio": 0.9856286353646546,
+          "p95_ratio": 1.0233394909845126
+        },
+        {
+          "baseline_p50_ms": 2.8907999949296936,
+          "baseline_p95_ms": 3.3460999839007854,
+          "candidate_p50_ms": 2.859050000552088,
+          "candidate_p95_ms": 3.367799974512309,
+          "p50_ratio": 0.9890168830658318,
+          "p95_ratio": 1.0064851590555959
+        },
+        {
+          "baseline_p50_ms": 2.8325000021141022,
+          "baseline_p95_ms": 3.150299977278337,
+          "candidate_p50_ms": 2.8559000056702644,
+          "candidate_p95_ms": 3.2322999904863536,
+          "p50_ratio": 1.0082612545591163,
+          "p95_ratio": 1.0260292714342905
+        },
+        {
+          "baseline_p50_ms": 2.8244499990250915,
+          "baseline_p95_ms": 3.1278000096790493,
+          "candidate_p50_ms": 2.8786499897250906,
+          "candidate_p95_ms": 3.248099994380027,
+          "p50_ratio": 1.0191895734457,
+          "p95_ratio": 1.038461533451214
+        },
+        {
+          "baseline_p50_ms": 2.79059998865705,
+          "baseline_p95_ms": 3.16620001103729,
+          "candidate_p50_ms": 2.8254000062588602,
+          "candidate_p95_ms": 3.0950999935157597,
+          "p50_ratio": 1.012470442823501,
+          "p95_ratio": 0.977544053668853
+        },
+        {
+          "baseline_p50_ms": 2.898599981563166,
+          "baseline_p95_ms": 3.2113999768625945,
+          "candidate_p50_ms": 2.8544999950099736,
+          "candidate_p95_ms": 3.2230999786406755,
+          "p50_ratio": 0.9847857631844013,
+          "p95_ratio": 1.0036432714275323
+        },
+        {
+          "baseline_p50_ms": 2.834300001268275,
+          "baseline_p95_ms": 3.4054999996442348,
+          "candidate_p50_ms": 2.819899993482977,
+          "candidate_p95_ms": 3.3681000059004873,
+          "p50_ratio": 0.9949193777021296,
+          "p95_ratio": 0.9890177672154883
+        },
+        {
+          "baseline_p50_ms": 2.8224000125192106,
+          "baseline_p95_ms": 3.2470999867655337,
+          "candidate_p50_ms": 2.8182499954709783,
+          "candidate_p95_ms": 3.239799989387393,
+          "p50_ratio": 0.9985296141475963,
+          "p95_ratio": 0.9977518409017604
+        }
+      ],
+      "median_p50_ratio": 0.9985296141475963,
+      "median_p95_ratio": 1.0036432714275323,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    },
+    "synthetic-screen": {
+      "rounds": [
+        {
+          "baseline_p50_ms": 50.686999995377846,
+          "baseline_p95_ms": 53.59450000105426,
+          "candidate_p50_ms": 51.91280001599807,
+          "candidate_p95_ms": 56.457200000295416,
+          "p50_ratio": 1.024183716154675,
+          "p95_ratio": 1.0534140629949873
+        },
+        {
+          "baseline_p50_ms": 48.972150005283765,
+          "baseline_p95_ms": 53.762399998959154,
+          "candidate_p50_ms": 48.287650002748705,
+          "candidate_p95_ms": 49.47909998008981,
+          "p50_ratio": 0.9860226679355265,
+          "p95_ratio": 0.9203290772184228
+        },
+        {
+          "baseline_p50_ms": 49.83600000559818,
+          "baseline_p95_ms": 59.00089998613112,
+          "candidate_p50_ms": 49.365600003511645,
+          "candidate_p95_ms": 52.87240000325255,
+          "p50_ratio": 0.9905610401710873,
+          "p95_ratio": 0.8961287033872509
+        },
+        {
+          "baseline_p50_ms": 49.5853499887744,
+          "baseline_p95_ms": 53.28029999509454,
+          "candidate_p50_ms": 49.14970001846086,
+          "candidate_p95_ms": 50.901199982035905,
+          "p50_ratio": 0.9912141394502174,
+          "p95_ratio": 0.9553474733949007
+        },
+        {
+          "baseline_p50_ms": 49.24794999533333,
+          "baseline_p95_ms": 55.70389999775216,
+          "candidate_p50_ms": 48.216450013569556,
+          "candidate_p95_ms": 50.52869999781251,
+          "p50_ratio": 0.9790549661080001,
+          "p95_ratio": 0.9070944763266399
+        },
+        {
+          "baseline_p50_ms": 48.526099999435246,
+          "baseline_p95_ms": 50.18800002289936,
+          "candidate_p50_ms": 49.123300006613135,
+          "candidate_p95_ms": 51.34599999291822,
+          "p50_ratio": 1.0123067793864506,
+          "p95_ratio": 1.0230732439923986
+        },
+        {
+          "baseline_p50_ms": 49.78390000178479,
+          "baseline_p95_ms": 59.76520001422614,
+          "candidate_p50_ms": 48.871600010897964,
+          "candidate_p95_ms": 49.99400000087917,
+          "p50_ratio": 0.981674798662738,
+          "p95_ratio": 0.8365068633415249
+        },
+        {
+          "baseline_p50_ms": 49.35924998426344,
+          "baseline_p95_ms": 51.33429999114014,
+          "candidate_p50_ms": 48.70290000690147,
+          "candidate_p95_ms": 49.742700008209795,
+          "p50_ratio": 0.9867025941931609,
+          "p95_ratio": 0.9689953893750369
+        },
+        {
+          "baseline_p50_ms": 48.26140000659507,
+          "baseline_p95_ms": 56.91889999434352,
+          "candidate_p50_ms": 48.983349988702685,
+          "candidate_p95_ms": 55.07969998870976,
+          "p50_ratio": 1.0149591595355494,
+          "p95_ratio": 0.9676873585783188
+        }
+      ],
+      "median_p50_ratio": 0.9905610401710873,
+      "median_p95_ratio": 0.9553474733949007,
+      "consistent_p50_slowdown": false,
+      "consistent_p95_slowdown": false
+    }
+  },
+  "method": "One warm baseline/candidate pair per input, shuffled each pass; alternating order; 2 warmups per domain/model",
+  "screening_rule": "Flag slowdown if any domain p50 or p95 is higher on every pass; all ratios retained; no phone/general-runtime claim",
+  "no_consistent_slowdown": true,
+  "manifest_sha256": {
+    "pilot": "5d19643044b494bc20740cdd419964029733867b91b9f304f52b111bdbd71098",
+    "expanded": "b750f1ace8e3b77e93deefe5c590a0f784725f2e83a78a48eb5f699f08f918a7"
+  },
+  "lock_sha256": "422bdfd74a892dd3de2fbe242d4ba4698238055b9dc99851930f4e596c16d34d",
+  "models": {
+    "baseline": {
+      "artifacts": [
+        {
+          "path": "models/v6-tiny/PP-OCRv6_det_tiny.onnx",
+          "bytes": 1829618,
+          "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+        },
+        {
+          "path": "models/v6-tiny/PP-OCRv6_rec_tiny.onnx",
+          "bytes": 4489813,
+          "sha256": "e16e242de5937ad92609223f19bc2aff3727ee40b095f996907c24749bad251b"
+        }
+      ],
+      "artifact_bytes": 6319431,
+      "sessions": [
+        {
+          "module": "detector",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "intra_threads": 1,
+          "inter_threads": 1
+        },
+        {
+          "module": "recognizer",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "intra_threads": 1,
+          "inter_threads": 1
+        }
+      ],
+      "opencv_threads": 1,
+      "config": {
+        "Global": {
+          "text_score": 0.5,
+          "use_det": true,
+          "use_cls": false,
+          "use_rec": true,
+          "use_preprocess_img": true,
+          "min_side_len": 30,
+          "max_side_len": 2000,
+          "use_vertical_padding": true,
+          "min_height": 30,
+          "width_height_ratio": 8,
+          "return_word_box": false,
+          "return_single_char_box": false,
+          "font_path": null,
+          "log_level": "warning",
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-tiny"
+        },
+        "EngineConfig": {
+          "onnxruntime": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "openvino": {
+            "inference_num_threads": -1,
+            "performance_hint": null,
+            "performance_num_requests": -1,
+            "enable_cpu_pinning": null,
+            "num_streams": -1,
+            "enable_hyper_threading": null,
+            "scheduling_core_type": null
+          },
+          "paddle": {
+            "cpu_math_library_num_threads": -1,
+            "use_npu": false,
+            "npu_ep_cfg": {
+              "device_id": 0,
+              "envs": {
+                "FLAGS_npu_jit_compile": 0,
+                "FLAGS_use_stride_kernel": 0,
+                "FLAGS_allocator_strategy": "auto_growth",
+                "CUSTOM_DEVICE_BLACK_LIST": "pad3d,pad3d_grad,set_value,set_value_with_tensor",
+                "FLAGS_npu_scale_aclnn": "True",
+                "FLAGS_npu_split_aclnn": "True"
+              }
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "gpu_mem": 500
+            }
+          },
+          "torch": {
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0
+            },
+            "use_npu": false,
+            "npu_ep_cfg": {
+              "device_id": 0
+            },
+            "use_mps": false
+          },
+          "tensorrt": {
+            "device_id": 0,
+            "use_fp16": true,
+            "use_int8": false,
+            "workspace_size": 1073741824,
+            "cache_dir": null,
+            "force_rebuild": false,
+            "det_profile": {
+              "min_shape": [
+                1,
+                3,
+                32,
+                32
+              ],
+              "opt_shape": [
+                1,
+                3,
+                736,
+                736
+              ],
+              "max_shape": [
+                1,
+                3,
+                2048,
+                2048
+              ]
+            },
+            "rec_profile": {
+              "min_shape": [
+                1,
+                3,
+                48,
+                32
+              ],
+              "opt_shape": [
+                6,
+                3,
+                48,
+                320
+              ],
+              "max_shape": [
+                6,
+                3,
+                48,
+                2048
+              ]
+            },
+            "cls_profile": {
+              "min_shape": [
+                1,
+                3,
+                48,
+                32
+              ],
+              "opt_shape": [
+                6,
+                3,
+                48,
+                192
+              ],
+              "max_shape": [
+                6,
+                3,
+                48,
+                192
+              ]
+            }
+          },
+          "mnn": {}
+        },
+        "Det": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "CH",
+          "model_type": "TINY",
+          "ocr_version": "PPOCRV6",
+          "task_type": "DET",
+          "model_path": null,
+          "model_dir": null,
+          "limit_side_len": 960,
+          "limit_type": "max",
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "thresh": 0.2,
+          "box_thresh": 0.4,
+          "max_candidates": 3000,
+          "unclip_ratio": 1.4,
+          "use_dilation": false,
+          "score_mode": "fast",
+          "engine_cfg": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-tiny"
+        },
+        "Cls": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "CH",
+          "model_type": "MOBILE",
+          "ocr_version": "PPOCRV4",
+          "task_type": "CLS",
+          "model_path": null,
+          "model_dir": null,
+          "cls_image_shape": [
+            3,
+            48,
+            192
+          ],
+          "cls_batch_num": 6,
+          "cls_thresh": 0.9,
+          "label_list": [
+            "0",
+            "180"
+          ]
+        },
+        "Rec": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "EN",
+          "model_type": "TINY",
+          "ocr_version": "PPOCRV6",
+          "task_type": "REC",
+          "model_path": null,
+          "model_dir": null,
+          "rec_keys_path": null,
+          "rec_img_shape": [
+            3,
+            48,
+            320
+          ],
+          "rec_batch_num": 1,
+          "engine_cfg": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "font_path": null,
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-tiny"
+        }
+      }
+    },
+    "candidate": {
+      "artifacts": [
+        {
+          "path": "models/v6-w8-rec/PP-OCRv6_det_tiny.onnx",
+          "bytes": 1829618,
+          "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+        },
+        {
+          "path": "models/v6-w8-rec/PP-OCRv6_rec_tiny.onnx",
+          "bytes": 1269595,
+          "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+        }
+      ],
+      "artifact_bytes": 3099213,
+      "sessions": [
+        {
+          "module": "detector",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "intra_threads": 1,
+          "inter_threads": 1
+        },
+        {
+          "module": "recognizer",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "intra_threads": 1,
+          "inter_threads": 1
+        }
+      ],
+      "opencv_threads": 1,
+      "config": {
+        "Global": {
+          "text_score": 0.5,
+          "use_det": true,
+          "use_cls": false,
+          "use_rec": true,
+          "use_preprocess_img": true,
+          "min_side_len": 30,
+          "max_side_len": 2000,
+          "use_vertical_padding": true,
+          "min_height": 30,
+          "width_height_ratio": 8,
+          "return_word_box": false,
+          "return_single_char_box": false,
+          "font_path": null,
+          "log_level": "warning",
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+        },
+        "EngineConfig": {
+          "onnxruntime": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "openvino": {
+            "inference_num_threads": -1,
+            "performance_hint": null,
+            "performance_num_requests": -1,
+            "enable_cpu_pinning": null,
+            "num_streams": -1,
+            "enable_hyper_threading": null,
+            "scheduling_core_type": null
+          },
+          "paddle": {
+            "cpu_math_library_num_threads": -1,
+            "use_npu": false,
+            "npu_ep_cfg": {
+              "device_id": 0,
+              "envs": {
+                "FLAGS_npu_jit_compile": 0,
+                "FLAGS_use_stride_kernel": 0,
+                "FLAGS_allocator_strategy": "auto_growth",
+                "CUSTOM_DEVICE_BLACK_LIST": "pad3d,pad3d_grad,set_value,set_value_with_tensor",
+                "FLAGS_npu_scale_aclnn": "True",
+                "FLAGS_npu_split_aclnn": "True"
+              }
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "gpu_mem": 500
+            }
+          },
+          "torch": {
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0
+            },
+            "use_npu": false,
+            "npu_ep_cfg": {
+              "device_id": 0
+            },
+            "use_mps": false
+          },
+          "tensorrt": {
+            "device_id": 0,
+            "use_fp16": true,
+            "use_int8": false,
+            "workspace_size": 1073741824,
+            "cache_dir": null,
+            "force_rebuild": false,
+            "det_profile": {
+              "min_shape": [
+                1,
+                3,
+                32,
+                32
+              ],
+              "opt_shape": [
+                1,
+                3,
+                736,
+                736
+              ],
+              "max_shape": [
+                1,
+                3,
+                2048,
+                2048
+              ]
+            },
+            "rec_profile": {
+              "min_shape": [
+                1,
+                3,
+                48,
+                32
+              ],
+              "opt_shape": [
+                6,
+                3,
+                48,
+                320
+              ],
+              "max_shape": [
+                6,
+                3,
+                48,
+                2048
+              ]
+            },
+            "cls_profile": {
+              "min_shape": [
+                1,
+                3,
+                48,
+                32
+              ],
+              "opt_shape": [
+                6,
+                3,
+                48,
+                192
+              ],
+              "max_shape": [
+                6,
+                3,
+                48,
+                192
+              ]
+            }
+          },
+          "mnn": {}
+        },
+        "Det": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "CH",
+          "model_type": "TINY",
+          "ocr_version": "PPOCRV6",
+          "task_type": "DET",
+          "model_path": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec\\PP-OCRv6_det_tiny.onnx",
+          "model_dir": null,
+          "limit_side_len": 960,
+          "limit_type": "max",
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "thresh": 0.2,
+          "box_thresh": 0.4,
+          "max_candidates": 3000,
+          "unclip_ratio": 1.4,
+          "use_dilation": false,
+          "score_mode": "fast",
+          "engine_cfg": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+        },
+        "Cls": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "CH",
+          "model_type": "MOBILE",
+          "ocr_version": "PPOCRV4",
+          "task_type": "CLS",
+          "model_path": null,
+          "model_dir": null,
+          "cls_image_shape": [
+            3,
+            48,
+            192
+          ],
+          "cls_batch_num": 6,
+          "cls_thresh": 0.9,
+          "label_list": [
+            "0",
+            "180"
+          ]
+        },
+        "Rec": {
+          "engine_type": "ONNXRUNTIME",
+          "lang_type": "EN",
+          "model_type": "TINY",
+          "ocr_version": "PPOCRV6",
+          "task_type": "REC",
+          "model_path": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec\\PP-OCRv6_rec_tiny.onnx",
+          "model_dir": null,
+          "rec_keys_path": null,
+          "rec_img_shape": [
+            3,
+            48,
+            320
+          ],
+          "rec_batch_num": 1,
+          "engine_cfg": {
+            "intra_op_num_threads": 1,
+            "inter_op_num_threads": 1,
+            "enable_cpu_mem_arena": false,
+            "cpu_ep_cfg": {
+              "arena_extend_strategy": "kSameAsRequested"
+            },
+            "use_cuda": false,
+            "cuda_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "cudnn_conv_algo_search": "EXHAUSTIVE",
+              "do_copy_in_default_stream": true
+            },
+            "use_dml": false,
+            "dml_ep_cfg": null,
+            "use_cann": false,
+            "cann_ep_cfg": {
+              "device_id": 0,
+              "arena_extend_strategy": "kNextPowerOfTwo",
+              "npu_mem_limit": 21474836480,
+              "op_select_impl_mode": "high_performance",
+              "optypelist_for_implmode": "Gelu",
+              "enable_cann_graph": true
+            },
+            "use_coreml": false,
+            "coreml_ep_cfg": {
+              "ModelFormat": "MLProgram",
+              "MLComputeUnits": "ALL",
+              "RequireStaticInputShapes": 0,
+              "EnableOnSubgraphs": 0,
+              "SpecializationStrategy": "FastPrediction",
+              "ProfileComputePlan": 0,
+              "AllowLowPrecisionAccumulationOnGPU": 0,
+              "ModelCacheDirectory": "/tmp/RapidOCR"
+            }
+          },
+          "font_path": null,
+          "model_root_dir": "C:\\Users\\reese\\tinyocr\\models\\v6-w8-rec"
+        }
+      }
+    }
+  },
+  "full_report_sha256": "2ddd3dd7d9b3cf8c82a527d533defd1f3244539b886fd897d9b67755cf925a55"
+}

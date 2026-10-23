@@ -2,7 +2,7 @@
 
 English-first OCR research for small, fast CPU deployment. Started 2026-10-23 after tinyasr: measure real-world behavior before training a student.
 
-The working implementation is an evaluation harness and two pretrained PaddleOCR baselines via RapidOCR/ONNX Runtime. A custom TinyOCR model has not been trained.
+The working implementation includes an evaluation harness, two pretrained PaddleOCR baselines, and a **3.10 MB compressed candidate** with the original detector and int8-weight recognizer. A custom TinyOCR model has not been trained. See [compression results and local OCR command](COMPRESSION.md).
 
 ## Run
 
@@ -45,6 +45,6 @@ Page text is ordered geometrically by rows in both reference and output. Page CE
 
 ## Next experiment
 
-See [baseline results](BASELINES.md), [expanded results](EXPANSION.md) and [.claude/TODO.md](.claude/TODO.md). Next: try compressing the v6 baseline against the fixed development sets. Before training: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review.
+See [compression results](COMPRESSION.md) and [.claude/TODO.md](.claude/TODO.md). The compression candidate meets the artifact and character-error targets on development data. Before a release claim: lock the candidate and perform the reserved final evaluation. Before training: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review.
 
 Existing constraints remain: no paid API runs; GPU 1 free; any future training uses at most half of GPU 0 and about 20 GB RAM. Startup runs use CPU only.
