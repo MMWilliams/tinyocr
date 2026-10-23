@@ -1,0 +1,193 @@
+{
+  "completed_utc": "2026-10-23T12:42:04.083897+00:00",
+  "partition": "final",
+  "items_per_model": 48,
+  "start_sha256": "e0d44f1999ba2bcdfa339a291ff0d2119585a156e5ceccab4b434a8d96261bec",
+  "journal_sha256": "41eefc8522be6a82a9f0def8c6afdaa67adfd4e17e063a67ec41cf24f83d43f2",
+  "comparison": {
+    "domains": {
+      "v6-tiny": {
+        "full-scene": {
+          "n": 8,
+          "p50_ms": 117.6052999944659,
+          "p95_ms": 173.02859999472275,
+          "normalized": {
+            "n": 8,
+            "char_errors": 214,
+            "chars": 447,
+            "word_errors": 50,
+            "words": 78,
+            "exact": 0,
+            "blank_false_positive_chars": 0,
+            "cer": 0.47874720357941836,
+            "wer": 0.6410256410256411,
+            "exact_match": 0.0
+          },
+          "case_sensitive": {
+            "n": 8,
+            "char_errors": 218,
+            "chars": 447,
+            "word_errors": 51,
+            "words": 78,
+            "exact": 0,
+            "blank_false_positive_chars": 0,
+            "cer": 0.48769574944071586,
+            "wer": 0.6538461538461539,
+            "exact_match": 0.0
+          },
+          "annotation_recovery": {
+            "annotated": 78,
+            "recovered": 35,
+            "recall": 0.44871794871794873
+          }
+        },
+        "real-screen": {
+          "n": 8,
+          "p50_ms": 96.40455000044312,
+          "p95_ms": 149.00150001631118,
+          "annotation_recovery": {
+            "annotated": 51,
+            "recovered": 46,
+            "recall": 0.9019607843137255
+          }
+        },
+        "real-screen-region": {
+          "n": 32,
+          "p50_ms": 4.503599993768148,
+          "p95_ms": 14.864299999317154,
+          "normalized": {
+            "n": 32,
+            "char_errors": 16,
+            "chars": 317,
+            "word_errors": 7,
+            "words": 54,
+            "exact": 25,
+            "blank_false_positive_chars": 0,
+            "cer": 0.050473186119873815,
+            "wer": 0.12962962962962962,
+            "exact_match": 0.78125
+          },
+          "case_sensitive": {
+            "n": 32,
+            "char_errors": 16,
+            "chars": 317,
+            "word_errors": 7,
+            "words": 54,
+            "exact": 25,
+            "blank_false_positive_chars": 0,
+            "cer": 0.050473186119873815,
+            "wer": 0.12962962962962962,
+            "exact_match": 0.78125
+          }
+        }
+      },
+      "v6-w8-rec": {
+        "full-scene": {
+          "n": 8,
+          "p50_ms": 117.73605000053067,
+          "p95_ms": 170.9254999877885,
+          "normalized": {
+            "n": 8,
+            "char_errors": 214,
+            "chars": 447,
+            "word_errors": 50,
+            "words": 78,
+            "exact": 0,
+            "blank_false_positive_chars": 0,
+            "cer": 0.47874720357941836,
+            "wer": 0.6410256410256411,
+            "exact_match": 0.0
+          },
+          "case_sensitive": {
+            "n": 8,
+            "char_errors": 218,
+            "chars": 447,
+            "word_errors": 51,
+            "words": 78,
+            "exact": 0,
+            "blank_false_positive_chars": 0,
+            "cer": 0.48769574944071586,
+            "wer": 0.6538461538461539,
+            "exact_match": 0.0
+          },
+          "annotation_recovery": {
+            "annotated": 78,
+            "recovered": 35,
+            "recall": 0.44871794871794873
+          }
+        },
+        "real-screen": {
+          "n": 8,
+          "p50_ms": 95.44475001166575,
+          "p95_ms": 147.63359999051318,
+          "annotation_recovery": {
+            "annotated": 51,
+            "recovered": 46,
+            "recall": 0.9019607843137255
+          }
+        },
+        "real-screen-region": {
+          "n": 32,
+          "p50_ms": 4.522849994827993,
+          "p95_ms": 17.25470001110807,
+          "normalized": {
+            "n": 32,
+            "char_errors": 16,
+            "chars": 317,
+            "word_errors": 7,
+            "words": 54,
+            "exact": 25,
+            "blank_false_positive_chars": 0,
+            "cer": 0.050473186119873815,
+            "wer": 0.12962962962962962,
+            "exact_match": 0.78125
+          },
+          "case_sensitive": {
+            "n": 32,
+            "char_errors": 16,
+            "chars": 317,
+            "word_errors": 7,
+            "words": 54,
+            "exact": 25,
+            "blank_false_positive_chars": 0,
+            "cer": 0.050473186119873815,
+            "wer": 0.12962962962962962,
+            "exact_match": 0.78125
+          }
+        }
+      }
+    },
+    "transfer_checks": [
+      {
+        "domain": "full-scene",
+        "metric": "char_errors",
+        "baseline": 214,
+        "candidate": 214,
+        "pass": true
+      },
+      {
+        "domain": "real-screen-region",
+        "metric": "char_errors",
+        "baseline": 16,
+        "candidate": 16,
+        "pass": true
+      },
+      {
+        "domain": "real-screen",
+        "metric": "baseline_labels_lost",
+        "count": 0,
+        "lost": [],
+        "pass": true
+      }
+    ],
+    "transfer_pass": true
+  },
+  "limitations": [
+    "Only 8 independent screens and 8 full scenes; regions share parents",
+    "Partial-screen recovery measures recall only, not hallucinated extra text",
+    "Full-scene CER includes layout order and upstream label noise",
+    "Public-pretrained model contamination and app/template overlap remain unknown",
+    "Latency is descriptive from one comparison event, not a new speed certification",
+    "This partition is now consumed; future tuning requires a new untouched test set"
+  ]
+}

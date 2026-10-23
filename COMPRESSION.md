@@ -2,7 +2,7 @@
 
 The selected development candidate is **v6-w8-rec**: original float32 detector plus an int8-weight recognizer. Its two ONNX files total **3,099,213 bytes (3.10 MB)**, down from 6,319,431 bytes (51.0% smaller). It meets the <=3.5 MB artifact target.
 
-These are compressed pretrained PaddleOCR weights, not a newly trained model. No training, calibration, paid API call or GPU allocation was used. Original model files, dependency lock, pilot references and baseline results remain unchanged. All 48 reserved final items remain unevaluated.
+These are compressed pretrained PaddleOCR weights, not a newly trained model. No training, calibration, paid API call or GPU allocation was used. Original model files, dependency lock, pilot references and baseline results remain unchanged. All 48 reserved final items were untouched during selection; the subsequent [frozen final comparison](FINAL_RESULTS.md) passed with unchanged accuracy aggregates. That partition is now consumed.
 
 ## Accuracy on development data
 
@@ -44,7 +44,7 @@ The original PaddleOCR/RapidOCR Apache-2.0 model terms continue to apply. Export
 ## Run locally
 
 The selected files are under `models/v6-w8-rec/`.
-Their hashes and pipeline configuration are frozen in `results/candidate-lock.json` for the future reserved-final evaluation.
+Their hashes and pipeline configuration remain frozen in `results/candidate-lock.json`; the completed final evaluation checked that exact lock.
 
 ```powershell
 uv run --locked python -m tinyocr.ocr path\to\image.png

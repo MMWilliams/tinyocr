@@ -41,10 +41,10 @@ Page text is ordered geometrically by rows in both reference and output. Page CE
 
 ## Real-screen and full-scene expansion
 
-[Expanded results and commands](EXPANSION.md) cover actual mobile-app screenshots and full scenes: 79 development items and 48 reserved final items. The expanded evaluator runs development inputs only. [Label audit](eval/LABEL_AUDIT.md) records review findings without changing original pilot references.
+[Expanded results and commands](EXPANSION.md) cover actual mobile-app screenshots and full scenes: 79 development items and 48 final items. The expanded evaluator runs development inputs only. The separate [frozen final comparison](FINAL_RESULTS.md) is complete: the compressed candidate matched baseline accuracy aggregates and retained all recovered screen labels. The final partition is now consumed. [Label audit](eval/LABEL_AUDIT.md) records review findings without changing original pilot references.
 
 ## Next experiment
 
-See [compression results](COMPRESSION.md) and [.claude/TODO.md](.claude/TODO.md). The compression candidate meets the artifact and character-error targets on development data. Before a release claim: lock the candidate and perform the reserved final evaluation. Before training: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review.
+See [compression results](COMPRESSION.md), [final results](FINAL_RESULTS.md) and [.claude/TODO.md](.claude/TODO.md). The compression candidate meets the development targets and passed the frozen final transfer check, but full-scene CER is still 47.9% on that small final sample. Before training or a release claim: finish independent human label adjudication, independent receipt-photo/rotation coverage, source lineage and training-data review, and reserve a fresh test set for future changes.
 
 Existing constraints remain: no paid API runs; GPU 1 free; any future training uses at most half of GPU 0 and about 20 GB RAM. Startup runs use CPU only.
