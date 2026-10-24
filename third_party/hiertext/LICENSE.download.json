@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/LICENSE",
+  "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/LICENSE",
+  "retrieved_at_utc": "2026-10-23T17:40:38.327399+00:00",
+  "bytes": 20139,
+  "cap_bytes": 2097152,
+  "content_length": 20139,
+  "sha256": "71a43a169b52bb1b39510b65ec5b43b4bbb59196d449a835fe58b50af6a72742",
+  "etag": "\"a46d6e5d6a1a77fe4468a629f25a757bcb64d66a30c6c6f8b853cd4edf65b512\"",
+  "last_modified": null
+}

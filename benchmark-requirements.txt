@@ -1,0 +1,4 @@
+# Optional benchmark tooling, applied with uv run --locked --with-requirements.
+# The OCR runtime stays governed by the existing uv.lock.
+absl-py==2.3.1
+pyarrow==18.1.0

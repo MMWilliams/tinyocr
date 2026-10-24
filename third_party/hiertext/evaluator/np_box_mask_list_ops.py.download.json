@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list_ops.py",
+  "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list_ops.py",
+  "retrieved_at_utc": "2026-10-23T17:40:36.832392+00:00",
+  "bytes": 15707,
+  "cap_bytes": 2097152,
+  "content_length": 15707,
+  "sha256": "750994a2386aff0d67ee18798d70c81571a2af26f34f69599ee6d842d087d0e0",
+  "etag": "\"cc057ed67ad3acc3922c766262878f8731c749bdc4d6887942090a2584006cde\"",
+  "last_modified": null
+}

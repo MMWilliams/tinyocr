@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_ops.py",
+  "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_ops.py",
+  "retrieved_at_utc": "2026-10-23T17:40:38.015775+00:00",
+  "bytes": 4508,
+  "cap_bytes": 2097152,
+  "content_length": 4508,
+  "sha256": "99cd5dd3977c7fad984acc90737d8e91ca7be85eba22e090c091a9a1a2e8f4a0",
+  "etag": "\"41bad7a771a32d4b7ee246849f4033f54e7429841a2111d205030875db0d8cd4\"",
+  "last_modified": null
+}

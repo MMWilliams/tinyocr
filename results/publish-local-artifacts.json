@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "tinyocr_onnx-0.1.0-py3-none-any.whl",
+    "bytes": 2737031,
+    "sha256": "04eac7a66a5139db8f4fc6499ae3b8f1aa7cfaf516415af77d6e0cd714f793b2",
+    "members": 15
+  },
+  {
+    "filename": "tinyocr_onnx-0.1.0.tar.gz",
+    "bytes": 2747388,
+    "sha256": "7408a132f62db1487f74535e2fe114605640a8683b91addc2d85921da7be52b5",
+    "members": 31
+  }
+]

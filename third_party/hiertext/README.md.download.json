@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/README.md",
+  "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/README.md",
+  "retrieved_at_utc": "2026-10-23T17:40:38.687689+00:00",
+  "bytes": 11848,
+  "cap_bytes": 2097152,
+  "content_length": 11848,
+  "sha256": "0726df8cbae6be2e587836ed7d8cc96377e3cc2d873ade2830cc3c33e3274e57",
+  "etag": "\"b90bb926c32c0c56f54cda3a45519b54c363751780f170554c6e17823568f3a1\"",
+  "last_modified": null
+}

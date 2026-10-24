@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "adapter_code_sha256_lf": "fb0897bc1a2b0f980a8ab1da08e49caac942197d2a3cc4a0aeefdf4be627f278",
+  "fixtures": [
+    {
+      "model": "v6-tiny",
+      "id": "receipts-0",
+      "image_sha256": "1c9a29b17b3cb0bce72850818bbe55e543bbcde4f1b524e9c9ed088675f093a1",
+      "unchanged_lines": true,
+      "line_count": 44,
+      "word_count": 103
+    },
+    {
+      "model": "v6-tiny",
+      "id": "screen-smoke-0",
+      "image_sha256": "1135b3aeabba390c9b9d297e1b7b36c66426c0f775609f73e798f52bb9be33fd",
+      "unchanged_lines": true,
+      "line_count": 8,
+      "word_count": 20
+    },
+    {
+      "model": "v6-tiny",
+      "id": "textocr-f9e60f38014a522c",
+      "image_sha256": "5c1fb7fc11da10e99e587ff8c1869202362569172d3c6917649fc6e3f0e0e8b5",
+      "unchanged_lines": true,
+      "line_count": 1,
+      "word_count": 3
+    },
+    {
+      "model": "v6-w8-rec",
+      "id": "receipts-0",
+      "image_sha256": "1c9a29b17b3cb0bce72850818bbe55e543bbcde4f1b524e9c9ed088675f093a1",
+      "unchanged_lines": true,
+      "line_count": 44,
+      "word_count": 103
+    },
+    {
+      "model": "v6-w8-rec",
+      "id": "screen-smoke-0",
+      "image_sha256": "1135b3aeabba390c9b9d297e1b7b36c66426c0f775609f73e798f52bb9be33fd",
+      "unchanged_lines": true,
+      "line_count": 8,
+      "word_count": 20
+    },
+    {
+      "model": "v6-w8-rec",
+      "id": "textocr-f9e60f38014a522c",
+      "image_sha256": "5c1fb7fc11da10e99e587ff8c1869202362569172d3c6917649fc6e3f0e0e8b5",
+      "unchanged_lines": true,
+      "line_count": 1,
+      "word_count": 3
+    }
+  ],
+  "new_benchmark_images_used": 0
+}

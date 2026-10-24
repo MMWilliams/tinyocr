@@ -1,0 +1,468 @@
+{
+  "schema": 1,
+  "manifest_sha256": "a80e093f4b3fcd49cf58cf0a128b1ac676aacd7d8863c87d625f748aa649324f",
+  "audit_code_sha256_lf": "d0c619a190c90946a97e4eeed7bc001fafc39a52aafc8792c935df120e07d876",
+  "upstream_image_counts": {
+    "sroie": 361,
+    "textocr": 3124,
+    "hiertext": 1724
+  },
+  "selected_counts": {
+    "hiertext": 1721,
+    "sroie": 341,
+    "textocr": 3027
+  },
+  "excluded_by_source_reason": {
+    "hiertext:prior-source-parent-or-legacy-candidate": 3,
+    "sroie:prior-source-parent-or-legacy-candidate": 20,
+    "textocr:prior-source-parent-or-legacy-candidate": 97
+  },
+  "shared_source_ids": [
+    [
+      "hiertext-02062d203a421358",
+      "textocr-02062d203a421358"
+    ],
+    [
+      "hiertext-050bf08413b35ab1",
+      "textocr-050bf08413b35ab1"
+    ],
+    [
+      "hiertext-0ef6658f6d52d8f9",
+      "textocr-0ef6658f6d52d8f9"
+    ],
+    [
+      "hiertext-1b28c6b52c4ce879",
+      "textocr-1b28c6b52c4ce879"
+    ],
+    [
+      "hiertext-27a334de63a58c5c",
+      "textocr-27a334de63a58c5c"
+    ],
+    [
+      "hiertext-2aafcb12b2ce977e",
+      "textocr-2aafcb12b2ce977e"
+    ],
+    [
+      "hiertext-2fa55fefd94032cc",
+      "textocr-2fa55fefd94032cc"
+    ],
+    [
+      "hiertext-458fde71c4282476",
+      "textocr-458fde71c4282476"
+    ],
+    [
+      "hiertext-46759c073f68adb2",
+      "textocr-46759c073f68adb2"
+    ],
+    [
+      "hiertext-585226e12b249931",
+      "textocr-585226e12b249931"
+    ],
+    [
+      "hiertext-78d66800391efee9",
+      "textocr-78d66800391efee9"
+    ],
+    [
+      "hiertext-7b0112f7f5f096c5",
+      "textocr-7b0112f7f5f096c5"
+    ],
+    [
+      "hiertext-7b5260c602c2842b",
+      "textocr-7b5260c602c2842b"
+    ],
+    [
+      "hiertext-821d3a32764c6780",
+      "textocr-821d3a32764c6780"
+    ],
+    [
+      "hiertext-86dcf1f1b71f5e62",
+      "textocr-86dcf1f1b71f5e62"
+    ],
+    [
+      "hiertext-893d9abd60abca2f",
+      "textocr-893d9abd60abca2f"
+    ],
+    [
+      "hiertext-9c7d75ff8378fc04",
+      "textocr-9c7d75ff8378fc04"
+    ],
+    [
+      "hiertext-a64f08dc9658945f",
+      "textocr-a64f08dc9658945f"
+    ],
+    [
+      "hiertext-a93c8fe0e15346d6",
+      "textocr-a93c8fe0e15346d6"
+    ],
+    [
+      "hiertext-c6706d06947cc8db",
+      "textocr-c6706d06947cc8db"
+    ],
+    [
+      "hiertext-f8418c45981468e9",
+      "textocr-f8418c45981468e9"
+    ],
+    [
+      "hiertext-f8a979d3ffb4711a",
+      "textocr-f8a979d3ffb4711a"
+    ],
+    [
+      "hiertext-fc7045b20448d177",
+      "textocr-fc7045b20448d177"
+    ]
+  ],
+  "shared_decoded_pixels": [
+    [
+      "sroie-X51005268275",
+      "sroie-X51005301666"
+    ],
+    [
+      "sroie-X510056849111",
+      "sroie-X51005684949"
+    ]
+  ],
+  "sources": {
+    "hiertext": {
+      "images": 1721,
+      "regions": 209825,
+      "legible_regions": 177889,
+      "complete_reference_pages": 461,
+      "invalid_geometry": 0,
+      "zero_area": 0,
+      "out_of_frame": 495,
+      "max_pixels": 2560000,
+      "orientations": {
+        "None": 1721
+      },
+      "geometry_issues": [],
+      "representative_id": "hiertext-002a72617c3b1335"
+    },
+    "sroie": {
+      "images": 341,
+      "regions": 18418,
+      "legible_regions": 18418,
+      "complete_reference_pages": 341,
+      "invalid_geometry": 1,
+      "zero_area": 1,
+      "out_of_frame": 0,
+      "max_pixels": 34806376,
+      "orientations": {
+        "None": 341
+      },
+      "geometry_issues": [
+        {
+          "id": "sroie-X51006008092",
+          "region_index": 31,
+          "text": "TOTAL RM",
+          "polygon": [
+            [
+              144.0,
+              1398.0
+            ],
+            [
+              145.0,
+              1398.0
+            ],
+            [
+              145.0,
+              1398.0
+            ],
+            [
+              144.0,
+              1398.0
+            ]
+          ],
+          "legible": true,
+          "area": 0.0
+        }
+      ],
+      "representative_id": "sroie-X00016469671"
+    },
+    "textocr": {
+      "images": 3027,
+      "regions": 144542,
+      "legible_regions": 103502,
+      "complete_reference_pages": 748,
+      "invalid_geometry": 9,
+      "zero_area": 0,
+      "out_of_frame": 713,
+      "max_pixels": 15925248,
+      "orientations": {
+        "None": 3023,
+        "1": 4
+      },
+      "geometry_issues": [
+        {
+          "id": "textocr-07b6a08b4f48ff23",
+          "region_index": 28,
+          "text": "VSCOcam",
+          "polygon": [
+            [
+              283.63,
+              469.14
+            ],
+            [
+              320.96,
+              469.14
+            ],
+            [
+              321.3,
+              482.28
+            ],
+            [
+              321.3,
+              481.58
+            ],
+            [
+              283.63,
+              481.93
+            ]
+          ],
+          "legible": true,
+          "area": 472.97325000000035
+        },
+        {
+          "id": "textocr-116c3847d6caa6d9",
+          "region_index": 0,
+          "text": "©Stewart",
+          "polygon": [
+            [
+              831.3,
+              590.03
+            ],
+            [
+              916.02,
+              589.75
+            ],
+            [
+              916.3,
+              607.26
+            ],
+            [
+              830.44,
+              608.13
+            ],
+            [
+              830.72,
+              608.13
+            ]
+          ],
+          "legible": true,
+          "area": 1515.8877000000002
+        },
+        {
+          "id": "textocr-21a3dfada507c03d",
+          "region_index": 4,
+          "text": "H",
+          "polygon": [
+            [
+              269.08,
+              854.75
+            ],
+            [
+              256.95,
+              851.12
+            ],
+            [
+              324.25,
+              871.73
+            ],
+            [
+              275.14,
+              999.05
+            ],
+            [
+              210.87,
+              976.62
+            ]
+          ],
+          "legible": true,
+          "area": 8495.333549999996
+        },
+        {
+          "id": "textocr-29d786c10f5ce62a",
+          "region_index": 46,
+          "text": "d'adresse.",
+          "polygon": [
+            [
+              874.22,
+              234.83
+            ],
+            [
+              873.41,
+              235.37
+            ],
+            [
+              916.26,
+              234.29
+            ],
+            [
+              917.61,
+              251.81
+            ],
+            [
+              874.22,
+              251.27
+            ]
+          ],
+          "legible": true,
+          "area": 714.1686
+        },
+        {
+          "id": "textocr-334bf855d256bd2e",
+          "region_index": 4,
+          "text": ".",
+          "polygon": [
+            [
+              452.34,
+              366.12
+            ],
+            [
+              452.63,
+              366.84
+            ],
+            [
+              491.46,
+              347.51
+            ],
+            [
+              499.81,
+              357.78
+            ],
+            [
+              459.25,
+              374.85
+            ]
+          ],
+          "legible": false,
+          "area": 497.8175500000011
+        },
+        {
+          "id": "textocr-941689c4421c17ef",
+          "region_index": 240,
+          "text": "SPONSORED",
+          "polygon": [
+            [
+              85.31,
+              611.11
+            ],
+            [
+              119.16,
+              611.75
+            ],
+            [
+              118.85,
+              621.87
+            ],
+            [
+              85.0,
+              622.82
+            ],
+            [
+              85.31,
+              622.82
+            ]
+          ],
+          "legible": true,
+          "area": 367.60965000000067
+        },
+        {
+          "id": "textocr-a1a4d1911d80c0ea",
+          "region_index": 244,
+          "text": ".",
+          "polygon": [
+            [
+              735.65,
+              599.49
+            ],
+            [
+              771.13,
+              598.78
+            ],
+            [
+              772.55,
+              614.39
+            ],
+            [
+              772.55,
+              612.97
+            ],
+            [
+              772.55,
+              612.97
+            ],
+            [
+              735.65,
+              614.39
+            ]
+          ],
+          "legible": false,
+          "area": 526.1315000000006
+        },
+        {
+          "id": "textocr-c2324e4b92563f9a",
+          "region_index": 2162,
+          "text": "sport,",
+          "polygon": [
+            [
+              781.03,
+              756.3
+            ],
+            [
+              806.02,
+              756.03
+            ],
+            [
+              806.29,
+              768.11
+            ],
+            [
+              806.29,
+              767.56
+            ],
+            [
+              779.94,
+              767.56
+            ]
+          ],
+          "legible": true,
+          "area": 292.380049999999
+        },
+        {
+          "id": "textocr-cc799e70f4d1be27",
+          "region_index": 109,
+          "text": "MASS",
+          "polygon": [
+            [
+              119.8,
+              337.76
+            ],
+            [
+              156.13,
+              337.76
+            ],
+            [
+              156.83,
+              349.64
+            ],
+            [
+              156.13,
+              337.76
+            ],
+            [
+              155.43,
+              350.34
+            ],
+            [
+              114.91,
+              349.64
+            ]
+          ],
+          "legible": true,
+          "area": 470.91599999999966
+        }
+      ],
+      "representative_id": "textocr-0004c9478eeda995"
+    }
+  }
+}

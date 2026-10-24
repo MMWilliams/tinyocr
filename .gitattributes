@@ -2,3 +2,4 @@
 *.json text eol=lf
 *.jsonl text eol=lf
 uv.lock text eol=lf
+third_party/hiertext/** text eol=lf

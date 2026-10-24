@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "files": {
+    "sroie.parquet": {
+      "requested_url": "https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE/resolve/bffe40c26759f3376ec2b3ae9031dbba54cd587c/data/test-00000-of-00001.parquet",
+      "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/697fb8b77b4ea8733cab4444/0dc1e6f2a25269416762ac613565fc280f503bba70fcab40550a00e68b221bab?X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27test-00000-of-00001.parquet%3B+filename%3D%22test-00000-of-00001.parquet%22%3B&xip=fCZPV1WGODc&Expires=1792780663&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjk3ZmI4Yjc3YjRlYTg3MzNjYWI0NDQ0LzBkYzFlNmYyYTI1MjY5NDE2NzYyYWM2MTM1NjVmYzI4MGY1MDNiYmE3MGZjYWI0MDU1MGEwMGU2OGIyMjFiYWJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZ1c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dGVzdC0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTNCK2ZpbGVuYW1lJTNEJTIydGVzdC0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTIyJTNCJnhpcD1mQ1pQVjFXR09EYyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzkyNzgwNjYzfX19XX0_&Signature=MEYCIQDy2uPrTIg0cM3J1IdjvDzILABFKnDhh6pN6VxBTZMmHQIhAIushAv7rlkzoTM-CZ3Hg-7lb4g7IvktMVJo1GBAc2jV&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "retrieved_at_utc": "2026-10-23T17:37:45.882818+00:00",
+      "bytes": 191045976,
+      "cap_bytes": 268435456,
+      "content_length": 191045976,
+      "sha256": "04f8f31b45944cc6e6459a7a95c851a721fc93ffec0a5c29ece9ded734a684c2",
+      "etag": "\"0dc1e6f2a25269416762ac613565fc280f503bba70fcab40550a00e68b221bab\"",
+      "last_modified": null
+    },
+    "sroie-card.md": {
+      "requested_url": "https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE/raw/bffe40c26759f3376ec2b3ae9031dbba54cd587c/README.md",
+      "resolved_url": "https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE/raw/bffe40c26759f3376ec2b3ae9031dbba54cd587c/README.md",
+      "retrieved_at_utc": "2026-10-23T17:37:46.198995+00:00",
+      "bytes": 14273,
+      "cap_bytes": 2097152,
+      "content_length": 14273,
+      "sha256": "5378251883667a341bd6cdf5e8a4dab7139a0fd9f653de8286001a5294fa3066",
+      "etag": "\"c115f79cea1b7da0482b911e4b1c335b0ad4ec9b\"",
+      "last_modified": null
+    },
+    "textocr-val.json": {
+      "requested_url": "https://dl.fbaipublicfiles.com/textvqa/data/textocr/TextOCR_0.1_val.json",
+      "resolved_url": "https://dl.fbaipublicfiles.com/textvqa/data/textocr/TextOCR_0.1_val.json",
+      "retrieved_at_utc": "2026-10-23T17:37:47.372069+00:00",
+      "bytes": 40028022,
+      "cap_bytes": 134217728,
+      "content_length": 40028022,
+      "sha256": "0d04c1c9f5ba99e90be5b0df9ab34f6237b3fbc55443f263133d5c49b6435918",
+      "etag": "\"4d1e92b82051bd8743388972dd054ff3-3\"",
+      "last_modified": "Wed, 05 May 2021 23:37:36 GMT"
+    },
+    "textocr-images.zip": {
+      "requested_url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "resolved_url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+      "retrieved_at_utc": "2026-10-23T17:39:57.986379+00:00",
+      "bytes": 7072297970,
+      "cap_bytes": 8589934592,
+      "content_length": 7072297970,
+      "sha256": "ecf35005640d0708eae185aab1c0a10f89b2db7420b29185a1ed92a8f4290498",
+      "etag": "\"79ddfdcdb3f40b3466b9c0dc2f0cda25-68\"",
+      "last_modified": "Mon, 08 Apr 2019 22:39:28 GMT"
+    },
+    "textocr-source.html": {
+      "requested_url": "https://textvqa.org/textocr/dataset/",
+      "resolved_url": "https://textvqa.org/textocr/dataset/",
+      "retrieved_at_utc": "2026-10-23T17:40:01.766689+00:00",
+      "bytes": 2804,
+      "cap_bytes": 2097152,
+      "content_length": 2804,
+      "sha256": "f38607977e76bf20e6ab98e4930514040a6c9f2a4cdaee916a980179bf2e071b",
+      "etag": "\"63ebd28c-af4\"",
+      "last_modified": "Tue, 14 Feb 2023 18:27:24 GMT"
+    },
+    "hiertext-val.json.gz": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/gt/validation.jsonl.gz",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/gt/validation.jsonl.gz",
+      "retrieved_at_utc": "2026-10-23T17:40:03.255405+00:00",
+      "bytes": 12274736,
+      "cap_bytes": 134217728,
+      "content_length": 12274736,
+      "sha256": "ce7085d8bf24c2f13df852715c34494e6748cafcabb4bfc7a6e2bb320f58d23a",
+      "etag": "\"ecb15e1bd65bb7b33749885fb18ddd92ed2e55844517d0dd0cb236471a0dcc59\"",
+      "last_modified": null
+    },
+    "hiertext-images.tgz": {
+      "requested_url": "https://open-images-dataset.s3.amazonaws.com/ocr/validation.tgz",
+      "resolved_url": "https://open-images-dataset.s3.amazonaws.com/ocr/validation.tgz",
+      "retrieved_at_utc": "2026-10-23T17:40:34.828415+00:00",
+      "bytes": 577088394,
+      "cap_bytes": 1073741824,
+      "content_length": 577088394,
+      "sha256": "1903446ab63a9be482b7f279cc54198904987efe2b30d3004225d48d1b84c4bf",
+      "etag": "\"73d869b27676152b870d243eaa34fdea-69\"",
+      "last_modified": "Thu, 03 Mar 2022 12:22:57 GMT"
+    },
+    "third_party/hiertext/evaluator/__init__.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/__init__.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/__init__.py",
+      "retrieved_at_utc": "2026-10-23T17:40:35.392622+00:00",
+      "bytes": 24,
+      "cap_bytes": 2097152,
+      "content_length": 24,
+      "sha256": "f64ae3797d575a116a019dd490bedb4443a7049db3810fb0b11e7134a7477255",
+      "etag": "\"3b0c9d10a71d212f635026f19aa264fa925c5cfd0450e2f3dd16c0d304f28edc\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/evaluator.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/evaluator.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/evaluator.py",
+      "retrieved_at_utc": "2026-10-23T17:40:35.669279+00:00",
+      "bytes": 9615,
+      "cap_bytes": 2097152,
+      "content_length": 9615,
+      "sha256": "40e810a9a49d8f67c569b95bb15f4dd8f3c03a932f8e8a735e4897a2eb4bd6f5",
+      "etag": "\"6ffb1446174238c135a4cdd85cfdae6b788b9ab082978debc8181e983659ee73\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_box_list.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_list.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_list.py",
+      "retrieved_at_utc": "2026-10-23T17:40:35.956443+00:00",
+      "bytes": 4781,
+      "cap_bytes": 2097152,
+      "content_length": 4781,
+      "sha256": "5f21333ca5b4170e1083a4dae61f267c93bf698f9113a11ae7a697fe4fcafb1c",
+      "etag": "\"e2e2ddbaadad08ab7f920b275a69896605e0b594a03211546d914e7c9b1fd71d\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_box_list_ops.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_list_ops.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_list_ops.py",
+      "retrieved_at_utc": "2026-10-23T17:40:36.269644+00:00",
+      "bytes": 21001,
+      "cap_bytes": 2097152,
+      "content_length": 21001,
+      "sha256": "1b59a90ebf6183c063999c2003a159bde01e576f3ee52ec50aae39eb408e3cc6",
+      "etag": "\"17d553df12ba369e00c53de9b980b0d8239b7fe16bb00d8400bf68b13044c875\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_box_mask_list.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list.py",
+      "retrieved_at_utc": "2026-10-23T17:40:36.546261+00:00",
+      "bytes": 2645,
+      "cap_bytes": 2097152,
+      "content_length": 2645,
+      "sha256": "adfab5d1e5e8fd9e38a23fcd7cd3f6a7e603b52636b34209eb7a17b5bd179f00",
+      "etag": "\"15c328396e04f7e9e1b984309bd16a4a88c642fea14a9335862acc121f476e6e\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_box_mask_list_ops.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list_ops.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_mask_list_ops.py",
+      "retrieved_at_utc": "2026-10-23T17:40:36.832392+00:00",
+      "bytes": 15707,
+      "cap_bytes": 2097152,
+      "content_length": 15707,
+      "sha256": "750994a2386aff0d67ee18798d70c81571a2af26f34f69599ee6d842d087d0e0",
+      "etag": "\"cc057ed67ad3acc3922c766262878f8731c749bdc4d6887942090a2584006cde\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_box_ops.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_ops.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_ops.py",
+      "retrieved_at_utc": "2026-10-23T17:40:37.144719+00:00",
+      "bytes": 3556,
+      "cap_bytes": 2097152,
+      "content_length": 3556,
+      "sha256": "ddf867c67936be2a110a01595561b31d6113a36501ce890d3d29189c7169d144",
+      "etag": "\"820932b416c988c8c89d881e41262c2006dc76a21e479164fd9d458ae2c53759\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/np_mask_ops.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_mask_ops.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_mask_ops.py",
+      "retrieved_at_utc": "2026-10-23T17:40:37.444081+00:00",
+      "bytes": 4461,
+      "cap_bytes": 2097152,
+      "content_length": 4461,
+      "sha256": "0993e66685df9e6b70ffd56703cd768a4ed1ef7e92501cee7a66312340eb7978",
+      "etag": "\"1964d966ad0c2edf2e35977c87b6db4d8bb5ab0af63df2aa0c851cd293ef94c6\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/polygon_list.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_list.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_list.py",
+      "retrieved_at_utc": "2026-10-23T17:40:37.700147+00:00",
+      "bytes": 2877,
+      "cap_bytes": 2097152,
+      "content_length": 2877,
+      "sha256": "6b6b391bfea76935f10790893f50d55590c0a2bfcf2bf0fab74f6331506d657d",
+      "etag": "\"dbba7edf9e9c99b858ed03214a7d558601ca2c33e4e7575eeed4c81c539a4913\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/evaluator/polygon_ops.py": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_ops.py",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/polygon_ops.py",
+      "retrieved_at_utc": "2026-10-23T17:40:38.015775+00:00",
+      "bytes": 4508,
+      "cap_bytes": 2097152,
+      "content_length": 4508,
+      "sha256": "99cd5dd3977c7fad984acc90737d8e91ca7be85eba22e090c091a9a1a2e8f4a0",
+      "etag": "\"41bad7a771a32d4b7ee246849f4033f54e7429841a2111d205030875db0d8cd4\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/LICENSE": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/LICENSE",
+      "retrieved_at_utc": "2026-10-23T17:40:38.327399+00:00",
+      "bytes": 20139,
+      "cap_bytes": 2097152,
+      "content_length": 20139,
+      "sha256": "71a43a169b52bb1b39510b65ec5b43b4bbb59196d449a835fe58b50af6a72742",
+      "etag": "\"a46d6e5d6a1a77fe4468a629f25a757bcb64d66a30c6c6f8b853cd4edf65b512\"",
+      "last_modified": null
+    },
+    "third_party/hiertext/README.md": {
+      "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/README.md",
+      "retrieved_at_utc": "2026-10-23T17:40:38.687689+00:00",
+      "bytes": 11848,
+      "cap_bytes": 2097152,
+      "content_length": 11848,
+      "sha256": "0726df8cbae6be2e587836ed7d8cc96377e3cc2d873ade2830cc3c33e3274e57",
+      "etag": "\"b90bb926c32c0c56f54cda3a45519b54c363751780f170554c6e17823568f3a1\"",
+      "last_modified": null
+    }
+  },
+  "hiertext_git_revision": "70b6620b2b112597d8219e11eee9773a1403827c",
+  "sroie_git_revision": "bffe40c26759f3376ec2b3ae9031dbba54cd587c",
+  "rights": {
+    "sroie": "Mirror card: CC BY 4.0; mirror corrections retained.",
+    "textocr": "Publisher: CC BY 4.0; underlying Open Images rights also apply.",
+    "hiertext": "Official dataset/repository: CC BY-SA 4.0; preserve upstream attribution."
+  }
+}

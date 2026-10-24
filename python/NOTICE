@@ -1,0 +1,29 @@
+TinyOCR
+Copyright 2026 Maureese Williams
+
+This product includes PaddleOCR / PP-OCRv6 model artifacts.
+Copyright (c) 2016 PaddlePaddle Authors. All Rights Reserved.
+https://github.com/PaddlePaddle/PaddleOCR
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+PP-OCRv6_det_tiny.onnx is the unchanged pretrained detector.
+PP-OCRv6_rec_tiny.onnx WAS MODIFIED by Maureese Williams in 2026:
+selected float32 weight tensors were stored as per-channel int8 values with
+constant decoding back to float32. Computation remains float32. No training
+or calibration was performed. This modified file is not an official
+PaddlePaddle release. SHA-256 hashes and origins are in assets/models.json.
+
+Original ONNX artifacts were distributed through RapidAI/RapidOCR v3.10.0:
+https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv6/det/PP-OCRv6_det_tiny.onnx
+https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv6/rec/PP-OCRv6_rec_tiny.onnx
+Official Apache-2.0 model cards:
+https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_det_onnx
+https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec_onnx
+
+Runtime inference uses the separately installed RapidOCR project (Apache-2.0):
+Copyright RapidAI contributors. https://github.com/RapidAI/RapidOCR
+Other installed dependencies retain their own licenses.
+
+Research repository only: the vendored Google HierText evaluator has its own
+CC BY-SA 4.0 license and notices in third_party/hiertext. It and evaluation
+datasets are not included in the TinyOCR runtime distribution.

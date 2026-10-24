@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_ops.py",
+  "resolved_url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/70b6620b2b112597d8219e11eee9773a1403827c/evaluator/np_box_ops.py",
+  "retrieved_at_utc": "2026-10-23T17:40:37.144719+00:00",
+  "bytes": 3556,
+  "cap_bytes": 2097152,
+  "content_length": 3556,
+  "sha256": "ddf867c67936be2a110a01595561b31d6113a36501ce890d3d29189c7169d144",
+  "etag": "\"820932b416c988c8c89d881e41262c2006dc76a21e479164fd9d458ae2c53759\"",
+  "last_modified": null
+}

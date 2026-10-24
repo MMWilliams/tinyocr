@@ -1,0 +1,2895 @@
+{
+  "schema": 1,
+  "archive_sha256": "aac2e8ea4d42c62b38c2762fc655eafe1e37edb7b67923cce1a494e66bc64939",
+  "method": "assistant-visual-triage",
+  "coverage": {
+    "review_date": "2026-10-23",
+    "contact_sheet_items": 200,
+    "contact_sheets": [
+      {
+        "path": "data/independent-intake/srd/contact-sheets/01.jpg",
+        "sha256": "8970729f8569beb09e1b70df41307b020fecfae98af97b014e251c0af3ee546a"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/02.jpg",
+        "sha256": "9d339098bebda9451047c625b03649764b8d63e03e6585582a513a98a2e6ac92"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/03.jpg",
+        "sha256": "ac4e0b4af14b90b1feff05106ed9968918331278b543113e8350dfae6fc21f9d"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/04.jpg",
+        "sha256": "fec788564ac16f4f895d719dd36a55fb3a9eab88d2c41fed7a53aa26f283f73c"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/05.jpg",
+        "sha256": "4160bc0d2b4188e445a665c1f6c29f5f61c7dcb35875483fd23892c6edd6e894"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/06.jpg",
+        "sha256": "e4b65341690e55a5d46951ae8b8298890f76eef72c525f2d2ca6e44ced83f56d"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/07.jpg",
+        "sha256": "819b666ffaa8cc31ba5d10dbc88e4be6b5f5c43c3af6b82e4132b1560ba80ca8"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/08.jpg",
+        "sha256": "13b972737a1bb86caae87073c45e02eaa225457c94576544671e8227161a2a36"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/09.jpg",
+        "sha256": "715e613cdb0e27fe6a017acd38b88f8fe91f6c98e7580f0a0535711b446eca1f"
+      },
+      {
+        "path": "data/independent-intake/srd/contact-sheets/10.jpg",
+        "sha256": "be2e40eb119ec663371c864cc78badf547b8cf9a9a8a4502c93aed12a6acc82e"
+      }
+    ],
+    "original_file_views": [
+      "srd-013",
+      "srd-036",
+      "srd-054",
+      "srd-064",
+      "srd-094",
+      "srd-157",
+      "srd-176",
+      "srd-182",
+      "srd-187"
+    ],
+    "limitations": [
+      "No independent human adjudication or full transcription.",
+      "Merchant clusters do not prove distinct templates; shared POS layouts and unknown merchants remain pending.",
+      "Photo-like appearance is not confirmed capture provenance.",
+      "Contact sheets use stored pixels; the original-file viewer may honor EXIF orientation.",
+      "No OCR inference, benchmark split or training approval.",
+      "Personal information review remains pending; raw receipts stay local."
+    ]
+  },
+  "items": {
+    "srd-001": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-001",
+      "template_group": "merchant-cluster:green-field",
+      "merchant_group": "Green Field",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-002": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-002",
+      "template_group": "merchant-cluster:grand-lux-cafe",
+      "merchant_group": "Grand Lux Cafe",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-003": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-003",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-004": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-004",
+      "template_group": "merchant-cluster:el-gran-inka",
+      "merchant_group": "El Gran Inka",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-005": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-005",
+      "template_group": "merchant-cluster:golden-bowl-teriyaki",
+      "merchant_group": "Golden Bowl Teriyaki",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-006": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-006",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-007": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-007",
+      "template_group": "merchant-cluster:akira",
+      "merchant_group": "Akira",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-008": {
+      "capture_type": "unknown",
+      "parent_id": "srd-008",
+      "template_group": "merchant-cluster:katana-sushi",
+      "merchant_group": "Katana Sushi",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-009": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-009",
+      "template_group": "merchant-cluster:dona-mercedes",
+      "merchant_group": "Dona Mercedes",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-010": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-010",
+      "template_group": "merchant-cluster:bella-pasta",
+      "merchant_group": "Bella Pasta",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-011": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-011",
+      "template_group": "merchant-cluster:friendly-reds",
+      "merchant_group": "Friendly Reds",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-012": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-012",
+      "template_group": "merchant-cluster:quick-73",
+      "merchant_group": "Quick 73",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-013": {
+      "capture_type": "scan-like-unconfirmed",
+      "parent_id": "srd-013",
+      "template_group": "merchant-cluster:hp-pho-ga",
+      "merchant_group": "HP Pho Ga",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Isolated high-key receipt appearance; scan versus processed photograph cannot be established.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-014": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-014",
+      "template_group": "merchant-cluster:albetos-mexican-food",
+      "merchant_group": "Albetos Mexican Food",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-015": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-015",
+      "template_group": "merchant-cluster:loaded-cafe",
+      "merchant_group": "Loaded Cafe",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-016": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-016",
+      "template_group": "merchant-cluster:hammocks-trading-company",
+      "merchant_group": "Hammocks Trading Company",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-017": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-017",
+      "template_group": "merchant-cluster:chef-wang",
+      "merchant_group": "Chef Wang",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-018": {
+      "capture_type": "unknown",
+      "parent_id": "srd-018",
+      "template_group": "merchant-cluster:umix",
+      "merchant_group": "UMIX",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-019": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-019",
+      "template_group": "merchant-cluster:in-n-out-burger",
+      "merchant_group": "In-N-Out Burger",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-020": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-020",
+      "template_group": "merchant-cluster:grotto-pizzeria",
+      "merchant_group": "Grotto Pizzeria",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/01.jpg"
+      ]
+    },
+    "srd-021": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-021",
+      "template_group": "merchant-cluster:ocean-spice",
+      "merchant_group": "Ocean Spice",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-022": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-022",
+      "template_group": "merchant-cluster:hawi-ethiopian",
+      "merchant_group": "Hawi Ethiopian",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-023": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-023",
+      "template_group": "merchant-cluster:moonstar-restaurant",
+      "merchant_group": "Moonstar Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-024": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-024",
+      "template_group": "merchant-cluster:thai-gusto",
+      "merchant_group": "Thai Gusto",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-025": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-025",
+      "template_group": "merchant-cluster:new-asia-buffet",
+      "merchant_group": "New Asia Buffet",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-026": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-026",
+      "template_group": "merchant-cluster:mcdonalds",
+      "merchant_group": "McDonalds",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-027": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-027",
+      "template_group": "merchant-cluster:chriss-hamburgers",
+      "merchant_group": "Chriss Hamburgers",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "low-contrast"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-028": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-028",
+      "template_group": "merchant-cluster:longboards",
+      "merchant_group": "Longboards",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-029": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-029",
+      "template_group": "merchant-cluster:douglas-burgers",
+      "merchant_group": "Douglas Burgers",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-030": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-030",
+      "template_group": "merchant-cluster:rincon-mexicano",
+      "merchant_group": "Rincon Mexicano",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-031": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-031",
+      "template_group": "merchant-cluster:villa-deste",
+      "merchant_group": "Villa dEste",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-032": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-032",
+      "template_group": "merchant-cluster:laurel-tavern",
+      "merchant_group": "Laurel Tavern",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-033": {
+      "capture_type": "unknown",
+      "parent_id": "srd-033",
+      "template_group": "merchant-cluster:wings-and-things",
+      "merchant_group": "Wings and Things",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-034": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-034",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-035": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-035",
+      "template_group": "merchant-cluster:la-source",
+      "merchant_group": "La Source",
+      "language": "French-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px",
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Exact same file and decoded pixels as the other La Source members; one provisional parent.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-036": {
+      "capture_type": "screenshot-of-photo-unconfirmed",
+      "parent_id": "srd-036",
+      "template_group": "merchant-cluster:argonaut-diner",
+      "merchant_group": "Argonaut Diner",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "UI-overlay",
+        "personal-information-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Social-media controls overlay a receipt photograph; source ownership and privacy review needed. No personal overlay identifiers copied into metadata.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-037": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-037",
+      "template_group": "merchant-cluster:pappadeaux",
+      "merchant_group": "Pappadeaux",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-038": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-038",
+      "template_group": "merchant-cluster:panda-express",
+      "merchant_group": "Panda Express",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-039": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-039",
+      "template_group": "merchant-cluster:yogurtland",
+      "merchant_group": "Yogurtland",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-040": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-040",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "EXIF-oriented-stored-pixels"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Apparent right-angle rotation in the raw-pixel sheet is described by EXIF; it is not evidence of a naturally sideways capture.",
+      "reviewed_views": [
+        "contact-sheets/02.jpg"
+      ]
+    },
+    "srd-041": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-041",
+      "template_group": "merchant-cluster:sukhothai",
+      "merchant_group": "Sukhothai",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-042": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-035",
+      "template_group": "merchant-cluster:la-source",
+      "merchant_group": "La Source",
+      "language": "French-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px",
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Exact same file and decoded pixels as the other La Source members; one provisional parent.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-043": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-043",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-044": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-044",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-045": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-045",
+      "template_group": "merchant-cluster:churchs-chicken",
+      "merchant_group": "Churchs Chicken",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-046": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-046",
+      "template_group": "merchant-cluster:yums-restaurant",
+      "merchant_group": "Yums Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-047": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-047",
+      "template_group": "merchant-cluster:araxi-burger",
+      "merchant_group": "Araxi Burger",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-048": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-048",
+      "template_group": "merchant-cluster:tavern-kitchen-and-patio",
+      "merchant_group": "Tavern Kitchen and Patio",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-049": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-049",
+      "template_group": "merchant-cluster:daily-grill",
+      "merchant_group": "Daily Grill",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-050": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-050",
+      "template_group": "merchant-cluster:kiokis-kajun",
+      "merchant_group": "Kiokis Kajun",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-051": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-051",
+      "template_group": "merchant-cluster:hollywood-cafe",
+      "merchant_group": "Hollywood Cafe",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-052": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-052",
+      "template_group": "merchant-cluster:general-poors-tavern",
+      "merchant_group": "General Poors Tavern",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-053": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-053",
+      "template_group": "merchant-cluster:nancys-restaurant",
+      "merchant_group": "Nancys Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-054": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-054",
+      "template_group": "merchant-cluster:primo-family-restaurant",
+      "merchant_group": "Primo Family Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Same printed Primo receipt and wood grain/creases across crops or resizes; one provisional parent after full-resolution comparison.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-055": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-055",
+      "template_group": "merchant-cluster:big-jos",
+      "merchant_group": "Big Jos",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-056": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-056",
+      "template_group": "merchant-cluster:wings-and-things",
+      "merchant_group": "Wings and Things",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-057": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-057",
+      "template_group": "merchant-cluster:zoca-restaurant",
+      "merchant_group": "Zoca Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-058": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-058",
+      "template_group": "merchant-cluster:cafe-parisien-larchmont",
+      "merchant_group": "Cafe Parisien Larchmont",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-059": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-059",
+      "template_group": "merchant-cluster:caldera-brewery",
+      "merchant_group": "Caldera Brewery",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-060": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-060",
+      "template_group": "merchant-cluster:landfall-restaurant",
+      "merchant_group": "Landfall Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/03.jpg"
+      ]
+    },
+    "srd-061": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-061",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-062": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-062",
+      "template_group": "merchant-cluster:chilis",
+      "merchant_group": "Chilis",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-063": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-063",
+      "template_group": "merchant-cluster:marianaccis",
+      "merchant_group": "Marianaccis",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-064": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-054",
+      "template_group": "merchant-cluster:primo-family-restaurant",
+      "merchant_group": "Primo Family Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Same printed Primo receipt and wood grain/creases across crops or resizes; one provisional parent after full-resolution comparison.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-065": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-065",
+      "template_group": "merchant-cluster:in-n-out-burger",
+      "merchant_group": "In-N-Out Burger",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-066": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-066",
+      "template_group": "merchant-cluster:taco-maria",
+      "merchant_group": "Taco Maria",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-067": {
+      "capture_type": "unknown",
+      "parent_id": "srd-067",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "Italian-dominant-unconfirmed",
+      "difficulty_tags": [
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-068": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-068",
+      "template_group": "merchant-cluster:anjappar-chettinad",
+      "merchant_group": "Anjappar Chettinad",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-069": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-069",
+      "template_group": "merchant-cluster:cafe-eugene",
+      "merchant_group": "Cafe Eugene",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-070": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-070",
+      "template_group": "merchant-cluster:river-willow",
+      "merchant_group": "River Willow",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-071": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-071",
+      "template_group": "merchant-cluster:his-hot-wings",
+      "merchant_group": "His Hot Wings",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-072": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-072",
+      "template_group": "merchant-cluster:trinity-restaurant",
+      "merchant_group": "Trinity Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-073": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-073",
+      "template_group": "merchant-cluster:ohana-hawaiian-bbq",
+      "merchant_group": "Ohana Hawaiian BBQ",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "low-contrast"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-074": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-074",
+      "template_group": "merchant-cluster:subway",
+      "merchant_group": "Subway",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-075": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-075",
+      "template_group": "merchant-cluster:lin-buffet",
+      "merchant_group": "Lin Buffet",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-076": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-076",
+      "template_group": "merchant-cluster:smokebox-bbq",
+      "merchant_group": "SmokeBox BBQ",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-077": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-077",
+      "template_group": "merchant-cluster:paradise-restaurant",
+      "merchant_group": "Paradise Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-078": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-078",
+      "template_group": "merchant-cluster:naanching",
+      "merchant_group": "NaanChing",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-079": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-079",
+      "template_group": "merchant-cluster:tay-ho-oakland",
+      "merchant_group": "Tay Ho Oakland",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-080": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-080",
+      "template_group": "merchant-cluster:falmouth-raw-bar",
+      "merchant_group": "Falmouth Raw Bar",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/04.jpg"
+      ]
+    },
+    "srd-081": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-081",
+      "template_group": "merchant-cluster:newark-buffet",
+      "merchant_group": "Newark Buffet",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-082": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-082",
+      "template_group": "merchant-cluster:brasas-restaurant",
+      "merchant_group": "Brasas Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-083": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-083",
+      "template_group": "merchant-cluster:surati-farsan-mart",
+      "merchant_group": "Surati Farsan Mart",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-084": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-084",
+      "template_group": "merchant-cluster:king-taco",
+      "merchant_group": "King Taco",
+      "language": "Spanish-dominant-unconfirmed",
+      "difficulty_tags": [
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-085": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-085",
+      "template_group": "merchant-cluster:trattoria-saporito",
+      "merchant_group": "Trattoria Saporito",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-086": {
+      "capture_type": "unknown",
+      "parent_id": "srd-086",
+      "template_group": "merchant-cluster:pita-pita",
+      "merchant_group": "Pita Pita",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-087": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-087",
+      "template_group": "merchant-cluster:calogeros",
+      "merchant_group": "Calogeros",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "low-contrast"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-088": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-088",
+      "template_group": "merchant-cluster:noches-de-colombia",
+      "merchant_group": "Noches de Colombia",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-089": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-089",
+      "template_group": "merchant-cluster:mooyah",
+      "merchant_group": "Mooyah",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-090": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-090",
+      "template_group": "merchant-cluster:flemings",
+      "merchant_group": "Flemings",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-091": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-091",
+      "template_group": "merchant-cluster:five-guys",
+      "merchant_group": "Five Guys",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-092": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-092",
+      "template_group": "merchant-cluster:city-taste",
+      "merchant_group": "City Taste",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-093": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-093",
+      "template_group": "merchant-cluster:katsuki",
+      "merchant_group": "Katsuki",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-094": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-094",
+      "template_group": "merchant-cluster:popeyes",
+      "merchant_group": "Popeyes",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "EXIF-oriented-stored-pixels"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Apparent right-angle rotation in the raw-pixel sheet is described by EXIF; it is not evidence of a naturally sideways capture.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-095": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-095",
+      "template_group": "merchant-cluster:pokeatery",
+      "merchant_group": "Pokeatery",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-096": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-096",
+      "template_group": "merchant-cluster:golden-coin",
+      "merchant_group": "Golden Coin",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "EXIF-oriented-stored-pixels"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Apparent right-angle rotation in the raw-pixel sheet is described by EXIF; it is not evidence of a naturally sideways capture.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-097": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-097",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-098": {
+      "capture_type": "unknown",
+      "parent_id": "srd-098",
+      "template_group": "merchant-cluster:el-pollo-loco",
+      "merchant_group": "El Pollo Loco",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-099": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-099",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-100": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-100",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/05.jpg"
+      ]
+    },
+    "srd-101": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-101",
+      "template_group": "merchant-cluster:mcdonalds",
+      "merchant_group": "McDonalds",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-102": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-102",
+      "template_group": "merchant-cluster:kaz-ramen",
+      "merchant_group": "Kaz Ramen",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-103": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-103",
+      "template_group": "merchant-cluster:om-indian-food",
+      "merchant_group": "OM Indian Food",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-104": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-104",
+      "template_group": "merchant-cluster:crisfield-seafood",
+      "merchant_group": "Crisfield Seafood",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-105": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-105",
+      "template_group": "merchant-cluster:don-juan-mexican",
+      "merchant_group": "Don Juan Mexican",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-106": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-106",
+      "template_group": "merchant-cluster:the-place-2-be",
+      "merchant_group": "The Place 2 Be",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-107": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-107",
+      "template_group": "merchant-cluster:lan-sheng",
+      "merchant_group": "Lan Sheng",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-108": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-108",
+      "template_group": "merchant-cluster:mikuni-japanese",
+      "merchant_group": "Mikuni Japanese",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-109": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-109",
+      "template_group": "merchant-cluster:go-mongo-bbq",
+      "merchant_group": "Go Mongo BBQ",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-110": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-110",
+      "template_group": "merchant-cluster:breadfish-cafe",
+      "merchant_group": "Breadfish Cafe",
+      "language": "English-and-Chinese-unconfirmed",
+      "difficulty_tags": [
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-111": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-111",
+      "template_group": "merchant-cluster:chelokababi",
+      "merchant_group": "Chelokababi",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-112": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-112",
+      "template_group": "merchant-cluster:commanders-palace",
+      "merchant_group": "Commanders Palace",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-113": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-113",
+      "template_group": "merchant-cluster:columbus-restaurant",
+      "merchant_group": "Columbus Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-114": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-114",
+      "template_group": "merchant-cluster:golden-panda-buffet",
+      "merchant_group": "Golden Panda Buffet",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-115": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-035",
+      "template_group": "merchant-cluster:la-source",
+      "merchant_group": "La Source",
+      "language": "French-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px",
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Exact same file and decoded pixels as the other La Source members; one provisional parent.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-116": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-116",
+      "template_group": "merchant-cluster:rosebud-on-rush",
+      "merchant_group": "Rosebud on Rush",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-117": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-117",
+      "template_group": "merchant-cluster:villaggio-grille",
+      "merchant_group": "Villaggio Grille",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-118": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-118",
+      "template_group": "merchant-cluster:kobe-japanese-steak",
+      "merchant_group": "Kobe Japanese Steak",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-119": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-119",
+      "template_group": "merchant-cluster:wendys",
+      "merchant_group": "Wendys",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-120": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-120",
+      "template_group": "merchant-cluster:panda-express",
+      "merchant_group": "Panda Express",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/06.jpg"
+      ]
+    },
+    "srd-121": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-121",
+      "template_group": "merchant-cluster:red-and-hot-ii",
+      "merchant_group": "Red and Hot II",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-122": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-122",
+      "template_group": "merchant-cluster:heart-of-portugal",
+      "merchant_group": "Heart of Portugal",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-123": {
+      "capture_type": "unknown",
+      "parent_id": "srd-123",
+      "template_group": "merchant-cluster:el-meson-mexican",
+      "merchant_group": "El Meson Mexican",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-124": {
+      "capture_type": "unknown",
+      "parent_id": "srd-124",
+      "template_group": "merchant-cluster:el-gato-negro",
+      "merchant_group": "El Gato Negro",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-125": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-125",
+      "template_group": "merchant-cluster:firefly-american-bistro",
+      "merchant_group": "Firefly American Bistro",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-126": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-126",
+      "template_group": "merchant-cluster:chatpata",
+      "merchant_group": "Chatpata",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-127": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-127",
+      "template_group": "merchant-cluster:sage-french-cafe",
+      "merchant_group": "Sage French Cafe",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-128": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-128",
+      "template_group": "merchant-cluster:pizza-hut",
+      "merchant_group": "Pizza Hut",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-129": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-129",
+      "template_group": "merchant-cluster:kalaveras",
+      "merchant_group": "Kalaveras",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-130": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-130",
+      "template_group": "merchant-cluster:hiro-japanese",
+      "merchant_group": "Hiro Japanese",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-131": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-131",
+      "template_group": "merchant-cluster:boa",
+      "merchant_group": "BOA",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-132": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-132",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-133": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-133",
+      "template_group": "merchant-cluster:via-emilia-9",
+      "merchant_group": "Via Emilia 9",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-134": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-134",
+      "template_group": "merchant-cluster:moonstar-restaurant",
+      "merchant_group": "Moonstar Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-135": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-135",
+      "template_group": "merchant-cluster:kfc",
+      "merchant_group": "KFC",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-136": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-136",
+      "template_group": "merchant-cluster:e-baldi",
+      "merchant_group": "E Baldi",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-137": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-137",
+      "template_group": "merchant-cluster:the-shawarma-factory",
+      "merchant_group": "The Shawarma Factory",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-138": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-138",
+      "template_group": "merchant-cluster:maui-teriyaki",
+      "merchant_group": "Maui Teriyaki",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-139": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-139",
+      "template_group": "merchant-cluster:casa-chano",
+      "merchant_group": "Casa Chano",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-140": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-140",
+      "template_group": "merchant-cluster:ss-paradise",
+      "merchant_group": "SS Paradise",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/07.jpg"
+      ]
+    },
+    "srd-141": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-141",
+      "template_group": "merchant-cluster:shake-shack",
+      "merchant_group": "Shake Shack",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-142": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-142",
+      "template_group": "merchant-cluster:yauatcha",
+      "merchant_group": "Yauatcha",
+      "language": "English-and-Chinese-unconfirmed",
+      "difficulty_tags": [
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-143": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-143",
+      "template_group": "merchant-cluster:blue-bear-tavern",
+      "merchant_group": "Blue Bear Tavern",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-144": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-144",
+      "template_group": "merchant-cluster:arthurs",
+      "merchant_group": "Arthurs",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-145": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-145",
+      "template_group": "merchant-cluster:chloe81",
+      "merchant_group": "Chloe81",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-146": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-146",
+      "template_group": "merchant-cluster:miguels-mexican",
+      "merchant_group": "Miguels Mexican",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-147": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-147",
+      "template_group": "merchant-cluster:rihannas-caribbean",
+      "merchant_group": "Rihannas Caribbean",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-148": {
+      "capture_type": "unknown",
+      "parent_id": "srd-148",
+      "template_group": "merchant-cluster:new-delhi-indian",
+      "merchant_group": "New Delhi Indian",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-149": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-149",
+      "template_group": "merchant-cluster:sonic",
+      "merchant_group": "Sonic",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-150": {
+      "capture_type": "unknown",
+      "parent_id": "srd-150",
+      "template_group": "merchant-cluster:dennys",
+      "merchant_group": "Dennys",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-151": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-151",
+      "template_group": "merchant-cluster:hms-host",
+      "merchant_group": "HMS Host",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-152": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-152",
+      "template_group": "merchant-cluster:collectors-choice",
+      "merchant_group": "Collectors Choice",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-153": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-153",
+      "template_group": "merchant-cluster:kalookis",
+      "merchant_group": "Kalookis",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-154": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-154",
+      "template_group": "merchant-cluster:gordon-ramsay-steak",
+      "merchant_group": "Gordon Ramsay Steak",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-155": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-155",
+      "template_group": "merchant-cluster:via-real",
+      "merchant_group": "Via Real",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-156": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-156",
+      "template_group": "merchant-cluster:marco-pierre-white",
+      "merchant_group": "Marco Pierre White",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-157": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-157",
+      "template_group": "merchant-cluster:ikea-food",
+      "merchant_group": "IKEA Food",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px",
+        "EXIF-oriented-stored-pixels"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Apparent right-angle rotation in the raw-pixel sheet is described by EXIF; it is not evidence of a naturally sideways capture.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-158": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-158",
+      "template_group": "merchant-cluster:russells-restaurant",
+      "merchant_group": "Russells Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-159": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-159",
+      "template_group": "merchant-cluster:mitasu-japanese",
+      "merchant_group": "Mitasu Japanese",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-160": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-160",
+      "template_group": "merchant-cluster:taco-time",
+      "merchant_group": "Taco Time",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/08.jpg"
+      ]
+    },
+    "srd-161": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-161",
+      "template_group": "merchant-cluster:angelos-pizza",
+      "merchant_group": "Angelos Pizza",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-162": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-162",
+      "template_group": "merchant-cluster:durango-restaurant",
+      "merchant_group": "Durango Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-163": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-163",
+      "template_group": "merchant-cluster:juniper-and-ivy",
+      "merchant_group": "Juniper and Ivy",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-164": {
+      "capture_type": "unknown",
+      "parent_id": "srd-164",
+      "template_group": "merchant-cluster:bens-bayside",
+      "merchant_group": "Bens Bayside",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-165": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-165",
+      "template_group": "merchant-cluster:the-golden-pear",
+      "merchant_group": "The Golden Pear",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-166": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-166",
+      "template_group": "merchant-cluster:el-chico",
+      "merchant_group": "El Chico",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-167": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-167",
+      "template_group": "merchant-cluster:pappadeaux",
+      "merchant_group": "Pappadeaux",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-168": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-168",
+      "template_group": "merchant-cluster:casa-rubio",
+      "merchant_group": "Casa Rubio",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-169": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-169",
+      "template_group": "merchant-cluster:carls-jr",
+      "merchant_group": "Carls Jr",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-170": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-170",
+      "template_group": "merchant-cluster:delmonicos",
+      "merchant_group": "Delmonicos",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-171": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-171",
+      "template_group": "merchant-cluster:buca-di-beppo",
+      "merchant_group": "Buca di Beppo",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-172": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-172",
+      "template_group": "merchant-cluster:punjab-grill",
+      "merchant_group": "Punjab Grill",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-173": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-173",
+      "template_group": "merchant-cluster:el-valle-mexican",
+      "merchant_group": "El Valle Mexican",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-174": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-174",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-175": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-175",
+      "template_group": "merchant-cluster:ipanema",
+      "merchant_group": "Ipanema",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-176": {
+      "capture_type": "scan-like-unconfirmed",
+      "parent_id": "srd-176",
+      "template_group": "merchant-cluster:bar-louie",
+      "merchant_group": "Bar Louie",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "low-contrast"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Isolated high-key receipt appearance; scan versus processed photograph cannot be established.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-177": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-177",
+      "template_group": "merchant-cluster:medleys",
+      "merchant_group": "Medleys",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-178": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-178",
+      "template_group": "merchant-cluster:el-charro-cafe",
+      "merchant_group": "El Charro Cafe",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-179": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-179",
+      "template_group": "merchant-cluster:gourdoughs-public-house",
+      "merchant_group": "Gourdoughs Public House",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-180": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-180",
+      "template_group": "merchant-cluster:fourth-street-mill",
+      "merchant_group": "Fourth Street Mill",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/09.jpg"
+      ]
+    },
+    "srd-181": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-181",
+      "template_group": "merchant-cluster:jazzys",
+      "merchant_group": "Jazzys",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-182": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-182",
+      "template_group": "merchant-cluster:del-friscos",
+      "merchant_group": "Del Friscos",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px",
+        "EXIF-oriented-stored-pixels"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Apparent right-angle rotation in the raw-pixel sheet is described by EXIF; it is not evidence of a naturally sideways capture.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-183": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-183",
+      "template_group": "merchant-cluster:finnegans-way",
+      "merchant_group": "Finnegans Way",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-184": {
+      "capture_type": "unknown",
+      "parent_id": "srd-184",
+      "template_group": "merchant-cluster:jalisco",
+      "merchant_group": "Jalisco",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-185": {
+      "capture_type": "unknown",
+      "parent_id": "srd-185",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-186": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-186",
+      "template_group": "merchant-cluster:jts-diner",
+      "merchant_group": "JTs Diner",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-187": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-054",
+      "template_group": "merchant-cluster:primo-family-restaurant",
+      "merchant_group": "Primo Family Restaurant",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Same printed Primo receipt and wood grain/creases across crops or resizes; one provisional parent after full-resolution comparison.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg",
+        "original-file-view"
+      ]
+    },
+    "srd-188": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-188",
+      "template_group": "merchant-cluster:spiral-diner",
+      "merchant_group": "Spiral Diner",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-189": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-189",
+      "template_group": "merchant-cluster:new-china",
+      "merchant_group": "New China",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-190": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-190",
+      "template_group": "merchant-cluster:miguels-mexican",
+      "merchant_group": "Miguels Mexican",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-191": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-191",
+      "template_group": "merchant-cluster:bombay-grill-house",
+      "merchant_group": "Bombay Grill House",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-192": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-192",
+      "template_group": "merchant-cluster:mod-pizza",
+      "merchant_group": "MOD Pizza",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-193": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-193",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-194": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-194",
+      "template_group": "merchant-cluster:marie-callenders",
+      "merchant_group": "Marie Callenders",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-195": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-195",
+      "template_group": "merchant-cluster:bar-rua",
+      "merchant_group": "Bar Rua",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-196": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-196",
+      "template_group": "merchant-cluster:amici",
+      "merchant_group": "Amici",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "possible-edge-crop-or-partial-document"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-197": {
+      "capture_type": "unknown",
+      "parent_id": "srd-197",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending. Tight framing leaves capture mechanism uncertain.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-198": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-198",
+      "template_group": "merchant-cluster:san-montano-bar-ristorante",
+      "merchant_group": "San Montano Bar Ristorante",
+      "language": "Italian-dominant-unconfirmed",
+      "difficulty_tags": [
+        "fold-or-curvature-visible",
+        "longest-side-at-most-600px",
+        "non-English-content-review-needed"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-199": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-199",
+      "template_group": "merchant-cluster:stk",
+      "merchant_group": "STK",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    },
+    "srd-200": {
+      "capture_type": "photo-like-unconfirmed",
+      "parent_id": "srd-200",
+      "template_group": "pending",
+      "merchant_group": "pending",
+      "language": "English-dominant-unconfirmed",
+      "difficulty_tags": [
+        "uneven-lighting-or-shadow",
+        "possible-edge-crop-or-partial-document",
+        "longest-side-at-most-600px",
+        "low-contrast"
+      ],
+      "notes": "Assistant contact-sheet triage only. Merchant labels and broad merchant-based template groups are provisional; cross-merchant POS/template audit and source capture confirmation are pending.",
+      "reviewed_views": [
+        "contact-sheets/10.jpg"
+      ]
+    }
+  }
+}

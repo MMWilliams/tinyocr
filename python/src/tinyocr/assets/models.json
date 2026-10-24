@@ -1,0 +1,15 @@
+{
+  "model": "v6-w8-rec",
+  "artifacts": [
+    {
+      "filename": "PP-OCRv6_det_tiny.onnx",
+      "bytes": 1829618,
+      "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+    },
+    {
+      "filename": "PP-OCRv6_rec_tiny.onnx",
+      "bytes": 1269595,
+      "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "schema": 1,
+  "fingerprint": {
+    "manifest_sha256": "a80e093f4b3fcd49cf58cf0a128b1ac676aacd7d8863c87d625f748aa649324f",
+    "sources_sha256": "ce8d8dfb2914c408233c928746e984bf9643553c79c7d18edac9c23b63739b75",
+    "rights_sha256": "8e34a2b57e51a07022e0e6fc3de85e6ef83cf5d6bec93d42d646e59c8b9b7bd1",
+    "protocol_sha256": "e73dc46bf2e17e81e7705dbb46a23ddffe9e1dd9d84fadac3dc2bc74c50ebd0f",
+    "uv_lock_sha256": "422bdfd74a892dd3de2fbe242d4ba4698238055b9dc99851930f4e596c16d34d",
+    "candidate_lock_sha256": "42ee214874f4c6e2893e5e49198fe7dd1ada63702c6d70463f4f40d8bca08dea",
+    "overlay_sha256": "3f25b2050c09da7063ec7e47245e5f0472ff70908f85f277d79db1198dd5c455",
+    "code_sha256_lf": {
+      "tinyocr/baseline.py": "d526b82f41d8145e95b3ff015bdf910af9a9f38051ecc934c9567a6ab5616f83",
+      "tinyocr/common.py": "588889745c54d99d4fc128470e5e020df406efa8ac8cac63c67e67b29e5d1aed",
+      "tinyocr/metrics.py": "4fce93178f1472146600fee77464bdad1f813480bd446d3aed998e7877d6436d",
+      "tinyocr/intake.py": "7fc885115fdd5f6484d144fcb34a834e4d879e22ae276f29da346893c847e318",
+      "tinyocr/prepare_benchmark.py": "433fc68a7def27cf2bceb38df33582289b0b62cdce4bd1748036c0d19110e791",
+      "tinyocr/benchmark.py": "fb0897bc1a2b0f980a8ab1da08e49caac942197d2a3cc4a0aeefdf4be627f278"
+    },
+    "vendor_sha256": {
+      "__init__.py": "f64ae3797d575a116a019dd490bedb4443a7049db3810fb0b11e7134a7477255",
+      "evaluator.py": "40e810a9a49d8f67c569b95bb15f4dd8f3c03a932f8e8a735e4897a2eb4bd6f5",
+      "np_box_list.py": "5f21333ca5b4170e1083a4dae61f267c93bf698f9113a11ae7a697fe4fcafb1c",
+      "np_box_list_ops.py": "1b59a90ebf6183c063999c2003a159bde01e576f3ee52ec50aae39eb408e3cc6",
+      "np_box_mask_list.py": "adfab5d1e5e8fd9e38a23fcd7cd3f6a7e603b52636b34209eb7a17b5bd179f00",
+      "np_box_mask_list_ops.py": "750994a2386aff0d67ee18798d70c81571a2af26f34f69599ee6d842d087d0e0",
+      "np_box_ops.py": "ddf867c67936be2a110a01595561b31d6113a36501ce890d3d29189c7169d144",
+      "np_mask_ops.py": "0993e66685df9e6b70ffd56703cd768a4ed1ef7e92501cee7a66312340eb7978",
+      "polygon_list.py": "6b6b391bfea76935f10790893f50d55590c0a2bfcf2bf0fab74f6331506d657d",
+      "polygon_ops.py": "99cd5dd3977c7fad984acc90737d8e91ca7be85eba22e090c091a9a1a2e8f4a0"
+    }
+  },
+  "selected_counts": {
+    "hiertext": 1721,
+    "sroie": 341,
+    "textocr": 3027
+  },
+  "excluded_image_count": 120,
+  "cross_source_shared_ids": [
+    [
+      "hiertext-02062d203a421358",
+      "textocr-02062d203a421358"
+    ],
+    [
+      "hiertext-050bf08413b35ab1",
+      "textocr-050bf08413b35ab1"
+    ],
+    [
+      "hiertext-0ef6658f6d52d8f9",
+      "textocr-0ef6658f6d52d8f9"
+    ],
+    [
+      "hiertext-1b28c6b52c4ce879",
+      "textocr-1b28c6b52c4ce879"
+    ],
+    [
+      "hiertext-27a334de63a58c5c",
+      "textocr-27a334de63a58c5c"
+    ],
+    [
+      "hiertext-2aafcb12b2ce977e",
+      "textocr-2aafcb12b2ce977e"
+    ],
+    [
+      "hiertext-2fa55fefd94032cc",
+      "textocr-2fa55fefd94032cc"
+    ],
+    [
+      "hiertext-458fde71c4282476",
+      "textocr-458fde71c4282476"
+    ],
+    [
+      "hiertext-46759c073f68adb2",
+      "textocr-46759c073f68adb2"
+    ],
+    [
+      "hiertext-585226e12b249931",
+      "textocr-585226e12b249931"
+    ],
+    [
+      "hiertext-78d66800391efee9",
+      "textocr-78d66800391efee9"
+    ],
+    [
+      "hiertext-7b0112f7f5f096c5",
+      "textocr-7b0112f7f5f096c5"
+    ],
+    [
+      "hiertext-7b5260c602c2842b",
+      "textocr-7b5260c602c2842b"
+    ],
+    [
+      "hiertext-821d3a32764c6780",
+      "textocr-821d3a32764c6780"
+    ],
+    [
+      "hiertext-86dcf1f1b71f5e62",
+      "textocr-86dcf1f1b71f5e62"
+    ],
+    [
+      "hiertext-893d9abd60abca2f",
+      "textocr-893d9abd60abca2f"
+    ],
+    [
+      "hiertext-9c7d75ff8378fc04",
+      "textocr-9c7d75ff8378fc04"
+    ],
+    [
+      "hiertext-a64f08dc9658945f",
+      "textocr-a64f08dc9658945f"
+    ],
+    [
+      "hiertext-a93c8fe0e15346d6",
+      "textocr-a93c8fe0e15346d6"
+    ],
+    [
+      "hiertext-c6706d06947cc8db",
+      "textocr-c6706d06947cc8db"
+    ],
+    [
+      "hiertext-f8418c45981468e9",
+      "textocr-f8418c45981468e9"
+    ],
+    [
+      "hiertext-f8a979d3ffb4711a",
+      "textocr-f8a979d3ffb4711a"
+    ],
+    [
+      "hiertext-fc7045b20448d177",
+      "textocr-fc7045b20448d177"
+    ]
+  ],
+  "protocols": {
+    "sroie": "Shared HierText polygon protocol on text regions; not official SROIE leaderboard",
+    "textocr": "Shared HierText polygon protocol on words; not official TextOCR leaderboard",
+    "hiertext": "Official HierText word polygon evaluator on overlap-filtered validation subset"
+  },
+  "models": {
+    "v6-tiny": {
+      "sources": {
+        "hiertext": {
+          "images": 1721,
+          "counts": {
+            "tp_det_cnt": 73958.0,
+            "num_prediction": 127772.0,
+            "num_groundtruth": 177889.0,
+            "tp_det_tightness_sum": 47112.91288157175,
+            "tp_e2e_cnt": 61637.0,
+            "tp_e2e_tightness_sum": 39346.808173250094
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.41575364412639343,
+            "Det-Precision": 0.5788279122186395,
+            "Det-Fscore": 0.48392173028289515,
+            "Det-Tightness": 0.6370225382186072,
+            "Det-PQ": 0.30826904892395013,
+            "E2E-Recall": 0.3464913513483127,
+            "E2E-Precision": 0.4823983345333876,
+            "E2E-Fscore": 0.40330300561733423,
+            "E2E-Tightness": 0.6383634533356604,
+            "E2E-PQ": 0.2574538994065327
+          },
+          "latency_ms": {
+            "p50": 166.22669994831085,
+            "p95": 383.6964000365697
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 461,
+            "pages_excluded_for_illegible_regions": 1260,
+            "normalized": {
+              "n": 461,
+              "char_errors": 70309,
+              "chars": 337481,
+              "word_errors": 19355,
+              "words": 56271,
+              "exact": 1,
+              "blank_false_positive_chars": 0,
+              "cer": 0.20833469143448075,
+              "wer": 0.34396047697748394,
+              "exact_match": 0.0021691973969631237
+            },
+            "case_sensitive": {
+              "n": 461,
+              "char_errors": 71373,
+              "chars": 337473,
+              "word_errors": 19558,
+              "words": 56271,
+              "exact": 1,
+              "blank_false_positive_chars": 0,
+              "cer": 0.21149247495355183,
+              "wer": 0.34756801905066553,
+              "exact_match": 0.0021691973969631237
+            }
+          }
+        },
+        "sroie": {
+          "images": 341,
+          "counts": {
+            "tp_det_cnt": 15942.0,
+            "num_prediction": 17575.0,
+            "num_groundtruth": 18418.0,
+            "tp_det_tightness_sum": 12078.90717388419,
+            "tp_e2e_cnt": 7385.0,
+            "tp_e2e_tightness_sum": 5417.605572258445
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.8655662938429797,
+            "Det-Precision": 0.9070839260312945,
+            "Det-Fscore": 0.8858389131219959,
+            "Det-Tightness": 0.7576782821405212,
+            "Det-PQ": 0.6711809059475004,
+            "E2E-Recall": 0.4009664458681724,
+            "E2E-Precision": 0.420199146514936,
+            "E2E-Fscore": 0.4103575695274081,
+            "E2E-Tightness": 0.7335958797912586,
+            "E2E-PQ": 0.3010366222464615
+          },
+          "latency_ms": {
+            "p50": 217.35019999323413,
+            "p95": 346.84409998590127
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 341,
+            "pages_excluded_for_illegible_regions": 0,
+            "normalized": {
+              "n": 341,
+              "char_errors": 26468,
+              "chars": 212565,
+              "word_errors": 12271,
+              "words": 37056,
+              "exact": 0,
+              "blank_false_positive_chars": 0,
+              "cer": 0.1245172065015407,
+              "wer": 0.33114745250431776,
+              "exact_match": 0.0
+            },
+            "case_sensitive": {
+              "n": 341,
+              "char_errors": 72153,
+              "chars": 212565,
+              "word_errors": 20902,
+              "words": 37056,
+              "exact": 0,
+              "blank_false_positive_chars": 0,
+              "cer": 0.33943970079740315,
+              "wer": 0.5640651986183074,
+              "exact_match": 0.0
+            }
+          }
+        },
+        "textocr": {
+          "images": 3027,
+          "counts": {
+            "tp_det_cnt": 52375.0,
+            "num_prediction": 75511.0,
+            "num_groundtruth": 103502.0,
+            "tp_det_tightness_sum": 35880.639436288,
+            "tp_e2e_cnt": 38857.0,
+            "tp_e2e_tightness_sum": 26911.858709103464
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.5060288690073622,
+            "Det-Precision": 0.6936075538663241,
+            "Det-Fscore": 0.5851530335785671,
+            "Det-Tightness": 0.6850718746785299,
+            "Det-PQ": 0.4008718856874977,
+            "E2E-Recall": 0.3754226971459489,
+            "E2E-Precision": 0.5145872786746302,
+            "E2E-Fscore": 0.4341248959572769,
+            "E2E-Tightness": 0.692587145407609,
+            "E2E-PQ": 0.30066932244142563
+          },
+          "latency_ms": {
+            "p50": 109.45169994374737,
+            "p95": 303.64599998574704
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 748,
+            "pages_excluded_for_illegible_regions": 2279,
+            "normalized": {
+              "n": 748,
+              "char_errors": 27193,
+              "chars": 88786,
+              "word_errors": 8274,
+              "words": 15632,
+              "exact": 67,
+              "blank_false_positive_chars": 0,
+              "cer": 0.3062757641970581,
+              "wer": 0.5292988741044012,
+              "exact_match": 0.08957219251336898
+            },
+            "case_sensitive": {
+              "n": 748,
+              "char_errors": 27683,
+              "chars": 88782,
+              "word_errors": 8384,
+              "words": 15632,
+              "exact": 62,
+              "blank_false_positive_chars": 0,
+              "cer": 0.31180869996170396,
+              "wer": 0.5363357215967247,
+              "exact_match": 0.08288770053475936
+            }
+          }
+        }
+      },
+      "model_artifact_bytes": 6319431,
+      "process": {
+        "pid": 62236,
+        "initialization_ms": 119.08309999853373,
+        "previous_items": 0,
+        "started_at_utc": "2026-10-24T03:02:11.210551+00:00",
+        "peak_working_set_bytes": 523071488,
+        "completed_at_utc": "2026-10-24T03:16:14.888794+00:00"
+      },
+      "memory_complete_for_run": true,
+      "journal_sha256": "cbf66951cab75c057387323c3368dc30506b429082f83733b79fabe8d68c7510",
+      "environment": {
+        "python": "3.12.9",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+        "packages": {
+          "rapidocr": "3.10.0",
+          "onnxruntime": "1.31.0",
+          "numpy": "2.5.4",
+          "pillow": "12.3.0",
+          "shapely": "2.2.0",
+          "absl-py": "2.3.1"
+        }
+      }
+    },
+    "v6-w8-rec": {
+      "sources": {
+        "hiertext": {
+          "images": 1721,
+          "counts": {
+            "tp_det_cnt": 73881.0,
+            "num_prediction": 128338.0,
+            "num_groundtruth": 177889.0,
+            "tp_det_tightness_sum": 47074.05594923913,
+            "tp_e2e_cnt": 61557.0,
+            "tp_e2e_tightness_sum": 39300.165329277486
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.4153207899307995,
+            "Det-Precision": 0.5756751702535492,
+            "Det-Fscore": 0.4825244018326274,
+            "Det-Tightness": 0.6371605141949775,
+            "Det-PQ": 0.30744549598330084,
+            "E2E-Recall": 0.3460416327035398,
+            "E2E-Precision": 0.4796474933379046,
+            "E2E-Fscore": 0.4020350916150437,
+            "E2E-Tightness": 0.6384353579491769,
+            "E2E-PQ": 0.2566734176233806
+          },
+          "latency_ms": {
+            "p50": 193.09370004339144,
+            "p95": 495.63599994871765
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 461,
+            "pages_excluded_for_illegible_regions": 1260,
+            "normalized": {
+              "n": 461,
+              "char_errors": 70556,
+              "chars": 337481,
+              "word_errors": 19366,
+              "words": 56271,
+              "exact": 1,
+              "blank_false_positive_chars": 0,
+              "cer": 0.20906658448920087,
+              "wer": 0.34415595955287803,
+              "exact_match": 0.0021691973969631237
+            },
+            "case_sensitive": {
+              "n": 461,
+              "char_errors": 71578,
+              "chars": 337473,
+              "word_errors": 19555,
+              "words": 56271,
+              "exact": 1,
+              "blank_false_positive_chars": 0,
+              "cer": 0.21209993095743956,
+              "wer": 0.3475147056210126,
+              "exact_match": 0.0021691973969631237
+            }
+          }
+        },
+        "sroie": {
+          "images": 341,
+          "counts": {
+            "tp_det_cnt": 15945.0,
+            "num_prediction": 17576.0,
+            "num_groundtruth": 18418.0,
+            "tp_det_tightness_sum": 12080.21278875513,
+            "tp_e2e_cnt": 7339.0,
+            "tp_e2e_tightness_sum": 5383.052524376587
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.8657291779780649,
+            "Det-Precision": 0.9072030040964952,
+            "Det-Fscore": 0.8859809968328054,
+            "Det-Tightness": 0.7576176098309897,
+            "Det-PQ": 0.6712348051761476,
+            "E2E-Recall": 0.39846888913019873,
+            "E2E-Precision": 0.41755803368229405,
+            "E2E-Fscore": 0.40779018725343114,
+            "E2E-Tightness": 0.7334858324535477,
+            "E2E-PQ": 0.29910832496397105
+          },
+          "latency_ms": {
+            "p50": 263.50339996861294,
+            "p95": 436.39600003371015
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 341,
+            "pages_excluded_for_illegible_regions": 0,
+            "normalized": {
+              "n": 341,
+              "char_errors": 26674,
+              "chars": 212565,
+              "word_errors": 12473,
+              "words": 37056,
+              "exact": 0,
+              "blank_false_positive_chars": 0,
+              "cer": 0.12548632183096936,
+              "wer": 0.33659866148531953,
+              "exact_match": 0.0
+            },
+            "case_sensitive": {
+              "n": 341,
+              "char_errors": 72290,
+              "chars": 212565,
+              "word_errors": 21005,
+              "words": 37056,
+              "exact": 0,
+              "blank_false_positive_chars": 0,
+              "cer": 0.3400842095359067,
+              "wer": 0.5668447754749568,
+              "exact_match": 0.0
+            }
+          }
+        },
+        "textocr": {
+          "images": 3027,
+          "counts": {
+            "tp_det_cnt": 52213.0,
+            "num_prediction": 75420.0,
+            "num_groundtruth": 103502.0,
+            "tp_det_tightness_sum": 35784.29917979933,
+            "tp_e2e_cnt": 38767.0,
+            "tp_e2e_tightness_sum": 26863.307754500333
+          },
+          "detection_and_e2e": {
+            "Det-Recall": 0.50446368186122,
+            "Det-Precision": 0.6922964730840626,
+            "Det-Fscore": 0.5836397983478835,
+            "Det-Tightness": 0.6853522911880054,
+            "Det-PQ": 0.39999887302622744,
+            "E2E-Recall": 0.3745531487314255,
+            "E2E-Precision": 0.514014850172368,
+            "E2E-Fscore": 0.43333966756463704,
+            "E2E-Tightness": 0.6929426510821145,
+            "E2E-PQ": 0.30027953806128177
+          },
+          "latency_ms": {
+            "p50": 101.88879998167977,
+            "p95": 254.1223000152968
+          },
+          "row_order_diagnostic": {
+            "complete_reference_pages": 748,
+            "pages_excluded_for_illegible_regions": 2279,
+            "normalized": {
+              "n": 748,
+              "char_errors": 27238,
+              "chars": 88786,
+              "word_errors": 8282,
+              "words": 15632,
+              "exact": 74,
+              "blank_false_positive_chars": 0,
+              "cer": 0.306782600860496,
+              "wer": 0.5298106448311156,
+              "exact_match": 0.09893048128342247
+            },
+            "case_sensitive": {
+              "n": 748,
+              "char_errors": 27716,
+              "chars": 88782,
+              "word_errors": 8390,
+              "words": 15632,
+              "exact": 68,
+              "blank_false_positive_chars": 0,
+              "cer": 0.3121803969273051,
+              "wer": 0.5367195496417605,
+              "exact_match": 0.09090909090909091
+            }
+          }
+        }
+      },
+      "model_artifact_bytes": 3099213,
+      "process": {
+        "pid": 47168,
+        "initialization_ms": 206.8971999688074,
+        "previous_items": 0,
+        "started_at_utc": "2026-10-24T03:16:35.608382+00:00",
+        "peak_working_set_bytes": 524390400,
+        "completed_at_utc": "2026-10-24T03:31:22.058447+00:00"
+      },
+      "memory_complete_for_run": true,
+      "journal_sha256": "f5b5c1026484e89e0ce70f0d36efa38e2a3eeb514528795ba282717de85789f9",
+      "environment": {
+        "python": "3.12.9",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+        "packages": {
+          "rapidocr": "3.10.0",
+          "onnxruntime": "1.31.0",
+          "numpy": "2.5.4",
+          "pillow": "12.3.0",
+          "shapely": "2.2.0",
+          "absl-py": "2.3.1"
+        }
+      }
+    }
+  }
+}

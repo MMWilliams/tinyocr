@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "textocr_publisher_bundle": {
+    "path": "data/benchmarks-v1/textocr-publisher-bundle.js",
+    "requested_url": "https://textvqa.org/static/js/main.b0ef1b39.chunk.js",
+    "resolved_url": "https://textvqa.org/static/js/main.b0ef1b39.chunk.js",
+    "retrieved_at_utc": "2026-10-23T17:47:02.615292+00:00",
+    "bytes": 212162,
+    "cap_bytes": 8388608,
+    "content_length": 212162,
+    "sha256": "f74e88ca3edc75c418c8a947b9d1816b61101f8099d3b3ab9b17e518c1c30f48",
+    "etag": "\"63ebd28c-33cc2\"",
+    "last_modified": "Tue, 14 Feb 2023 18:27:24 GMT"
+  },
+  "review": "Publisher bundle contains dataset download and CC BY 4.0 terms. Downloaded as evidence only; not executed."
+}

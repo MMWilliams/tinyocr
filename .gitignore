@@ -4,3 +4,7 @@ __pycache__/
 data/
 models/
 runs/
+python/build/
+python/dist/
+*.egg-info/
+.claude/HANDOFF.md

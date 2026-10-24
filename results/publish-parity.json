@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "config_equal_except_model_paths": true,
+  "development_fixtures": [
+    {
+      "id": "receipts-0",
+      "image_sha256": "1c9a29b17b3cb0bce72850818bbe55e543bbcde4f1b524e9c9ed088675f093a1",
+      "exact_text_lines_words": true,
+      "lines": 44,
+      "words": 103
+    },
+    {
+      "id": "screen-smoke-0",
+      "image_sha256": "1135b3aeabba390c9b9d297e1b7b36c66426c0f775609f73e798f52bb9be33fd",
+      "exact_text_lines_words": true,
+      "lines": 8,
+      "words": 20
+    },
+    {
+      "id": "textocr-f9e60f38014a522c",
+      "image_sha256": "5c1fb7fc11da10e99e587ff8c1869202362569172d3c6917649fc6e3f0e0e8b5",
+      "exact_text_lines_words": true,
+      "lines": 1,
+      "words": 3
+    }
+  ],
+  "final_images_used": 0,
+  "packages": {
+    "rapidocr": "3.10.0",
+    "onnxruntime": "1.31.0",
+    "numpy": "2.5.4",
+    "pillow": "12.3.0"
+  }
+}
