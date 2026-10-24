@@ -1,0 +1,27 @@
+{
+  "repository": "MMWilliams/tinyocr",
+  "commit": "e09f5381ddc9c4a8ea054f1de3a3bca48e4186d3",
+  "public_readback_matches_git": true,
+  "files": [
+    {
+      "path": "python/src/tinyocr/assets/PP-OCRv6_det_tiny.onnx",
+      "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5",
+      "bytes": 1829618
+    },
+    {
+      "path": "python/src/tinyocr/assets/PP-OCRv6_rec_tiny.onnx",
+      "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531",
+      "bytes": 1269595
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha256": "e13e804e72fb1a16e68a870807b1c5af483c38f960bc28c9d8ac90a8a092ebc8",
+      "bytes": 1594
+    },
+    {
+      "path": "python/pyproject.toml",
+      "sha256": "b60ae4e236342dcf1c0cf4b636f1cea28138efd95fe6d8da032365daa531a3f9",
+      "bytes": 1187
+    }
+  ]
+}

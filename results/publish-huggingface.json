@@ -1,0 +1,48 @@
+{
+  "repository": "maureesewilliams/tinyocr",
+  "commit": "46f0f44e65383248cbeeced5dca6397c595314fa",
+  "url": "https://huggingface.co/maureesewilliams/tinyocr",
+  "public_readback_all_hashes_match": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4722,
+      "sha256": "d97dc2fbc42bd04eeedbc420258f4ef65fe637b56ae71d1d2333216172ae998a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11376,
+      "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1554,
+      "sha256": "890af82f8e38bf70093a76972da6c206d9bb7f89397e60f62e8dc2f15891185e"
+    },
+    {
+      "path": "models.json",
+      "bytes": 391,
+      "sha256": "9b215b0f40b4357507e84b6aae26376d5d03caed4b810fa18e50397d6989d287"
+    },
+    {
+      "path": "PP-OCRv6_det_tiny.onnx",
+      "bytes": 1829618,
+      "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+    },
+    {
+      "path": "PP-OCRv6_rec_tiny.onnx",
+      "bytes": 1269595,
+      "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+    },
+    {
+      "path": "export-provenance.json",
+      "bytes": 10571,
+      "sha256": "6209a7ca3dbf4404feb758ab3d1d1ffbc097b55ac83355e890913d45f68d203e"
+    },
+    {
+      "path": "BENCHMARK_RESULTS.md",
+      "bytes": 15056,
+      "sha256": "f015460c9b1b53b8f5751be4b6cd3005c8b5b634c3c5d7f66e25f645de812054"
+    }
+  ]
+}

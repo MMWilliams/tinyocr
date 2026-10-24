@@ -4,7 +4,7 @@ Confirmed 2026-10-23: OCR follows the shelved tinyasr project.
 
 Initial scope: English-first, very small, fast on one CPU thread; eventual consumer laptops and phones. Start with a measured open baseline and real-world evaluation before selecting a student architecture or training.
 
-- [ ] In flight: publish TinyOCR to GitHub, Hugging Face and PyPI like Hibari, explicitly authorized by the user. Target GitHub `MMWilliams/tinyocr`, HF `maureesewilliams/tinyocr`, distribution `tinyocr-onnx` with `tinyocr` import/CLI. Runtime, bundled frozen models, model card, offline installed-wheel tests and release workflow are implemented. Local tests and frozen benchmark verification pass. Publishing/CI/PyPI read-back are in progress; see PUBLISH_VERIFICATION.md.
+- [ ] In flight: publish TinyOCR to GitHub, Hugging Face and PyPI like Hibari, explicitly authorized by the user. Target GitHub `MMWilliams/tinyocr`, HF `maureesewilliams/tinyocr`, distribution `tinyocr-onnx` with `tinyocr` import/CLI. GitHub and Hugging Face are public with hash-verified read-back. Runtime and frozen models pass local and Windows/Linux/macOS installed-wheel CI (7 tests each). PyPI is pending account-side Trusted Publisher registration; exact fields and evidence are in PUBLISH_RESULTS.md. Finish PyPI upload/public read-back/clean install before checking this task off.
 
 - [x] Establish cached, reproducible human-labeled receipt and scene-text evaluation: 20 SROIE pages, 200 GT receipt crops, 20 TextOCR word crops; pinned manifest and source revisions.
 - [x] Add initial screen smoke coverage: six authored light/dark raster fixtures and a blank control, kept separate from real inputs.

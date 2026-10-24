@@ -1,0 +1,17 @@
+{
+  "run_id": 40060878536,
+  "source_commit": "e09f5381ddc9c4a8ea054f1de3a3bca48e4186d3",
+  "archive_sha256": "343b14d1b90b6822d40517f992237dd23bd0c7d04bde736fdc32e1f23d551a9b",
+  "files": [
+    {
+      "filename": "tinyocr_onnx-0.1.0-py3-none-any.whl",
+      "sha256": "86e4c4947180814dcdc32f15ee80b2ea4f2b5ca632f969b7236654fbd7b5210a",
+      "bytes": 2736997
+    },
+    {
+      "filename": "tinyocr_onnx-0.1.0.tar.gz",
+      "sha256": "0ff9d55b41e409d100699737a656fb749104a3e783c0d651f2e73150dc409c85",
+      "bytes": 2747108
+    }
+  ]
+}

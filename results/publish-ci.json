@@ -1,0 +1,39 @@
+{
+  "run_id": 40060878536,
+  "source_commit": "e09f5381ddc9c4a8ea054f1de3a3bca48e4186d3",
+  "url": "https://github.com/MMWilliams/tinyocr/actions/runs/40060878536",
+  "tests_per_platform": 7,
+  "skipped_tests": 0,
+  "jobs": [
+    {
+      "name": "build",
+      "id": 120773893493,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "test (windows-latest)",
+      "id": 120773958510,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "test (ubuntu-latest)",
+      "id": 120773958521,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "test (macos-latest)",
+      "id": 120773958577,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "publish",
+      "id": 120774176052,
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ]
+}
