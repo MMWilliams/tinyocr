@@ -1,8 +1,10 @@
 # TinyOCR 0.1.0 publication
 
-Status on 2026-10-24: **partially verified**. GitHub and Hugging Face are public;
-local and Windows/Linux/macOS installed-wheel checks passed. PyPI publication
-and a clean install from PyPI are pending account-side Trusted Publisher setup.
+Status on 2026-10-24: **failed publication verification**. GitHub and Hugging Face
+are public; local and Windows/Linux/macOS installed-wheel checks passed. After
+the user reported adding the publisher, PyPI rejected the publishing workflow
+with `invalid-publisher`. No PyPI upload occurred; public read-back and a clean
+install from PyPI remain blocked on correcting the publisher registration.
 
 ## Published artifacts
 
@@ -66,7 +68,22 @@ detection warnings on the blank fixture are expected and tested.
 
 ## Remaining PyPI step
 
-Add a pending publisher at https://pypi.org/manage/account/publishing/:
+Publishing run: https://github.com/MMWilliams/tinyocr/actions/runs/40074348038
+at source revision `faf7c43d2e3cdc490bd404420c72476f6aa03f91`.
+Build, strict metadata validation and all three installed-wheel jobs passed
+(7 tests per platform, no skips). The publish job failed during OIDC exchange:
+`invalid-publisher`: valid token, but no corresponding publisher was found.
+The public PyPI version API returned HTTP 404. Evidence, including the actual
+workflow claims and test log excerpts: `results/publish-attempt-1.json`.
+
+The downloaded distributions ZIP matches GitHub's artifact digest, and both
+distributions contain the exact frozen model payloads. File digests are recorded
+in `results/publish-release-artifacts.json`. The public verifier
+`scripts/check_pypi.py` correctly rejected the unsuccessful workflow before
+attempting to claim release success.
+
+Confirm/correct the pending publisher on **production PyPI** at
+https://pypi.org/manage/account/publishing/:
 
 | Field | Value |
 | --- | --- |
@@ -76,15 +93,17 @@ Add a pending publisher at https://pypi.org/manage/account/publishing/:
 | Workflow filename | `publish.yml` |
 | Environment | `pypi` |
 
-The GitHub `pypi` environment exists. No PyPI credential is present in the
-session. The Windows UI helper reported that its native pipe was unavailable,
-so account-side setup was requested from the user. No tokens were requested in
-chat. See [PyPI's pending-publisher documentation](https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/).
+The actual GitHub token claims match the owner, repository, workflow and
+environment above. Account-side field confirmation was requested from the user;
+no tokens were requested in chat. PyPI documents this error as a mismatch between
+the registered publisher and token claims. See
+[PyPI's troubleshooting documentation](https://docs.pypi.org/trusted-publishers/troubleshooting/).
 
-After that setup, trigger:
+After correcting the registration, retry only the failed publish job so it
+uploads the already-tested distributions:
 
 ```sh
-gh workflow run publish.yml --repo MMWilliams/tinyocr --ref master -f publish=true
+gh run rerun 40074348038 --repo MMWilliams/tinyocr --failed
 ```
 
 The workflow builds once, tests that wheel on all three platforms, then uploads
@@ -95,6 +114,14 @@ files and compare their hashes with that run's artifacts, then execute:
 python scripts/check_release.py tinyocr-onnx==0.1.0
 ```
 
-Record the publishing run and public file hashes here before marking the
-publication task complete. The current `tinyocr-onnx` package should not be
-confused with the unrelated existing PyPI distribution named `tinyocr`.
+The public-byte verification command is:
+
+```sh
+python scripts/check_pypi.py --run-id 40074348038 --artifact-zip runs/publish-ci-40074348038/distributions.zip
+```
+
+It requires a successful publishing run, compares both public downloads to the
+digest-verified CI archive, and checks frozen model payloads in the wheel and
+sdist. Record its results and the clean-install result here before marking the
+publication task complete. The `tinyocr-onnx` package should not be confused
+with the unrelated existing PyPI distribution named `tinyocr`.

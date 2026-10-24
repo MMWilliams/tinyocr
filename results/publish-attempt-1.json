@@ -1,0 +1,75 @@
+{
+  "run_id": 40074348038,
+  "run_attempt": 1,
+  "source_commit": "faf7c43d2e3cdc490bd404420c72476f6aa03f91",
+  "url": "https://github.com/MMWilliams/tinyocr/actions/runs/40074348038/attempts/1",
+  "conclusion": "failure",
+  "build": "success",
+  "tests_per_platform": 7,
+  "skipped_tests": 0,
+  "platform_evidence": [
+    {
+      "job_id": 120814470924,
+      "evidence": [
+        "2026-10-24T07:30:16.3599791Z No broken requirements found.",
+        "2026-10-24T07:30:16.4446295Z Installed import: /tmp/tinyocr-release-kxv3bcuc/venv/lib/python3.12/site-packages/tinyocr/__init__.py",
+        "2026-10-24T07:30:22.5847209Z Ran 7 tests in 5.564s",
+        "2026-10-24T07:30:22.5847543Z OK",
+        "2026-10-24T07:30:22.6883194Z PASS: clean installed API/CLI, bundled hashes, real offline OCR, blank and error cases"
+      ]
+    },
+    {
+      "job_id": 120814470980,
+      "evidence": [
+        "2026-10-24T07:30:32.0006686Z No broken requirements found.\r",
+        "2026-10-24T07:30:32.0657346Z Installed import: C:\\Users\\runneradmin\\AppData\\Local\\Temp\\tinyocr-release-c5azgt1t\\venv\\Lib\\site-packages\\tinyocr\\__init__.py\r",
+        "2026-10-24T07:30:35.1841174Z Ran 7 tests in 2.782s\r",
+        "2026-10-24T07:30:35.1841372Z OK\r",
+        "2026-10-24T07:30:35.2496471Z PASS: clean installed API/CLI, bundled hashes, real offline OCR, blank and error cases\r"
+      ]
+    },
+    {
+      "job_id": 120814471129,
+      "evidence": [
+        "2026-10-24T07:30:19.1405550Z No broken requirements found.",
+        "2026-10-24T07:30:19.2154920Z Installed import: /private/var/folders/n6/hn37q6pj7sj_9dmqqc2113800000gn/T/tinyocr-release-15zjvt62/venv/lib/python3.12/site-packages/tinyocr/__init__.py",
+        "2026-10-24T07:30:23.7215180Z Ran 7 tests in 4.336s",
+        "2026-10-24T07:30:23.7216110Z OK",
+        "2026-10-24T07:30:23.8277570Z PASS: clean installed API/CLI, bundled hashes, real offline OCR, blank and error cases"
+      ]
+    }
+  ],
+  "publish": {
+    "job_id": 120814617157,
+    "conclusion": "failure",
+    "error": "invalid-publisher",
+    "message": "valid token, but no corresponding publisher (Publisher with matching claims was not found)",
+    "claims": {
+      "repository": "MMWilliams/tinyocr",
+      "repository_owner": "MMWilliams",
+      "repository_owner_id": "42722489",
+      "workflow_ref": "MMWilliams/tinyocr/.github/workflows/publish.yml@refs/heads/master",
+      "environment": "pypi"
+    }
+  },
+  "pypi_public_json_http_status": 404,
+  "artifact": {
+    "id": 12552043076,
+    "name": "distributions",
+    "size_in_bytes": 5484385,
+    "url": "https://api.github.com/repos/MMWilliams/tinyocr/actions/artifacts/12552043076",
+    "archive_download_url": "https://api.github.com/repos/MMWilliams/tinyocr/actions/artifacts/12552043076/zip",
+    "expired": false,
+    "created_at": "2026-10-24T07:29:57Z",
+    "expires_at": "2027-01-22T07:29:42Z",
+    "updated_at": "2026-10-24T07:29:57Z",
+    "digest": "sha256:eb4a74b2b0169b29eaa006a324354f43072bdd06727d9fdf1ce125e5ed65c625",
+    "workflow_run": {
+      "id": 40074348038,
+      "repository_id": 1431795773,
+      "head_repository_id": 1431795773,
+      "head_branch": "master",
+      "head_sha": "faf7c43d2e3cdc490bd404420c72476f6aa03f91"
+    }
+  }
+}
