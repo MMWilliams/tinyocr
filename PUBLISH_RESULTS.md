@@ -1,22 +1,25 @@
 # TinyOCR 0.1.0 publication
 
-Status on 2026-10-24: **failed publication verification**. GitHub and Hugging Face
-are public; local and Windows/Linux/macOS installed-wheel checks passed. After
-the user reported adding the publisher, PyPI rejected the publishing workflow
-with `invalid-publisher`. No PyPI upload occurred; public read-back and a clean
-install from PyPI remain blocked on correcting the publisher registration.
+Status on 2026-10-24: **verified**. GitHub, Hugging Face and PyPI are public.
+PyPI's wheel and source archive match the tested CI distributions byte for byte,
+including both frozen model payloads. A fresh installation from production PyPI
+outside the checkout passed pip check and all 7 API/CLI/offline OCR tests with
+no skips. Windows/Linux/macOS installed-wheel CI also passed (7 tests each).
 
 ## Published artifacts
 
 - GitHub: https://github.com/MMWilliams/tinyocr
 - Hugging Face: https://huggingface.co/maureesewilliams/tinyocr
-- Intended PyPI project: https://pypi.org/project/tinyocr-onnx/ (not yet published)
+- PyPI: https://pypi.org/project/tinyocr-onnx/0.1.0/
 
-GitHub source/workflow revision: `e09f5381ddc9c4a8ea054f1de3a3bca48e4186d3`.
+Published package source revision: `faf7c43d2e3cdc490bd404420c72476f6aa03f91`.
+Initial GitHub source/workflow read-back revision: `e09f5381ddc9c4a8ea054f1de3a3bca48e4186d3`.
 Hugging Face revision: `46f0f44e65383248cbeeced5dca6397c595314fa`.
 Unauthenticated read-back matched both frozen ONNX hashes from GitHub and all
 eight uploaded files from Hugging Face. Evidence: `results/publish-github.json`
 and `results/publish-huggingface.json`.
+All three public project pages returned HTTP 200 without authentication after
+publication; see `results/publish-public-links.json`.
 
 The runtime is a separate setuptools project under `python/`, with its own
 lockfile. Root research code, dependency lock, model bytes and first-prediction
@@ -36,6 +39,8 @@ All commands ran from the repository root unless otherwise noted.
 | `uvx twine check --strict python/dist/*` | Both distributions passed |
 | `uv run --project python --directory python python -m unittest discover -s tests -v` | 7 tests passed, none skipped |
 | `.venv/Scripts/python.exe scripts/check_release.py python/dist/tinyocr_onnx-0.1.0-py3-none-any.whl` | Fresh temporary venv outside checkout, installed import verified, pip check passed, 7 tests passed |
+| `.venv/Scripts/python.exe scripts/check_pypi.py --run-id 40074348038 --artifact-zip runs/publish-ci-40074348038/distributions.zip` | Exit 0; successful publishing run, CI ZIP digest verified, both public distributions match tested bytes/PyPI metadata, both model payloads match in wheel and sdist |
+| `.venv/Scripts/python.exe scripts/check_release.py tinyocr-onnx==0.1.0` | Exit 0 on Windows/Python 3.12.9; fresh venv outside checkout, production PyPI with pip cache disabled, pip check and 7 tests passed, no skips |
 | `uv run --locked python scripts/check_parity.py` | Exact config/text/line/word parity on receipt, synthetic screen and full-scene development fixtures; zero final images used |
 | `uv run --locked python -m unittest discover -s tests -v` | 53 tests passed, none skipped |
 | `uv run --locked --with-requirements benchmark-requirements.txt python -m unittest discover -s tests_benchmark -v` | 14 tests passed, none skipped |
@@ -57,8 +62,9 @@ CI: https://github.com/MMWilliams/tinyocr/actions/runs/40060878536
 records the downloaded CI archive and individual distribution digests.
 `results/publish-local-artifacts.json` records the separate local build.
 Archive hashes differ between local Windows and CI builds due to serialization
-and archive metadata; both model payloads match the frozen hashes. PyPI will
-receive the exact distributions built and tested within its publishing run.
+and archive metadata; both model payloads match the frozen hashes. PyPI received
+the exact distributions built and tested within its publishing run, recorded in
+`results/publish-release-artifacts.json` and `results/publish-pypi.json`.
 
 The initial staged whitespace check found trailing whitespace and an extra EOF
 blank line in two unchanged, hash-pinned upstream HierText files. Their source
@@ -66,62 +72,46 @@ bytes were deliberately retained. The check excluding `third_party/hiertext/**`
 passed. Known zero-area word-box warnings in benchmark verification and empty
 detection warnings on the blank fixture are expected and tested.
 
-## Remaining PyPI step
+## PyPI publication verification
 
 Publishing run: https://github.com/MMWilliams/tinyocr/actions/runs/40074348038
-at source revision `faf7c43d2e3cdc490bd404420c72476f6aa03f91`.
-Build, strict metadata validation and all three installed-wheel jobs passed
-(7 tests per platform, no skips). The publish job failed during OIDC exchange:
-`invalid-publisher`: valid token, but no corresponding publisher was found.
-The public PyPI version API returned HTTP 404. Evidence, including the actual
-workflow claims and test log excerpts: `results/publish-attempt-1.json`.
+at source revision `faf7c43d2e3cdc490bd404420c72476f6aa03f91`, attempt 2.
+The upload succeeded at 2026-10-24 17:35 UTC using Trusted Publishing. Only the
+failed publish job was retried; it reused the artifacts that passed build,
+strict metadata validation and all three installed-wheel jobs (7 tests per
+platform, no skips).
 
 The downloaded distributions ZIP matches GitHub's artifact digest, and both
-distributions contain the exact frozen model payloads. File digests are recorded
-in `results/publish-release-artifacts.json`. The public verifier
-`scripts/check_pypi.py` correctly rejected the unsuccessful workflow before
-attempting to claim release success.
+distributions contain the exact frozen model payloads. Public downloads match
+those distributions byte for byte. Full URLs, upload times, job conclusions,
+archive digest and model hashes are in `results/publish-pypi.json`.
 
-Confirm/correct the pending publisher on **production PyPI** at
-https://pypi.org/manage/account/publishing/:
+| Public distribution | Bytes | SHA-256 |
+| --- | ---: | --- |
+| `tinyocr_onnx-0.1.0-py3-none-any.whl` | 2,736,997 | `05a3752de71a04b5bfe363618c3c5c9aaab1e76ff820d2c87a882b1a0d1e7928` |
+| `tinyocr_onnx-0.1.0.tar.gz` | 2,747,122 | `f0a89722272ebfbd7286c857eeff1f85f6ea0eb95b5c0fb1956e2f0432afcc5f` |
 
-| Field | Value |
-| --- | --- |
-| PyPI project | `tinyocr-onnx` |
-| GitHub owner | `MMWilliams` |
-| Repository | `tinyocr` |
-| Workflow filename | `publish.yml` |
-| Environment | `pypi` |
+The independent installation downloaded `tinyocr-onnx==0.1.0` from production
+PyPI with pip's cache disabled. The temporary venv and test working directory
+were outside the checkout. pip check passed; all 7 tests passed, no skips, in
+4.157 seconds. OCR tests prohibited network connections and used the real
+bundled models. Evidence: `results/publish-pypi-install.json`; full local log:
+`runs/publish-ci-40074348038/pypi-clean-install.log`.
 
-The actual GitHub token claims match the owner, repository, workflow and
-environment above. Account-side field confirmation was requested from the user;
-no tokens were requested in chat. PyPI documents this error as a mismatch between
-the registered publisher and token claims. See
-[PyPI's troubleshooting documentation](https://docs.pypi.org/trusted-publishers/troubleshooting/).
+Attempt 1 failed before upload with `invalid-publisher`. The account page then
+showed no pending publisher. The user registered `tinyocr-onnx`, GitHub owner
+`MMWilliams`, repository `tinyocr`, workflow `publish.yml`, environment `pypi`,
+and attempt 2 succeeded. Attempt-1 evidence is retained in
+`results/publish-attempt-1.json`. No tokens were requested in chat.
 
-After correcting the registration, retry only the failed publish job so it
-uploads the already-tested distributions:
-
-```sh
-gh run rerun 40074348038 --repo MMWilliams/tinyocr --failed
-```
-
-The workflow builds once, tests that wheel on all three platforms, then uploads
-the same wheel and sdist using OIDC. Inspect the publishing run, read back PyPI
-files and compare their hashes with that run's artifacts, then execute:
-
-```sh
-python scripts/check_release.py tinyocr-onnx==0.1.0
-```
-
-The public-byte verification command is:
+Repeat the release acceptance checks while the CI artifact remains available:
 
 ```sh
 python scripts/check_pypi.py --run-id 40074348038 --artifact-zip runs/publish-ci-40074348038/distributions.zip
+python scripts/check_release.py tinyocr-onnx==0.1.0
 ```
 
-It requires a successful publishing run, compares both public downloads to the
-digest-verified CI archive, and checks frozen model payloads in the wheel and
-sdist. Record its results and the clean-install result here before marking the
-publication task complete. The `tinyocr-onnx` package should not be confused
-with the unrelated existing PyPI distribution named `tinyocr`.
+The saved ZIP is GitHub artifact `12552043076`. Public verification initially
+encountered transient HTTP 502 responses from GitHub's attempts API; the
+unchanged verifier subsequently completed successfully. The `tinyocr-onnx`
+package should not be confused with the unrelated PyPI distribution `tinyocr`.

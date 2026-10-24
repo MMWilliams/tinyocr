@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-24T17:37:55.725427+00:00",
+  "command": ".venv/Scripts/python.exe scripts/check_release.py tinyocr-onnx==0.1.0",
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "index_url": "https://pypi.org/simple",
+  "pip_cache_disabled": true,
+  "exit_code": 0,
+  "tests_run": 7,
+  "skipped_tests": 0,
+  "passed": true,
+  "log_sha256": "a9104b6ce1e6fdaa8af436cbe8a26bec909c7b1c6da3992ba22660b549efef12",
+  "evidence": [
+    "  Downloading tinyocr_onnx-0.1.0-py3-none-any.whl.metadata (4.3 kB)",
+    "Downloading tinyocr_onnx-0.1.0-py3-none-any.whl (2.7 MB)",
+    "No broken requirements found.",
+    "Installed import: C:\\Users\\reese\\AppData\\Local\\Temp\\tinyocr-release-mw8oiw3s\\venv\\Lib\\site-packages\\tinyocr\\__init__.py",
+    "Ran 7 tests in 4.157s",
+    "OK",
+    "PASS: clean installed API/CLI, bundled hashes, real offline OCR, blank and error cases"
+  ]
+}

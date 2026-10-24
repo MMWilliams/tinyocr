@@ -1,0 +1,86 @@
+{
+  "checked_at_utc": "2026-10-24T17:38:10.261080+00:00",
+  "project": "tinyocr-onnx",
+  "version": "0.1.0",
+  "url": "https://pypi.org/project/tinyocr-onnx/0.1.0/",
+  "run_id": 40074348038,
+  "run_attempt": 2,
+  "run_url": "https://github.com/MMWilliams/tinyocr/actions/runs/40074348038",
+  "source_commit": "faf7c43d2e3cdc490bd404420c72476f6aa03f91",
+  "artifact_id": 12552043076,
+  "archive_sha256": "eb4a74b2b0169b29eaa006a324354f43072bdd06727d9fdf1ce125e5ed65c625",
+  "public_distributions_match_tested_ci_bytes": true,
+  "frozen_model_payloads_match": true,
+  "jobs": [
+    {
+      "id": 120939674587,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120939674998,
+      "name": "test (ubuntu-latest)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120939675075,
+      "name": "test (windows-latest)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120939708031,
+      "name": "test (macos-latest)",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 120939674052,
+      "name": "publish",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "files": [
+    {
+      "filename": "tinyocr_onnx-0.1.0-py3-none-any.whl",
+      "sha256": "05a3752de71a04b5bfe363618c3c5c9aaab1e76ff820d2c87a882b1a0d1e7928",
+      "bytes": 2736997,
+      "url": "https://files.pythonhosted.org/packages/22/96/422dd23b8a086276f9fbe82b3bb23ed5a0f895f588459da977631b3203fd/tinyocr_onnx-0.1.0-py3-none-any.whl",
+      "upload_time": "2026-10-24T17:35:44.976301Z",
+      "models": [
+        {
+          "filename": "PP-OCRv6_det_tiny.onnx",
+          "bytes": 1829618,
+          "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+        },
+        {
+          "filename": "PP-OCRv6_rec_tiny.onnx",
+          "bytes": 1269595,
+          "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+        }
+      ]
+    },
+    {
+      "filename": "tinyocr_onnx-0.1.0.tar.gz",
+      "sha256": "f0a89722272ebfbd7286c857eeff1f85f6ea0eb95b5c0fb1956e2f0432afcc5f",
+      "bytes": 2747122,
+      "url": "https://files.pythonhosted.org/packages/ed/67/62d3921af6df9bba5ce10b89192977efdceafdd24c6ba6d6117f40041f4e/tinyocr_onnx-0.1.0.tar.gz",
+      "upload_time": "2026-10-24T17:35:47.015461Z",
+      "models": [
+        {
+          "filename": "PP-OCRv6_det_tiny.onnx",
+          "bytes": 1829618,
+          "sha256": "f42c0fbd294d95eac1a550e131b277dac97462c8025fa4b6c3cec1b7894bd3d5"
+        },
+        {
+          "filename": "PP-OCRv6_rec_tiny.onnx",
+          "bytes": 1269595,
+          "sha256": "38cd559cb4b24c5056592d981b13e086f9472db9b3c8968296f0d0c2b4a65531"
+        }
+      ]
+    }
+  ]
+}
